@@ -4,6 +4,8 @@
 
 Adobe Reader v19.021.20048
 
+Foxit Reader v10.1.1.37576
+
 ## Computing Resources
 
 Windows10 virtual machine
