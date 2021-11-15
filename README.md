@@ -142,6 +142,9 @@ save/crash/: crash PDFs
 
 
 # Utility
+
+Can be downloaded from https://drive.google.com/file/d/1mcfhcuhM1crN8PIjeAkcedGX3cyL2SVv/view?usp=sharing
+
 ## crashinfo
 
 parse the crashinfo logged by event viewer of windows and get unique crash
