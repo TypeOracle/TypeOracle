@@ -3,8 +3,7 @@
 ## Target Programs
 
 Adobe Reader v19.021.20048
-
-Foxit Reader v10.1.1.37576
+Foxit Reader v10.1.0.37527
 
 ## Computing Resources
 
