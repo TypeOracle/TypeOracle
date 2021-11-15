@@ -1,0 +1,30 @@
+{
+  "root": "220",
+  "api": "this.app.enableToolButton",
+  "apitype": 0,
+  "info": {
+    "220": {
+      "req_type": [
+        "210"
+      ],
+      "opt_type": []
+    },
+    "230": {
+      "req_key": [],
+      "req_type": [],
+      "opt_key": [
+        "category",
+        "buttonID",
+        "bEnable"
+      ],
+      "opt_type": [
+        "3",
+        "3",
+        "0"
+      ]
+    },
+    "210": {
+      "type": "230"
+    }
+  }
+}
