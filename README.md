@@ -2,8 +2,9 @@
 
 ## Target Programs
 
-Adobe Reader v19.021.20048
-Foxit Reader v10.1.0.37527
+Adobe Reader v21.011.20039
+
+Foxit Reader v11.1.0.52543
 
 ## Computing Resources
 
@@ -19,126 +20,246 @@ Virtualbox 6.1
 # Experimental Data
 
 ## coverage 
-### compare_using_different_arguments (Figure 5)
-#### adobe reader (Figure 5(a))
-
-we use the random type of all (documented+undocumented) APIs,type information of Adobe Document and type information of TypeOracle to fuzz Adobe and record coverage information using DynamoRio
-
-#### foxit reader (Figure 5(b))
-
-we use the random type of all (documented+undocumented) APIs,type information of Adobe Document, Adobe's type information of TypeOracle and Foxit's type information of TypeOracle to fuzz Foxit and record coverage information using DynamoRio
-
-### compare_with_favocado (Figure 6)
+### compare_using_different_arguments (Figure 6)
 #### adobe reader (Figure 6(a))
 
-we use Favocado and Favocado with type information of TypeOracle to fuzz Adobe and  record coverage information using DynamoRio
+we use the random type of all (documented+undocumented) APIs,type information of Adobe Document and type information of TypeOracle to fuzz Adobe and record coverage information using DynamoRIO
+
+##### document: randomly fuzzing documented APIs
+
+we use the random type of document APIs to fuzz Adobe and record coverage information using DynamoRIO
+
+test_case/: test PDFs
+
+db/: coverage information recoreded by DynamoRIO
+
+adobe_sample_input/: parse result of coverage information
+
+adobe_sample_output/: instruction numbers of modules
+
+all_document.txt/: record the number of instructions of every dir in adobe_sample_input
+
+##### all_random: randomly fuzzing all (documented+undocumented) APIs
+
+we use the random type of all (documented+undocumented) APIs to fuzz Adobe and record coverage information using DynamoRIO
+
+test_case/: test PDFs
+
+db/: coverage information recoreded by DynamoRIO
+
+adobe_sample_input/: parse result of coverage information
+
+adobe_sample_output/: instruction numbers of modules
+
+random.txt/: record the number of instructions of every dir in adobe_sample_input
+
+##### typeoracle: fuzzing all APIs using TypeOracle
+
+we use the type information of all (documented+undocumented) APIs to fuzz Adobe and record coverage information using DynamoRIO
+
+test_case/: test PDFs
+
+db/: coverage information recoreded by DynamoRIO
+
+adobe_sample_input/: parse result of coverage information
+
+adobe_sample_output/: instruction numbers of modules
+
+typeoracle.txt/: record the number of instructions of every dir in adobe_sample_input
 
 #### foxit reader (Figure 6(b))
 
-we use Favocado and Favocado with type information of TypeOracle to fuzz Foxit and  record coverage information using DynamoRio
+we use the type information of Adobe Document, random type of all (documented+undocumented) APIs and Foxit's type information of TypeOracle to fuzz Foxit and record coverage information using DynamoRIO
+
+##### document: randomly fuzzing documented APIs
+
+we use the random type of document APIs to fuzz Foxit and record coverage information using DynamoRIO
+
+test_case/: test PDFs
+
+db/: coverage information recoreded by DynamoRIO
+
+sample_output/: parse result of coverage information
+
+document.txt/: record the number of instructions of every dir in sample_output
+
+##### all_random: randomly fuzzing all (documented+undocumented) APIs
+
+we use the random type of all (documented+undocumented) APIs to fuzz Foxit and record coverage information using DynamoRIO
+
+test_case/: test PDFs
+
+db/: coverage information recoreded by DynamoRIO
+
+sample_output/: parse result of coverage information
+
+random.txt/: record the number of instructions of every dir in sample_output
+
+##### typeoracle: fuzzing all APIs using TypeOracle
+
+we use the type information of all (documented+undocumented) APIs to fuzz Foxit and record coverage information using DynamoRIO
+
+test_case/: test PDFs
+
+db/: coverage information recoreded by DynamoRIO
+
+sample_output/: parse result of coverage information
+
+typeoracle.txt/: record the number of instructions of every dir in sample_output
+
+### compare_with_favocado (Figure 7)
+#### adobe reader (Figure 7(a))
+
+we use Favocado and Favocado with type information of TypeOracle to fuzz Adobe and  record coverage information using DynamoRIO
+
+##### favocado: fuzzing all APIs using Favocado
+
+we use Favocado to fuzz Adobe 
+
+test_case/: test PDFs
+
+db/: coverage information recoreded by DynamoRIO
+
+adobe_sample_input/: parse result of coverage information
+
+adobe_sample_output/: instruction numbers of modules
+
+favocado.txt/: record the number of instructions of every dir in adobe_sample_input
+
+##### favocado+typeoracle: fuzzing all APIs using combination of TypeOracle and Favocado
+
+we use Favocado and type information of TypeOracle to fuzz Adobe 
+
+test_case/: test PDFs
+
+db/: coverage information recoreded by DynamoRIO
+
+adobe_sample_input/: parse result of coverage information
+
+adobe_sample_output/: instruction numbers of modules
+
+favocado_oracle.txt/: record the number of instructions of every dir in adobe_sample_input
+
+#### foxit reader (Figure 7(b))
+
+we use Favocado and Favocado with type information of TypeOracle to fuzz Foxit and  record coverage information using DynamoRIO
+
+##### favocado: fuzzing all APIs using Favocado
+
+we use Favocado to fuzz Foxit
+
+test_case/: test PDFs
+
+db/: coverage information recoreded by DynamoRIO
+
+sample_output/: parse result of coverage information
+
+favocado.txt/: record the number of instructions of every dir in adobe_sample_input
+
+##### favocado+typeoracle: fuzzing all APIs using combination of TypeOracle and Favocado
+
+we use Favocado and type information of TypeOracle to fuzz Foxit
+
+test_case/: test PDFs
+
+db/: coverage information recoreded by DynamoRIO
+
+sample_output/: parse result of coverage information
+
+favocado_oracle.txt/: record the number of instructions of every dir in adobe_sample_input
 
 ## vulnerabilities (Table 3)
 #### adobe reader
 
 #### foxit reader
 
-## coverage_24
-### documented_random: randomly fuzzing documented APIs
+## vulnerabilities_48
 
-we use the random type of document APIs to fuzz Adobe and record coverage information using DynamoRio
+All test PDFs can be downloaded from 
 
-test/: test PDFs
+### adobe reader
 
-db/: coverage information recoreded by DynamoRio
-
-adobe_sample_input/: parse result of coverage information
-
-adobe_sample_result.txt/: record the number of instructions of every dir in adobe_sample_input
-
-res.txt: the final res number of instructions 
-
-
-
-### all_random: randomly fuzzing all (documented+undocumented) APIs
-
-we use the random type of all (documented+undocumented) APIs to fuzz Adobe and record coverage information using DynamoRio
-
-test/: test PDFs
-
-db/: coverage information recoreded by DynamoRio
-
-adobe_sample_input/: parse result of coverage information
-
-adobe_sample_result.txt/: record the number of instructions of every dir in adobe_sample_input
-
-res.txt: the final res number of instructions 
-
-### all_typeoracle: fuzzing all APIs using TypeOracle
-
-we use the type information of all (documented+undocumented) APIs to fuzz Adobe and record coverage information using DynamoRio
-
-test/: test PDFs
-
-db/: coverage information recoreded by DynamoRio
-
-adobe_sample_input/: parse result of coverage information
-
-adobe_sample_result.txt/: record the number of instructions of every dir in adobe_sample_input
-
-res.txt: the final res number of instructions 
-
-## vulnerabilities_24
-### documented_random: randomly fuzzing documented APIs
+#### document: randomly fuzzing documented APIs
 
 we use the random type of document APIs to fuzz Adobe
 
-test/: test PDFs
-
 crashinfo/: crashinfo logged by event viewer of windows
 
-save/crash/: crash PDFs
+crash/: crash PDFs
 
-
-
-### all_random: randomly fuzzing all (documented+undocumented) APIs
-
-we use the random type of all (documented+undocumented) APIs to fuzz Adobe 
-
-test/: test PDFs
-
-crashinfo/: crashinfo logged by event viewer of windows
-
-save/crash/: crash PDFs
-
-### all_typeoracle: fuzzing all APIs using TypeOracle
-
-we use the type information of all (documented+undocumented) APIs to fuzz Adobe 
-
-test/: test PDFs
-
-crashinfo/: crashinfo logged by event viewer of windows
-
-save/crash/: crash PDFs
-
-### all_favocado: fuzzing all APIs using Favocado
-
-we use Favocado to fuzz Adobe 
-
-test/: test PDFs
-
-crashinfo/: crashinfo logged by event viewer of windows
-
-save/crash/: crash PDFs
-
-### all_typeoracle_favocado: fuzzing all APIs using combination of TypeOracle and Favocado
+#### all_random: randomly fuzzing all (documented+undocumented) APIs
 
 we use Favocado and type information of TypeOracle to fuzz Adobe 
 
-test/: test PDFs
+crashinfo/: crashinfo logged by event viewer of windows
+
+crash/: crash PDFs
+
+#### typeoracle: fuzzing all APIs using TypeOracle
+
+we use the type information of all (documented+undocumented) APIs to fuzz Adobe
 
 crashinfo/: crashinfo logged by event viewer of windows
 
-save/crash/: crash PDFs
+crash/: crash PDFs
+
+#### favocado: fuzzing all APIs using Favocado
+
+we use Favocado to fuzz Adobe 
+
+crashinfo/: crashinfo logged by event viewer of windows
+
+crash/: crash PDFs
+
+#### favocado+typeoracle: fuzzing all APIs using combination of TypeOracle and Favocado
+
+we use Favocado and type information of TypeOracle to fuzz Adobe 
+
+crashinfo/: crashinfo logged by event viewer of windows
+
+crash/: crash PDFs
+
+### foxit reader
+
+#### document: randomly fuzzing documented APIs
+
+we use the random type of document APIs to fuzz Foxit
+
+crashinfo/: crashinfo logged by event viewer of windows
+
+crash/: crash PDFs
+
+#### all_random: randomly fuzzing all (documented+undocumented) APIs
+
+we use Favocado and type information of TypeOracle to fuzz Foxit
+
+crashinfo/: crashinfo logged by event viewer of windows
+
+crash/: crash PDFs
+
+#### typeoracle: fuzzing all APIs using TypeOracle
+
+we use the type information of all (documented+undocumented) APIs to fuzz Foxit
+
+crashinfo/: crashinfo logged by event viewer of windows
+
+crash/: crash PDFs
+
+#### favocado: fuzzing all APIs using Favocado
+
+we use Favocado to fuzz Foxit
+
+crashinfo/: crashinfo logged by event viewer of windows
+
+crash/: crash PDFs
+
+#### favocado+typeoracle: fuzzing all APIs using combination of TypeOracle and Favocado
+
+we use Favocado and type information of TypeOracle to fuzz Foxit
+
+crashinfo/: crashinfo logged by event viewer of windows
+
+crash/: crash PDFs
 
 
 # Utility
@@ -151,21 +272,21 @@ parse the crashinfo logged by event viewer of windows and get unique crash
 
 ## parse_cov
 
-parse coverage file genarated by DynamoRio
+parse coverage file genarated by DynamoRIO
 
 ## recored_cov
 
-record coverage information using DynamoRio
+record coverage information using DynamoRIO
 
 ## bbkn2insn
 
 count number of instructions
 
-# How to reproduce (using coverage_24/all_typeoracle as an example)
+# How to reproduce (using coverage/compare_using_different_arguments/adobe reader/typeoracle as an example)
 
 
 
-1. copy test PDFs from coverage_24/all_typeoracle/test to utility/record_cov/adobe/test
+1. copy test PDFs from coverage/compare_using_different_arguments/adobe reader/typeoracle//test_case to utility/record_cov/adobe/test
 
 2. cd utility/record_cov/adobe
 
