@@ -175,7 +175,7 @@ favocado_oracle.txt/: record the number of instructions of every dir in adobe_sa
 
 ## vulnerabilities_48
 
-All test PDFs can be downloaded from 
+All test PDFs can be downloaded from https://drive.google.com/file/d/1t5lKc69_leeg2iCfmkO-PsW4mt2c8L_j/view?usp=sharing
 
 ### adobe reader
 
@@ -264,7 +264,7 @@ crash/: crash PDFs
 
 # Utility
 
-Can be downloaded from 
+Can be downloaded from https://drive.google.com/file/d/1KeQNjcNm6109GV-4cam0TIdpldLyQMpR/view?usp=sharing
 
 ## crashinfo
 
