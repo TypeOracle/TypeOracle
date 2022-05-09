@@ -1,0 +1,2137 @@
+method json-json: this.Collab.AFCheckSubmitButtonStatus
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.AFPrepareFormForDistribution
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.AVUMAddStringToPayloadWrapper
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.AVUMLogEventWrapper
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.AVUMStartPayloadWrapper
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.URL2PathFragment
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.addAnnotStore
+- parameter0:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.addDocToDocsOpenedByWizard
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.addReviewFolder
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.addReviewServer
+- parameter0:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.addStateModel
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter5:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.alertWithHelp
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.allReviewServers
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.animateSyncButton
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method arr-arr: this.Collab.beginInitiatorMailOperation
+method arr-arr: this.Collab.bringToFront
+method json-json: this.Collab.canProxy
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+method json-json: this.Collab.convertDIPathToPlatformPath
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.convertMappedDrivePathToSMBURL
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.convertPlatformPathToDIPath
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.cosObj2Stream
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+method json-json: this.Collab.createAnnotStore
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.dcSignup
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter5:
+  - infered_type: String
+  - ground_truth: String
+- parameter6:
+  - infered_type: String
+  - ground_truth: String
+method arr-arr: this.Collab.documentToStream
+method json-json: this.Collab.enableFinalApprovalEmail
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method arr-arr: this.Collab.endInitiatorMailOperation
+method json-json: this.Collab.getAlwaysUseServer
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.getCCaddr
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+method json-json: this.Collab.getCustomEmailMessage
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.getCustomServerLink
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.getDateAndTime
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.getDocCenterReviewServer
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.getEmailDistributionReviewServer
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.getFdfUrl
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.getFullyQualifiedHostname
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.getIcon
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.getIdentity
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.Collab.getNumberOfReviewsOnServer
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method arr-arr: this.Collab.getProxy
+method json-json: this.Collab.getReviewError
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.getReviewFolder
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.getReviewFolders
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.getReviewInfo
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.getReviewState
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.getServiceURL
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.getStateModels
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.Collab.getStoreFSBased
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.getStoreNoSettings
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.getStoreSettings
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method arr-arr: this.Collab.goBackOnline
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.hasInitiatorEmailRequest
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+method json-json: this.Collab.hasReviewCommentRepositoryIntact
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.hasReviewDeadline
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.hashString
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.init
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.isApprovalWorkflow
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.Collab.isDocCenterURL
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.isDocDirty
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+method json-json: this.Collab.isDocReadOnly
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.isEmailReview
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.Collab.isFirstLaunch
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.isInvalidSaveLocation
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+method json-json: this.Collab.isOfflineReview
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+method json-json: this.Collab.isOnlineReview
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.Collab.isPathWritable
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.isSharedReview
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.Collab.isUbiquitized
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+method json-json: this.Collab.launchHelpViewer
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.makeAllCommentsReadOnly
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.Collab.registerApproval
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter5:
+  - infered_type: String
+  - ground_truth: String
+- parameter6:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter7:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter8:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.Collab.registerProxy
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.registerReview
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: String
+  - ground_truth: String
+- parameter5:
+  - infered_type: String
+  - ground_truth: String
+- parameter6:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter7:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter8:
+  - infered_type: String
+  - ground_truth: String
+- parameter9:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter10:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter11:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter12:
+  - infered_type: String
+  - ground_truth: String
+- parameter13:
+  - infered_type: String
+  - ground_truth: String
+- parameter14:
+  - infered_type: String
+  - ground_truth: String
+- parameter15:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter16:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.Collab.removeApprovalDocScript
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.removeReviewFolder
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.removeStateModel
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.returnToInitiator
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.saveTrackerHTML
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.setAlwaysUseServer
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.setCustomEmailMessage
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.setCustomServerLink
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.setDefaultReviewServer
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.setReviewFolder
+- parameter0:
+  - infered_type: String
+  - ground_truth: builtin-obj
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.setReviewFolderForMultipleReviews
+- parameter0:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.setReviewRespondedDate
+- parameter0:
+  - infered_type: Object
+  - ground_truth: Object
+method json-json: this.Collab.setStoreFSBased
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.Collab.setStoreNoSettings
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.Collab.setStoreSettings
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.shareFileBezel
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.stream2CosObj
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+method json-json: this.Collab.streamToDocument
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+method json-json: this.Collab.stringToUTF8
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.swAcceptTOU
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.swConnect
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter4:
+  - infered_type: String
+  - ground_truth: String
+- parameter5:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.Collab.swSendVerifyEmail
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.sync
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.Collab.takeOwnershipAndPublishComments
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method arr-arr: this.Collab.unregisterApproval
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method arr-arr: this.Collab.unregisterOffline
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method arr-arr: this.Collab.unregisterReview
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.unsetAlwaysUseServer
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.unsetFirstLaunch
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.uriConvertReviewSource
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.uriEncode
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.uriNormalize
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Collab.uriToDIPath
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.FormWorkflow.addFormWorkflowFolder
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.FormWorkflow.getFormWorkflowError
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.FormWorkflow.getFormWorkflowFolders
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.FormWorkflow.getFormWorkflowInfo
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.FormWorkflow.getNumberOfFormWorkflowsOnServer
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.FormWorkflow.removeFormWorkflowFolder
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.FormWorkflow.setFormFolderForMultipleForms
+- parameter0:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.FormWorkflow.setFormWorkflowFolder
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.FormWorkflow.unregisterFormsWorkflow
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Net.Discovery.queryServices
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter2:
+  - infered_type: Array
+  - ground_truth: Array
+method json-json: this.Net.Discovery.resolveService
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Net.Subscriptions.addFeed
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Net.Subscriptions.addUI
+- parameter0:
+  - infered_type: Object
+  - ground_truth: Object
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Net.Subscriptions.getContents
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Net.Subscriptions.getResourceContents
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Net.Subscriptions.removeFeed
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Net.Subscriptions.update
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Net.streamDecode
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Net.streamDigest
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Net.streamEncode
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Net.streamFromString
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Net.stringEncode
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.Net.stringFromStream
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+method json-json: this.RSS.addUI
+- parameter0:
+  - infered_type: Object
+  - ground_truth: Object
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.RSS.getContents
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.RSS.getResourceContents
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.RSS.update
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.SOAP.queryServices
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter2:
+  - infered_type: Array
+  - ground_truth: Array
+method json-json: this.SOAP.resolveService
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.SOAP.streamDecode
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.SOAP.streamDigest
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.SOAP.streamEncode
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.SOAP.streamFromString
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.SOAP.stringEncode
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.SOAP.stringFromStream
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+method json-json: this.XMLData.applyXPath
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.addField
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.addNewField
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.app.addMenuItem
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: String
+  - ground_truth: String
+- parameter5:
+  - infered_type: Missing
+  - ground_truth: Number
+- parameter6:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter7:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.app.addSubMenu
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.app.addToolButton
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: String
+  - ground_truth: String
+- parameter5:
+  - infered_type: String
+  - ground_truth: String
+- parameter6:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter7:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+method json-json: this.app.alert
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter1:
+  - infered_type: Object
+  - ground_truth: Object
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter4:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter5:
+  - infered_type: String
+  - ground_truth: String
+method arr-arr: this.app.beep
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+method json-json: this.app.browseForDoc
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: String
+  - ground_truth: String
+- parameter5:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.app.browseForMultipleDocs
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: String
+  - ground_truth: String
+- parameter5:
+  - infered_type: String
+  - ground_truth: String
+method arr-arr: this.app.clearInterval
+method arr-arr: this.app.clearTimeOut
+method arr-arr: this.app.execDialog
+method json-json: this.app.execMenuItem
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+method json-json: this.app.findComponent
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter3:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter4:
+  - infered_type: String
+  - ground_truth: String
+- parameter5:
+  - infered_type: String
+  - ground_truth: String
+method arr-arr: this.app.getNthPlugInName
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+method json-json: this.app.getPath
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.app.getResolvedAddresses
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter3:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter4:
+  - infered_type: String
+  - ground_truth: String
+- parameter5:
+  - infered_type: String
+  - ground_truth: String
+- parameter6:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.app.getString
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.app.hideMenuItem
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.app.hideToolbarButton
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.app.isValidSaveLocation
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.app.launchURL
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.app.loadPolicyFile
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.app.mailGetAddrs
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: String
+  - ground_truth: String
+- parameter5:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.app.mailMsg
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: String
+  - ground_truth: String
+- parameter5:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.app.mailMsgWithAttachment
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter4:
+  - infered_type: String
+  - ground_truth: String
+- parameter5:
+  - infered_type: String
+  - ground_truth: String
+- parameter6:
+  - infered_type: String
+  - ground_truth: String
+- parameter7:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.app.measureDialog
+- parameter0:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter1:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.app.openDoc
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter4:
+  - infered_type: String
+  - ground_truth: String
+- parameter5:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.app.removeToolButton
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.app.response
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.app.setInterval
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.app.setTimeOut
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+method arr-arr: this.app.trustPropagatorFunction
+method arr-arr: this.app.trustedFunction
+method arr-arr: this.closeDoc
+- diff in arg length: infered_type - 0 , ground_truth - 2
+- parameter0:
+  - infered_type: Missing
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: Missing
+  - ground_truth: Boolean
+method json-json: this.console.println
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.createIcon
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter2:
+  - infered_type: Number
+  - ground_truth: Number
+method json-json: this.createTemplate
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+method json-json: this.deletePages
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+method json-json: this.exportAsFDF
+- parameter0:
+  - infered_type: Missing
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: Missing
+  - ground_truth: Array
+- parameter4:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter5:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter6:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.exportAsText
+- parameter0:
+  - infered_type: Missing
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: Missing
+  - ground_truth: Array
+- parameter4:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.exportAsXFDF
+- parameter0:
+  - infered_type: Missing
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: Missing
+  - ground_truth: Array
+- parameter4:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter5:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.exportDataObject
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: Missing
+  - ground_truth: String
+- parameter3:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.extractPages
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: Missing
+  - ground_truth: String
+- parameter2:
+  - infered_type: Number
+  - ground_truth: Number
+method json-json: this.getAnnot
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+method json-json: this.getAnnot3D
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+method json-json: this.getAnnotRichMedia
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+method json-json: this.getAnnots
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter3:
+  - infered_type: Number
+  - ground_truth: Number
+method arr-arr: this.getAnnots3D
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+method arr-arr: this.getAnnotsRichMedia
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+method json-json: this.getDataObject
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.getDataObjectContents
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.getField
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.getIcon
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.getLegalWarnings
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.getLinks
+- parameter0:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+method arr-arr: this.getNthFieldName
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+method arr-arr: this.getNthIconName
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+method arr-arr: this.getNthTemplate
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+method json-json: this.getPageBox
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method arr-arr: this.getPageLabel
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+method json-json: this.getPageNthWord
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter2:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter3:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.getPageNthWordQuads
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter2:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter3:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method arr-arr: this.getPageNumWords
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter3:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method arr-arr: this.getPageRotation
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+method arr-arr: this.getPageTransition
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+method json-json: this.getSound
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.getTemplate
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method arr-arr: this.getUIPerms
+method json-json: this.getURL
+- parameter0:
+  - infered_type: Missing
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method arr-arr: this.getUserUnitSize
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+method json-json: this.global.setPersistent
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.global.subscribe
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.gotoNamedDest
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.importAnFDF
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.importAnXFDF
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.importXFAData
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.mailDoc
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: String
+  - ground_truth: String
+- parameter5:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.openDataObject
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.print
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter3:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter4:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter5:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter6:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter7:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.printWithParams
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter2:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter3:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter4:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter5:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter6:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter7:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter8:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter9:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter10:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter11:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter12:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter13:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter14:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter15:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter16:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter17:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter18:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter19:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter20:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter21:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter22:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter23:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter24:
+  - infered_type: String
+  - ground_truth: String
+- parameter25:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter26:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter27:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter28:
+  - infered_type: Object
+  - ground_truth: Object
+- parameter29:
+  - infered_type: String
+  - ground_truth: String
+- parameter30:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter31:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter32:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter33:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter34:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter35:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter36:
+  - infered_type: Number
+  - ground_truth: Number
+method json-json: this.removeField
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.requestPermission
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+method arr-arr: this.resetForm
+- parameter0:
+  - infered_type: Value
+  - ground_truth: Value
+method json-json: this.saveAs
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter5:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter6:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.scroll
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+method json-json: this.search.addIndex
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.search.getIndexForPath
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method arr-arr: this.search.getNthIndex
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+method json-json: this.search.query
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.search.removeIndex
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+method json-json: this.security.importSettings
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.selectPageNthWord
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter2:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter3:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.setUIPerms
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: Value
+  - ground_truth: Value
+method json-json: this.spawnPageFromTemplate
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.spell.addWord
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.spell.check
+- parameter0:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter1:
+  - infered_type: Array
+  - ground_truth: Array
+method json-json: this.spell.checkText
+- parameter0:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.spell.checkWord
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Array
+  - ground_truth: Array
+method json-json: this.spell.customDictionaryClose
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.spell.customDictionaryOpen
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.spell.ignoreAll
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.spell.removeWord
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.spell.userWords
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.stampAPFromPage
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter2:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter3:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter4:
+  - infered_type: Object
+  - ground_truth: Object
+- parameter5:
+  - infered_type: String
+  - ground_truth: String
+- parameter6:
+  - infered_type: String
+  - ground_truth: String
+- parameter7:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.submitForm
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter4:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter5:
+  - infered_type: String
+  - ground_truth: String
+- parameter6:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter7:
+  - infered_type: String
+  - ground_truth: String
+- parameter8:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter9:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter10:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter11:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter12:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter13:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter14:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter15:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter16:
+  - infered_type: String
+  - ground_truth: String
+- parameter17:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter18:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter19:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter20:
+  - infered_type: Missing
+  - ground_truth: String
+- parameter21:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter22:
+  - infered_type: String
+  - ground_truth: String
+- parameter23:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter24:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.timestampSign
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method arr-arr: this.tts.getNthSpeakerName
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+method arr-arr: this.tts.qSilence
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+method json-json: this.tts.qSound
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.tts.qText
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method arr-arr: this.util.byteToChar
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+method json-json: this.util.charToByte
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.util.crackURL
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.util.fixOldString
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+method arr-arr: this.util.iconStreamFromIcon
+method arr-arr: this.util.printd
+- parameter0:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter1:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method json-json: this.util.printx
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.util.readFileIntoStream
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+method arr-arr: this.util.scand
+- diff in arg length: infered_type - 0 , ground_truth - 2
+- parameter0:
+  - infered_type: Missing
+  - ground_truth: String
+- parameter1:
+  - infered_type: Missing
+  - ground_truth: String
+method json-json: this.util.streamFromString
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+method json-json: this.util.stringFromStream
+- parameter0:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter1:
+  - infered_type: String
+  - ground_truth: String

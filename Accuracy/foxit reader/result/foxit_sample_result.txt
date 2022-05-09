@@ -1,0 +1,993 @@
+binding call: this.AFDate_Format
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+binding call: this.AFDate_FormatEx
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.AFDate_Keystroke
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+binding call: this.AFDate_KeystrokeEx
+binding call: this.SOAP.connect
+binding call: this.SOAP.queryServices
+binding call: this.SOAP.request
+binding call: this.SOAP.resolveService
+binding call: this.SOAP.response
+binding call: this.SOAP.streamDecode
+binding call: this.SOAP.streamDigest
+- parameter0:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.SOAP.streamEncode
+- parameter0:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.SOAP.streamFromString
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.SOAP.stringFromStream
+binding call: this.addAnnot
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: String
+  - ground_truth: String
+- parameter5:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter6:
+  - infered_type: String
+  - ground_truth: String
+- parameter7:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter8:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter9:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter10:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter11:
+  - infered_type: String
+  - ground_truth: String
+- parameter12:
+  - infered_type: String
+  - ground_truth: String
+- parameter13:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter14:
+  - infered_type: String
+  - ground_truth: String
+- parameter15:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter16:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter17:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter18:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter19:
+  - infered_type: String
+  - ground_truth: String
+- parameter20:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter21:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter22:
+  - infered_type: String
+  - ground_truth: String
+- parameter23:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter24:
+  - infered_type: String
+  - ground_truth: String
+- parameter25:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter26:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter27:
+  - infered_type: Object
+  - ground_truth: Object
+- parameter28:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter29:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter30:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter31:
+  - infered_type: String
+  - ground_truth: String
+- parameter32:
+  - infered_type: String
+  - ground_truth: String
+- parameter33:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter34:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter35:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter36:
+  - infered_type: String
+  - ground_truth: String
+- parameter37:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter38:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter39:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter40:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.addField
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter3:
+  - infered_type: Array
+  - ground_truth: Array
+binding call: this.addIcon
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Value
+  - ground_truth: Value
+binding call: this.addLink
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: Array
+  - ground_truth: Array
+binding call: this.addWeblinks
+binding call: this.app.addMenuItem
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter5:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter6:
+  - infered_type: String
+  - ground_truth: String
+- parameter7:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.app.addSubMenu
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: Value
+  - ground_truth: Value
+binding call: this.app.addToolButton
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter5:
+  - infered_type: String
+  - ground_truth: String
+- parameter6:
+  - infered_type: String
+  - ground_truth: String
+- parameter7:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.app.alert
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: Number
+  - ground_truth: Number
+binding call: this.app.beep
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+binding call: this.app.browseForDoc
+binding call: this.app.clearInterval
+binding call: this.app.clearTimeOut
+binding call: this.app.execDialog
+- parameter0:
+  - infered_type: Object
+  - ground_truth: Object
+binding call: this.app.execMenuItem
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.app.findComponent
+binding call: this.app.goBack
+binding call: this.app.goForward
+binding call: this.app.launchURL
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+binding call: this.app.listMenuItems
+binding call: this.app.mailMsg
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: String
+  - ground_truth: String
+- parameter5:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+binding call: this.app.media.getPlayers
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.app.media.getURLData
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.app.media.openPlayer
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Object
+  - ground_truth: Object
+- parameter2:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+- parameter5:
+  - infered_type: builtin-obj
+  - ground_truth: builtin-obj
+binding call: this.app.newFDF
+binding call: this.app.openDoc
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+binding call: this.app.openFDF
+binding call: this.app.popUpMenuEx
+- parameter0:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+binding call: this.app.removeToolButton
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.app.response
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter4:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.app.sendEmail
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.app.setInterval
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+binding call: this.app.setTimeOut
+binding call: this.app.thermometer.begin
+binding call: this.app.thermometer.end
+binding call: this.bookmarkRoot.createChild
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.bookmarkRoot.insertChild
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: Value
+  - ground_truth: Value
+binding call: this.bookmarkRoot.remove
+binding call: this.bookmarkRoot.setAction
+binding call: this.calculateNow
+binding call: this.color.convert
+- parameter0:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.color.equal
+- parameter0:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter1:
+  - infered_type: Array
+  - ground_truth: Array
+binding call: this.console.clear
+binding call: this.console.hide
+binding call: this.console.println
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.createDataObject
+binding call: this.createIcon
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter2:
+  - infered_type: Number
+  - ground_truth: Number
+binding call: this.createTemplate
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+binding call: this.deletePages
+- diff in arg length: infered_type - 0 , ground_truth - 2
+- parameter0:
+  - infered_type: Missing
+  - ground_truth: Number
+- parameter1:
+  - infered_type: Missing
+  - ground_truth: Number
+binding call: this.embedDocAsDataObject
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Value
+  - ground_truth: Value
+binding call: this.exportAsFDF
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter3:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter4:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter5:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter6:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.exportAsText
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter3:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter4:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter5:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter6:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.exportAsXFDF
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter3:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter4:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter5:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter6:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.exportAsXFDFStr
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter3:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter4:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter5:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter6:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.exportDataObject
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+binding call: this.extractPages
+- diff in arg length: infered_type - 0 , ground_truth - 3
+- parameter0:
+  - infered_type: Missing
+  - ground_truth: Number
+- parameter1:
+  - infered_type: Missing
+  - ground_truth: Number
+- parameter2:
+  - infered_type: Missing
+  - ground_truth: String
+binding call: this.flattenPages
+binding call: this.getAnnot
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.getAnnot3D
+binding call: this.getAnnots
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter2:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter3:
+  - infered_type: Number
+  - ground_truth: Number
+binding call: this.getAnnots3D
+- diff in arg length: infered_type - 0 , ground_truth - 2
+- parameter0:
+  - infered_type: Missing
+  - ground_truth: Number
+- parameter1:
+  - infered_type: Missing
+  - ground_truth: String
+binding call: this.getDataObject
+- parameter0:
+  - infered_type: Value
+  - ground_truth: Value
+binding call: this.getField
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.getIcon
+- diff in arg length: infered_type - 0 , ground_truth - 1
+- parameter0:
+  - infered_type: Missing
+  - ground_truth: String
+binding call: this.getLinks
+- diff in arg length: infered_type - 0 , ground_truth - 2
+- parameter0:
+  - infered_type: Missing
+  - ground_truth: Array
+- parameter1:
+  - infered_type: Missing
+  - ground_truth: Number
+binding call: this.getNthFieldName
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+binding call: this.getOCGOrder
+binding call: this.getOCGs
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+binding call: this.getPageBox
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+binding call: this.getPageLabel
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+binding call: this.getPageNthWord
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+binding call: this.getPageNthWordQuads
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+binding call: this.getPageNumWords
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+binding call: this.getPageRotation
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+binding call: this.getPageTransition
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+binding call: this.getPrintParams
+binding call: this.getTemplate
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.getURL
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.global.setPersistent
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+binding call: this.gotoNamedDest
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.importAnFDF
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.importAnXFDF
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.importDataObject
+- parameter0:
+  - infered_type: Value
+  - ground_truth: Value
+binding call: this.importIcon
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.importTextData
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.insertPages
+binding call: this.isNumber
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.mailDoc
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: String
+  - ground_truth: String
+- parameter5:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+binding call: this.mailForm
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: String
+  - ground_truth: String
+- parameter5:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.media.getAnnot
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: Number
+  - ground_truth: Number
+binding call: this.media.getOpenPlayers
+binding call: this.media.getRendition
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.movePage
+binding call: this.newPage
+binding call: this.print
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter3:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter4:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter5:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter6:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter7:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+binding call: this.removeDataObject
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.removeField
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.removeIcon
+binding call: this.removeLinks
+binding call: this.removeTemplate
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.removeWeblinks
+binding call: this.replacePages
+binding call: this.resetForm
+- parameter0:
+  - infered_type: Value
+  - ground_truth: Value
+binding call: this.saveAs
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: String
+  - ground_truth: String
+- parameter4:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+binding call: this.saveOfflineCopy
+- diff in arg length: infered_type - 0 , ground_truth - 1
+- parameter0:
+  - infered_type: Missing
+  - ground_truth: String
+binding call: this.scroll
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: Value
+  - ground_truth: Value
+binding call: this.search.addIndex
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+binding call: this.search.query
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.search.removeIndex
+- diff in arg length: infered_type - 0 , ground_truth - 1
+- parameter0:
+  - infered_type: Missing
+  - ground_truth: Object
+binding call: this.security.getHandler
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.security.importFromFile
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: String
+  - ground_truth: String
+- parameter3:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+binding call: this.selectPageNthWord
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter2:
+  - infered_type: Number
+  - ground_truth: Number
+binding call: this.setOCGOrder
+binding call: this.setPageBoxes
+binding call: this.setPageLabels
+binding call: this.setPageRotations
+binding call: this.setPageTabOrder
+binding call: this.setPageTransitions
+- parameter0:
+  - infered_type: Number
+  - ground_truth: Number
+- parameter1:
+  - infered_type: Array
+  - ground_truth: Array
+- parameter2:
+  - infered_type: Number
+  - ground_truth: Number
+binding call: this.setReviewType
+- diff in arg length: infered_type - 0 , ground_truth - 1
+- parameter0:
+  - infered_type: Missing
+  - ground_truth: Boolean
+binding call: this.spawnPageFromTemplate
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: Number
+  - ground_truth: Number
+binding call: this.submitForm
+- parameter0:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+- parameter2:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter3:
+  - infered_type: Value
+  - ground_truth: Value
+- parameter4:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter5:
+  - infered_type: String
+  - ground_truth: String
+- parameter6:
+  - infered_type: Boolean
+  - ground_truth: Boolean
+- parameter7:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.syncAnnotScan
+binding call: this.toString
+binding call: this.updateACL
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.util.fixOldString
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.util.iconStreamFromIcon
+binding call: this.util.printd
+- diff in arg length: infered_type - 0 , ground_truth - 1
+- parameter0:
+  - infered_type: Missing
+  - ground_truth: Number
+binding call: this.util.printf
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.util.printx
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
+binding call: this.util.scand
+- parameter0:
+  - infered_type: String
+  - ground_truth: String
+- parameter1:
+  - infered_type: String
+  - ground_truth: String
