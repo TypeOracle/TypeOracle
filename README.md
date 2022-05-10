@@ -33,7 +33,7 @@ ground_truth/: correct type information (from reverse engineering)
 adobe.txt: comparasion log file
 cmp_arg.py: the script file to compare type information
 
-### result
+#### result
 
 adobe_sample_result.txt: accuracy log file (the detail of accuracy comparasion)
 
@@ -49,14 +49,20 @@ ground_truth/: correct type information (from reverse engineering)
 foxit.txt: comparasion log file
 cmp_arg.py: the script file to compare type information
 
-### result
+#### result
 
 foxit_sample_result.txt: accuracy log file (the detail of accuracy comparasion)
 
+### How to reproduce
+
+1. copy all files from data to utility
+2. python cmp_arg.py
+3. the result will show
+
 ## Fuzzing Performance 
 
-All files that generated in coverage recording process can be downloaded from COVERAGE_LINK. Following is the introduction of those files. The files on Github are the fuzzing performance results.
-Test cases can be downloaded from TEST_CASE_LINK.
+All files that generated in coverage recording process can be downloaded from https://drive.google.com/file/d/1SUDmnky_Py1rdqMQcPu7rBOBWDD3_7Ll/view?usp=sharing. 
+Test cases can be downloaded from https://drive.google.com/file/d/1-zrRJrSwe4MVSnTEpeBduga--ZnP1ZHT/view?usp=sharing. Due to the space limitation, we only uploaded a set of experimental data. 
 
 ### Group1: Type Guidance (Figure 8(a), Figure 9(a))
 #### adobe reader (Figure 8(a))
@@ -225,21 +231,33 @@ result/:
 
 foxit_cooper.pdf: Figure9(d)
 
+### The way to reproduce
+
+1. copy all files from data to utility
+2. python draw_all.py (matplotlib is needed, pip install matplotlib)
+3. the result will show
+
 ## Vulnerabilities (Table 2)
 ### adobe reader
 
 All the PoCs that we found on Adobe Reader.
 
-First, turn on the page heap: .\gflags.exe /p /enable "C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe" 
+1. turn on the page heap: .\gflags.exe /p /enable "C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe" 
 
-Then, add poc's folder into Adobe's trust path.
+2. add poc's folder into Adobe's trust path.
 Edit->Preferences->Security(Enhanced)->Add Folder Path
+
+3. open the pdf and adobe reader will crash or halt (sometimes you need to close dialog)
 
 ### foxit reader
 
 All the PoCs that we found on Foxit Reader.
 
-First, turn on the page heap: .\gflags.exe /p /enable "C:\Program Files (x86)\Foxit Software\Foxit Reader\FoxitReader.exe"
+1. turn on the page heap: .\gflags.exe /p /enable "C:\Program Files (x86)\Foxit Software\Foxit Reader\FoxitReader.exe"
+
+2. open foxit reader and use windbg to attach it
+
+3. open the pdf and windbg will catch the exception (sometimes you need to close dialog)
 
 
 # Utility
