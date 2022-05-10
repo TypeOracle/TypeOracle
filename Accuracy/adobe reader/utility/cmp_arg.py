@@ -31,7 +31,8 @@ def calculate_arg_type_num(self, arg_type_set):
 def count_type(dir1):
     all_info = {}
     res = {}
-
+    prefix = os.path.join('../', 'data')
+    dir1 = os.path.join(prefix, dir1)
     for fname in os.listdir(dir1):
         fpath = os.path.join(dir1,fname)
         tmp = readjson(fpath)
@@ -293,6 +294,9 @@ def main(dir1,dir2,output):
     global_fname = output
     d1 = {}
     d2 = {}
+    prefix = os.path.join('../', 'data')
+    dir1 = os.path.join(prefix, dir1)
+    dir2 = os.path.join(prefix, dir2)
     for fname in os.listdir(dir1):
         fpath = os.path.join(dir1,fname)
         tmp = readjson(fpath)
@@ -342,10 +346,27 @@ def my_div(num1, num2):
     return num1 / num2 * 100
 
 if __name__ == '__main__':
+    f = open("adobe.txt", "w")
+    f.close()
     typeoracle = count_type(P1)
     correct_report = count_type(P1)
     truth = count_type(P2)
     main(P1,P2,'adobe.txt')
+    precision = calculate(correct_report, typeoracle)
+    recall = calculate(correct_report, truth)
+    content = '\n'
+    content +="\t\t\t\tBoolean\tNumber\tString\tArray\tObject\tTotal\n"
+    content += "correctly report\t%d\t\t%d\t\t%d\t\t%d\t\t%d\t\t%d\n"%(correct_report['0'], correct_report['1'], correct_report['3'], 
+        get_array_num(correct_report), get_json_num(correct_report), get_all_num(correct_report))
+    content +="reported cases\t\t%d\t\t%d\t\t%d\t\t%d\t\t%d\t\t%d\n"%(typeoracle['0'], typeoracle['1'], typeoracle['3'], 
+        get_array_num(typeoracle), get_json_num(typeoracle), get_all_num(typeoracle))
+    content += "actual cases\t\t%d\t\t%d\t\t%d\t\t%d\t\t%d\t\t%d\n"%(truth['0'], truth['1'], truth['3'], 
+        get_array_num(truth), get_json_num(truth), get_all_num(truth))
+    content += "precision\t\t%.2f\t%.2f\t%.2f\t%.2f\t%.2f\t%.2f\n"%(precision['0'], precision['1'], precision['3'], 
+        get_array_num(precision), get_json_num(precision), my_div(get_all_num(correct_report), get_all_num(typeoracle)))
+    content += "recall\t\t\t%.2f\t%.2f\t%.2f\t%.2f\t%.2f\t%.2f\n"%(recall['0'], recall['1'], recall['3'], 
+        get_array_num(recall), get_json_num(recall), my_div(get_all_num(correct_report), get_all_num(truth)))
+    dump_file(content)
     print("\t\t\tBoolean\tNumber\tString\tArray\tObject\tTotal")
     print("correctly report\t%d\t%d\t%d\t%d\t%d\t%d"%(correct_report['0'], correct_report['1'], correct_report['3'], 
         get_array_num(correct_report), get_json_num(correct_report), get_all_num(correct_report)))
@@ -353,8 +374,6 @@ if __name__ == '__main__':
         get_array_num(typeoracle), get_json_num(typeoracle), get_all_num(typeoracle)))
     print("actual cases\t\t%d\t%d\t%d\t%d\t%d\t%d"%(truth['0'], truth['1'], truth['3'], 
         get_array_num(truth), get_json_num(truth), get_all_num(truth)))
-    precision = calculate(correct_report, typeoracle)
-    recall = calculate(correct_report, truth)
     print("precision\t\t%.2f\t%.2f\t%.2f\t%.2f\t%.2f\t%.2f"%(precision['0'], precision['1'], precision['3'], 
         get_array_num(precision), get_json_num(precision), my_div(get_all_num(correct_report), get_all_num(typeoracle))))
     print("recall\t\t\t%.2f\t%.2f\t%.2f\t%.2f\t%.2f\t%.2f"%(recall['0'], recall['1'], recall['3'], 
