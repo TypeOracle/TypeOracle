@@ -28,6 +28,8 @@ def read_data(filename):
 def parse_folder(folder_name):
     x_ordinates = []
     y_ordinates = []
+    prefix = os.path.join('../', 'data')
+    folder_name = os.path.join(prefix, folder_name)
     for i in os.listdir(folder_name):
         fname = os.path.join(folder_name, i)
         tmp_x, tmp_y = read_data(fname)

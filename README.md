@@ -30,7 +30,6 @@ ground_truth/: correct type information (from reverse engineering)
 
 #### utility
 
-adobe.txt: comparasion log file
 cmp_arg.py: the script file to compare type information
 
 #### result
@@ -46,7 +45,6 @@ ground_truth/: correct type information (from reverse engineering)
 
 #### utility
 
-foxit.txt: comparasion log file
 cmp_arg.py: the script file to compare type information
 
 #### result
@@ -55,14 +53,17 @@ foxit_sample_result.txt: accuracy log file (the detail of accuracy comparasion)
 
 ### How to reproduce
 
-1. copy all files from data to utility
-2. python cmp_arg.py
-3. the result will show
+1. python cmp_arg.py
+2. the result will show, comparasion detail is in adobe.txt/foxit.txt
 
 ## Fuzzing Performance 
 
+Test cases can be downloaded from https://drive.google.com/file/d/1-zrRJrSwe4MVSnTEpeBduga--ZnP1ZHT/view?usp=sharing.
+
+
 All files that generated in coverage recording process can be downloaded from https://drive.google.com/file/d/1SUDmnky_Py1rdqMQcPu7rBOBWDD3_7Ll/view?usp=sharing. 
-Test cases can be downloaded from https://drive.google.com/file/d/1-zrRJrSwe4MVSnTEpeBduga--ZnP1ZHT/view?usp=sharing. Due to the space limitation, we only uploaded a set of experimental data. 
+
+Due to the space limitation, we only upload one set of expeirmental data for each experiment.
 
 ### Group1: Type Guidance (Figure 8(a), Figure 9(a))
 #### adobe reader (Figure 8(a))
@@ -71,13 +72,13 @@ We use the random type of documented binding calls, all (documented+undocumented
 
 data/:
 
-document: randomly fuzzing documented binding calls
+document: documented binding calls + random testing
 
-random: randomly fuzzing all (documented+undocumented) binding calls
+random: all binding calls + random testing
 
-adobe_manual: fuzzing all binding calls using Adobe Manual
+adobe_manual: documented binding calls + Adobe Manual
 
-typeoracle: fuzzing all binding calls using TypeOracle
+typeoracle: all binding calls + TypeOracle
 
 utility/:
 
@@ -120,11 +121,11 @@ data/:
 
 random: randomly fuzzing all (documented+undocumented) binding calls
 
-coverage_random: randomly fuzzing all (documented+undocumented) binding calls with coverage guidance
+coverage_random: randomly fuzzing all (documented+undocumented) binding calls + coverage guidance
 
 typeoracle: fuzzing all binding calls using TypeOracle
 
-coverage_typeoracle: fuzzing all binding calls using TypeOracle with coverage guidance
+coverage_typeoracle: fuzzing all binding calls using TypeOracle + coverage guidance
 
 utility/:
 
@@ -142,11 +143,11 @@ data/:
 
 random: randomly fuzzing all (documented+undocumented) binding calls
 
-coverage_random: randomly fuzzing all (documented+undocumented) binding calls with coverage guidance
+coverage_random: randomly fuzzing all (documented+undocumented) binding calls + coverage guidance
 
 typeoracle_foxit: fuzzing all binding calls using TypeOracle
 
-coverage_typeoracle: fuzzing all binding calls using TypeOracle with coverage guidance
+coverage_typeoracle: fuzzing all binding calls using TypeOracle + coverage guidance
 
 utility/:
 
@@ -233,14 +234,15 @@ foxit_cooper.pdf: Figure9(d)
 
 ### The way to reproduce
 
-1. copy all files from data to utility
-2. python draw_all.py (matplotlib is needed, pip install matplotlib)
-3. the result will show
+1. python draw_all.py (matplotlib is needed, pip install matplotlib)
+2. the result will show
 
 ## Vulnerabilities (Table 2)
 ### adobe reader
 
 All the PoCs that we found on Adobe Reader.
+
+How to reproduce:
 
 1. turn on the page heap: .\gflags.exe /p /enable "C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe" 
 
@@ -252,6 +254,8 @@ Edit->Preferences->Security(Enhanced)->Add Folder Path
 ### foxit reader
 
 All the PoCs that we found on Foxit Reader.
+
+How to reproduce:
 
 1. turn on the page heap: .\gflags.exe /p /enable "C:\Program Files (x86)\Foxit Software\Foxit Reader\FoxitReader.exe"
 
