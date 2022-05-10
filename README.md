@@ -264,54 +264,62 @@ How to reproduce:
 3. open the pdf and windbg will catch the exception (sometimes you need to close dialog)
 
 
-# Utility
+# VM
 
-Can be downloaded from https://drive.google.com/file/d/1KeQNjcNm6109GV-4cam0TIdpldLyQMpR/view?usp=sharing
+We create a VMware virtual machine for the convenience of reproduction, it can be downlaoded from VM_LINK.
 
-## crashinfo
+We have three stages to get fuzzing preformance results.
+Stage 1: use the target program to open test PDFs and record coverage information with DynamoRIO. It will take about 48 hours.
+Stage 2: parse the coverage information and split them to belonging files. It will take several hours.
+Stage 3: count instrction numbers. It will take 10-20 minutes.
 
-parse the crashinfo logged by event viewer of windows and get unique crash
+## Auto Reproduction
 
-## parse_cov
+We have written two script files to automatically reproduce coverage recording.
 
-parse coverage file genarated by DynamoRIO
+Repruduce Steps:
 
-## recored_cov
+For Adobe Reader:
+1. cd C:\Users\wxy\TypeOracle\Coverage
+2. python adobe_run.py
 
-record coverage information using DynamoRIO
+For Foxit Reader:
+1. cd C:\Users\wxy\TypeOracle\Coverage
+2. python foxit_run.py
 
-## bbkn2insn
+## Manual Reproduction
 
-count number of instructions
+You can also manually reproduce it, in case of any exception.
 
-# How to reproduce (using FuzzingPerformance_data/adobe reader/typeoracle as an example)
+We use coverage recording on Adobe Reader as an example.
+
+Reproduce Steps:
 
 
-1. copy test PDFs from FuzzingPerformance_data/adobe reader/typeoracle to utility/record_cov/adobe/test
+1. cd C:\Users\wxy\TypeOracle\Coverage\record_cov\adobe
 
-2. cd utility/record_cov/adobe
-
-3. run the tool and record coverage info
+2. run the tool and record coverage info (about 48 hours)
 
 ```
 python run.py
 ```
 
-4. copy coverage file from utility/record_cov/adobe/db to utility/parse_covfile/sample_data
-5. cd utility/record_cov
-6.  run the tool and parse coverage information
+3. copy coverage file from C:\Users\wxy\TypeOracle\Coverage\record_cov\adobe\db to C:\Users\wxy\TypeOracle\Coverage\parse_covfile\sample_data
+4. cd C:\Users\wxy\TypeOracle\Coverage\parse_covfile
+5.  run the tool and parse coverage information (several hours)
 
 ```
 python frame.py
 ```
 
-6. copy coverage file from utility/parse_covfile/sample_output to utility/bbkn2insn/adobe_sample_input
-7. cd utility/bbkn2insn
+6. copy coverage file from C:\Users\wxy\TypeOracle\Coverage\parse_covfile\sample_output to C:\Users\wxy\TypeOracle\Coverage\bbkn2insn\adobe_sample_input
+7. cd C:\Users\wxy\TypeOracle\Coverage\bbkn2insn
 
-8. run the tool and count number of instruction
+8. run the tool and count number of instruction (10-20 minutes)
 
 ```
 python batch.py
 python combine.py
-python res.py
 ```
+
+
