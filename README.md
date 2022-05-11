@@ -266,11 +266,14 @@ How to reproduce:
 
 # VM
 
-We create a VMware virtual machine for the convenience of reproduction, it can be downlaoded from VM_LINK.
+We have created a VMware virtual machine for the convenience of reproduction, it can be downlaoded from https://drive.google.com/file/d/1uOIwqvKmvfOeBFbDSP8l1NvxpUhFe4k6/view?usp=sharing.
 
 We have three stages to get fuzzing preformance results.
+
 Stage 1: use the target program to open test PDFs and record coverage information with DynamoRIO. It will take about 48 hours.
+
 Stage 2: parse the coverage information and split them to belonging files. It will take several hours.
+
 Stage 3: count instrction numbers. It will take 10-20 minutes.
 
 ## Auto Reproduction
