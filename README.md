@@ -251,6 +251,8 @@ Edit->Preferences->Security(Enhanced)->Add Folder Path
 
 3. open the pdf and adobe reader will crash or halt (sometimes you need to close dialog)
 
+For the three Memory Corruption vulnerabilities, you need to use application verifier to detect Adobe Reader.
+
 ### foxit reader
 
 All the PoCs that we found on Foxit Reader.
