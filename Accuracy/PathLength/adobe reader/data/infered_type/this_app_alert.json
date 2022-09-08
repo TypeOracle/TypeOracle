@@ -1,0 +1,41 @@
+{
+    "api": "this.app.alert",
+    "apitype": 0,
+    "root": "230",
+    "info": {
+        "230": {
+            "req_key": [
+                "cMsg"
+            ],
+            "req_type": [
+                "22X"
+            ],
+            "opt_key": [
+                "nIcon",
+                "nType",
+                "cTitle",
+                "oDoc",
+                "oCheckbox"
+            ],
+            "opt_type": [
+                "0",
+                "0",
+                "22X",
+                "22X",
+                "22X"
+            ]
+        },
+        "231": {
+            "req_key": [],
+            "req_type": [],
+            "opt_key": [
+                "cMsg",
+                "bInitialValue"
+            ],
+            "opt_type": [
+                "3",
+                "0"
+            ]
+        }
+    }
+}

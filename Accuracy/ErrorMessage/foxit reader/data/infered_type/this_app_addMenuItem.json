@@ -1,0 +1,39 @@
+{
+    "root": "230",
+    "api": "this.app.addMenuItem",
+    "apitype": 0,
+    "info": {
+        "230": {
+            "req_key": [
+                "cParent",
+                "cExec",
+                "cName"
+            ],
+            "req_type": [
+                "5",
+                "5",
+                "5"
+            ],
+            "opt_key": [
+                "cUser",
+                "cEnable",
+                "cMarked",
+                "nPos",
+                "bPrepend"
+            ],
+            "opt_type": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+            ]
+        },
+        "50": {
+            "typelist": [
+                "3",
+                "1"
+            ]
+        }
+    }
+}

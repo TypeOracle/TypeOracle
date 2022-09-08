@@ -1,0 +1,51 @@
+{
+    "api": "this.Collab.registerReview",
+    "apitype": 0,
+    "root": "230",
+    "info": {
+        "230": {
+            "req_key": [
+                "doc",
+                "initiator"
+            ],
+            "req_type": [
+                "23X",
+                "1"
+            ],
+            "opt_key": [
+                "initScript",
+                "invitees",
+                "cc",
+                "bcc",
+                "ui",
+                "selfDestruct",
+                "id",
+                "source",
+                "driver",
+                "requireSave",
+                "distributionMethod",
+                "versionInfo",
+                "accessLevel",
+                "bezelMessage",
+                "displayWelcome"
+            ],
+            "opt_type": [
+                "22X",
+                "1",
+                "22X",
+                "0",
+                "23X",
+                "0",
+                "0",
+                "22X",
+                "22X",
+                "23X",
+                "22X",
+                "22X",
+                "22X",
+                "22X",
+                "1"
+            ]
+        }
+    }
+}

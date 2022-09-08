@@ -1,0 +1,35 @@
+{
+    "api": "this.Collab.registerApproval",
+    "apitype": 0,
+    "root": "230",
+    "info": {
+        "230": {
+            "req_key": [
+                "doc",
+                "initiator"
+            ],
+            "req_type": [
+                "5",
+                "5"
+            ],
+            "opt_key": [
+                "bInitiating",
+                "initScript",
+                "invitees",
+                "cc",
+                "ui",
+                "selfDestruct",
+                "initiatorEmail"
+            ],
+            "opt_type": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+            ]
+        }
+    }
+}

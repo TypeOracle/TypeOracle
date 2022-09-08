@@ -1,0 +1,63 @@
+{
+    "root": "230",
+    "api": "this.app.media.openPlayer",
+    "apitype": 0,
+    "info": {
+        "230": {
+            "req_key": [],
+            "req_type": [],
+            "opt_key": [
+                "rendition",
+                "doc",
+                "annot",
+                "URL",
+                "mimeType",
+                "settings"
+            ],
+            "opt_type": [
+                "22X",
+                "22X",
+                "22X",
+                "3",
+                "0",
+                "23X"
+            ]
+        },
+        "231": {
+            "req_key": [],
+            "req_type": [],
+            "opt_key": [
+                "windowType",
+                "name",
+                "autoPlay",
+                "baseURL",
+                "bgOpacity",
+                "duration",
+                "layout",
+                "page",
+                "repeat",
+                "showUI",
+                "visible",
+                "volume",
+                "players",
+                "floating"
+            ],
+            "opt_type": [
+                "1",
+                "3",
+                "0",
+                "3",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "0",
+                "0",
+                "1",
+                "2",
+                "2"
+            ]
+        }
+    }
+}

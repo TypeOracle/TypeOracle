@@ -1,0 +1,27 @@
+{
+    "api": "this.app.mailGetAddrs",
+    "apitype": 0,
+    "root": "230",
+    "info": {
+        "230": {
+            "req_key": [],
+            "req_type": [],
+            "opt_key": [
+                "cTo",
+                "cCc",
+                "cBcc",
+                "cCaption",
+                "bCc",
+                "bBcc"
+            ],
+            "opt_type": [
+                "1",
+                "1",
+                "1",
+                "22X",
+                "22X",
+                "22X"
+            ]
+        }
+    }
+}

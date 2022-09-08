@@ -1,0 +1,73 @@
+{
+    "root": "230",
+    "api": "this.app.execDialog",
+    "apitype": 0,
+    "info": {
+        "230": {
+            "req_key": [
+                "description"
+            ],
+            "req_type": [
+                "51"
+            ],
+            "opt_key": [],
+            "opt_type": []
+        },
+        "231": {
+            "req_key": [],
+            "req_type": [],
+            "opt_key": [
+                "name",
+                "first_tab",
+                "align_children",
+                "height",
+                "width",
+                "char_height",
+                "char_width",
+                "char_width"
+            ],
+            "opt_type": [
+                "3",
+                "3",
+                "3",
+                "1",
+                "1",
+                "1",
+                "1",
+                "210"
+            ]
+        },
+        "210": {
+            "type": "232"
+        },
+        "232": {
+            "req_key": [],
+            "req_type": [],
+            "opt_key": [
+                "bold",
+                "next_tab",
+                "italic",
+                "item_id",
+                "font",
+                "type",
+                "alignment"
+            ],
+            "opt_type": [
+                "0",
+                "3",
+                "0",
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        "51": [
+            "0",
+            "1",
+            "22X",
+            "23X",
+            "3"
+        ]
+    }
+}
