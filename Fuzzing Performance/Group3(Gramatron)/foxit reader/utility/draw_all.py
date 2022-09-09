@@ -4,8 +4,8 @@ import math
 import os
 
 LIMIT=100
-y_limit_low = 950000
-y_limit_high = 1790000
+y_limit_low = 25000
+y_limit_high = 355000
 
 def read_data(filename):
     f = open(filename, "r")
@@ -60,14 +60,18 @@ def main():
     plt.rcParams['figure.figsize'] = (7.2, 1.85)
     plt.rcParams['figure.dpi'] = 100
     plt.rcParams['savefig.dpi'] = 100
-    hour_array, cooper_y_arr = parse_folder('cooper')
-    hour_array, cooper_oracle_y_arr = parse_folder('cooper_typeoracle')
-    cooper_min, cooper_max, cooper_avg = combine_array(cooper_y_arr)
-    cooper_oracle_min, cooper_oracle_max, cooper_oracle_avg = combine_array(cooper_oracle_y_arr)
-    plt.plot(hour_array, cooper_avg, alpha = 0.9, color = "#808080", linestyle = "-.", label =  "Cooper")
-    # plt.fill_between(hour_array, cooper_min, cooper_max, alpha = 0.3, color = "b", linestyle = "-")
-    plt.plot(hour_array, cooper_oracle_avg, alpha = 1, color = "#000000", linestyle = "-.", label =  "Cooper+TypeOracle")
-    # plt.fill_between(hour_array, cooper_oracle_min, cooper_oracle_max, alpha = 0.4, color = "r", linestyle = "-")
+    hour_array, gramatron_y_arr = parse_folder('gramatron')
+    hour_array, gramatron_plus_y_arr = parse_folder('gramatron_plus')
+    hour_array, typeoracle_y_arr = parse_folder('typeoracle')
+    gramatron_min, gramatron_max, gramatron_avg = combine_array(gramatron_y_arr)
+    gramatron_plus_min, gramatron_plus_max, gramatron_plus_avg = combine_array(gramatron_plus_y_arr)
+    typeoracle_min, typeoracle_max, typeoracle_avg = combine_array(typeoracle_y_arr)
+    plt.plot(hour_array, gramatron_avg, alpha = 0.9, color = "#808080", linestyle = ":", label =  "Gramatron")
+    # plt.fill_between(hour_array, gramatron_min, gramatron_max, alpha = 0.4, color = "b", linestyle = "-")
+    plt.plot(hour_array, gramatron_plus_avg, alpha = 0.9, color = "#808080", linestyle = "-", label =  "Gramatron+")
+    # plt.fill_between(hour_array, gramatron_plus_min, gramatron_plus_max, alpha = 0.4, color = "b", linestyle = "-")
+    plt.plot(hour_array, typeoracle_avg, alpha = 1, color = "#000000", linestyle = "-", label =  "TypeOracle")
+    # plt.fill_between(hour_array, typeoracle_min, typeoracle_max, alpha = 0.4, color = "r", linestyle = "-")
     # plt.legend(loc="best")
     x_major_locator = MultipleLocator(8)
     ax = plt.gca()
@@ -77,9 +81,11 @@ def main():
     plt.xlabel("Hours (h)")
     # plt.ylabel("Coverage (# of instructions)")
     plt.ylabel("Coverage (# of insns)")
-    plt.savefig("adobe_cooper.pdf", bbox_inches = 'tight')
-    random_incre = (cooper_oracle_avg[98] - cooper_avg[98]) / cooper_avg[98]
-    print("increment: {}".format(random_incre))
+    plt.savefig("foxit_gramatron.pdf", bbox_inches = 'tight')
+    gramatron_incre = (typeoracle_avg[99] - gramatron_avg[99]) / gramatron_avg[99]
+    gramatron_plus_incre = (typeoracle_avg[99] - gramatron_plus_avg[99]) / gramatron_plus_avg[99]
+    print("Gramatron increment: {}".format(gramatron_incre))
+    print("Gramatron+ increment: {}".format(gramatron_plus_incre))
     plt.show()
 
 if __name__ == "__main__":

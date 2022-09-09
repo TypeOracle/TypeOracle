@@ -4,12 +4,14 @@ import math
 import os
 
 LIMIT=100
+y_limit_low = 160000
+y_limit_high = 365000
 
 def read_data(filename):
     f = open(filename, "r")
     line = f.readline().strip()
-    x_points = []
-    y_points = []
+    x_points = [0]
+    y_points = [y_limit_low]
     base_x = int(line.split(',')[0])
     base_y = int(line.split(',')[1])
     line = f.readline().strip()
@@ -60,31 +62,47 @@ def main():
     plt.rcParams['savefig.dpi'] = 100
     hour_array, document_y_arr = parse_folder('adobe_manual')
     hour_array, random_y_arr = parse_folder('random')
+    # hour_array, shallow_y_arr = parse_folder('shallow')
+    hour_array, error_message_y_arr = parse_folder('error_message')
+    hour_array, path_len_y_arr = parse_folder('path_len')
     hour_array, typeoracle_adobe_y_arr = parse_folder('typeoracle_adobe')
     hour_array, typeoracle_foxit_y_arr = parse_folder('typeoracle_foxit')
     document_min, document_max, document_avg = combine_array(document_y_arr)
     random_min, random_max, random_avg = combine_array(random_y_arr)
+    # shallow_min, shallow_max, shallow_avg = combine_array(shallow_y_arr)
+    error_message_min, error_message_max, error_message_avg = combine_array(error_message_y_arr)
+    path_len_min, path_len_max, path_len_avg = combine_array(path_len_y_arr)
     typeoracle_adobe_min, typeoracle_adobe_max, typeoracle_adobe_avg = combine_array(typeoracle_adobe_y_arr)
     typeoracle_foxit_min, typeoracle_foxit_max, typeoracle_foxit_avg = combine_array(typeoracle_foxit_y_arr)
-    plt.plot(hour_array, random_avg, alpha = 0.9, color = "g", linestyle = "--", label =  "randomly fuzzing")
-    plt.fill_between(hour_array, random_min, random_max, alpha = 0.4, color = "g", linestyle = "-")
-    plt.plot(hour_array, document_avg, alpha = 0.9, color = "m", linestyle = ":", label =  "using Adobe manual")
-    plt.fill_between(hour_array, document_min, document_max, alpha = 0.3, color = "m", linestyle = "-")
-    plt.plot(hour_array, typeoracle_adobe_avg, alpha = 0.9, color = "c", linestyle = "-.", label =  "using TypeOracle on Adobe")
-    plt.fill_between(hour_array, typeoracle_adobe_min, typeoracle_adobe_max, alpha = 0.4, color = "c", linestyle = "-")
-    plt.plot(hour_array, typeoracle_foxit_avg, alpha = 0.9, color = "r", linestyle = "-", label =  "using TypeOracle on Foxit")
-    plt.fill_between(hour_array, typeoracle_foxit_min, typeoracle_foxit_max, alpha = 0.4, color = "r", linestyle = "-")
-    plt.legend(loc="best")
+    plt.plot(hour_array, random_avg, alpha = 0.9, color = "#808080", linestyle = "--", label =  "randomly fuzzing")
+    # plt.fill_between(hour_array, random_min, random_max, alpha = 0.4, color = "g", linestyle = "-")
+    plt.plot(hour_array, document_avg, alpha = 1, color = "#000000", linestyle = "-.", label =  "using Adobe manual")
+    # plt.fill_between(hour_array, document_min, document_max, alpha = 0.3, color = "m", linestyle = "-")
+    # plt.plot(hour_array, typeoracle_adobe_avg, alpha = 0.9, color = "b", linestyle = "-.", label =  "using TypeOracle on Adobe")
+    # plt.fill_between(hour_array, typeoracle_adobe_min, typeoracle_adobe_max, alpha = 0.4, color = "b", linestyle = "-")
+    # plt.plot(hour_array, shallow_avg, alpha = 0.9, color = "b", linestyle = "-", label =  "all binding calls + shallow feature")
+    # plt.fill_between(hour_array, shallow_min, shallow_max, alpha = 0.4, color = "b", linestyle = "-")
+    plt.plot(hour_array, error_message_avg, alpha = 1, color = "#000000", linestyle = "--", label =  "all binding calls + error message")
+    # plt.fill_between(hour_array, error_message_min, error_message_max, alpha = 0.4, color = "b", linestyle = "-")
+    plt.plot(hour_array, path_len_avg, alpha = 1, color = "#000000", linestyle = ":", label =  "all binding calls + path length")
+    # plt.fill_between(hour_array, path_len_min, path_len_max, alpha = 0.4, color = "y", linestyle = "-")
+    plt.plot(hour_array, typeoracle_foxit_avg, alpha = 1, color = "#000000", linestyle = "-", label =  "using TypeOracle on Foxit")
+    # plt.fill_between(hour_array, typeoracle_foxit_min, typeoracle_foxit_max, alpha = 0.4, color = "r", linestyle = "-")
+    # plt.legend(loc="best")
     x_major_locator = MultipleLocator(8)
     ax = plt.gca()
     ax.xaxis.set_major_locator(x_major_locator)
     plt.xlim(0, 49)
-    plt.ylim(150000, 375000)
+    plt.ylim(y_limit_low, y_limit_high)
     plt.xlabel("Hours (h)")
     plt.ylabel("Coverage (# of instructions)")
+    # plt.ylabel("# of insns")
     plt.savefig("foxit_type.pdf", bbox_inches = 'tight')
-    typeoracle_incre = (typeoracle_foxit_avg[98] - random_avg[98]) / random_avg[98]
-    print("argument info increment: {}".format(typeoracle_incre))
+    typeoracle_incre_random = (typeoracle_foxit_avg[99] - random_avg[99]) / random_avg[99]
+    typeoracle_incre_manual = (typeoracle_foxit_avg[99] - document_avg[99]) / document_avg[99]
+    print("random avg: {}".format(random_avg[99]))
+    print("argument info increment than random: {}".format(typeoracle_incre_random))
+    print("argument info increment than manual: {}".format(typeoracle_incre_manual))
     plt.show()
 
 if __name__ == "__main__":

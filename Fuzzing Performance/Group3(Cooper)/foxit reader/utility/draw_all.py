@@ -4,12 +4,14 @@ import math
 import os
 
 LIMIT=100
+y_limit_low = 60000
+y_limit_high = 655000
 
 def read_data(filename):
     f = open(filename, "r")
     line = f.readline().strip()
-    x_points = []
-    y_points = []
+    x_points = [0]
+    y_points = [y_limit_low]
     base_x = int(line.split(',')[0])
     base_y = int(line.split(',')[1])
     line = f.readline().strip()
@@ -62,22 +64,24 @@ def main():
     hour_array, cooper_oracle_y_arr = parse_folder('cooper_typeoracle')
     cooper_min, cooper_max, cooper_avg = combine_array(cooper_y_arr)
     cooper_oracle_min, cooper_oracle_max, cooper_oracle_avg = combine_array(cooper_oracle_y_arr)
-    plt.plot(hour_array, cooper_avg, alpha = 0.9, color = "b", linestyle = "--", label =  "Cooper")
-    plt.fill_between(hour_array, cooper_min, cooper_max, alpha = 0.3, color = "b", linestyle = "-")
-    plt.plot(hour_array, cooper_oracle_avg, alpha = 0.9, color = "r", linestyle = "-", label =  "Cooper+TypeOracle")
-    plt.fill_between(hour_array, cooper_oracle_min, cooper_oracle_max, alpha = 0.4, color = "r", linestyle = "-")
-    plt.legend(loc="best")
+    plt.plot(hour_array, cooper_avg, alpha = 0.9, color = "#808080", linestyle = "-.", label =  "Cooper")
+    # plt.fill_between(hour_array, cooper_min, cooper_max, alpha = 0.3, color = "b", linestyle = "-")
+    plt.plot(hour_array, cooper_oracle_avg, alpha = 1, color = "#000000", linestyle = "-.", label =  "Cooper+TypeOracle")
+    # plt.fill_between(hour_array, cooper_oracle_min, cooper_oracle_max, alpha = 0.4, color = "r", linestyle = "-")
+    # plt.legend(loc="best")
     x_major_locator = MultipleLocator(8)
     ax = plt.gca()
     ax.xaxis.set_major_locator(x_major_locator)
-    plt.xlim(0, 49)
     locs, labels = plt.yticks()
-    new_locs = [200000, 300000, 400000, 500000]
-    plt.yticks(new_locs)
+    # new_locs = [200000, 300000, 400000, 500000]
+    # plt.yticks(new_locs)
     print(locs)
     print(labels)
+    plt.xlim(0, 49)
+    plt.ylim(y_limit_low, y_limit_high)
     plt.xlabel("Hours (h)")
-    plt.ylabel("Coverage (# of instructions)")
+    # plt.ylabel("Coverage (# of instructions)")
+    plt.ylabel("Coverage (# of insns)")
     plt.savefig("foxit_cooper.pdf", bbox_inches = 'tight')
     random_incre = (cooper_oracle_avg[98] - cooper_avg[98]) / cooper_avg[98]
     print("increment: {}".format(random_incre))

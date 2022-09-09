@@ -4,12 +4,14 @@ import math
 import os
 
 LIMIT=100
+y_limit_low = 550000
+y_limit_high = 1550000
 
 def read_data(filename):
     f = open(filename, "r")
     line = f.readline().strip()
-    x_points = []
-    y_points = []
+    x_points = [0]
+    y_points = [y_limit_low]
     base_x = int(line.split(',')[0])
     base_y = int(line.split(',')[1])
     line = f.readline().strip()
@@ -62,17 +64,19 @@ def main():
     hour_array, favocado_oracle_y_arr = parse_folder('favocado_typeoracle')
     favocado_min, favocado_max, favocado_avg = combine_array(favocado_y_arr)
     favocado_oracle_min, favocado_oracle_max, favocado_oracle_avg = combine_array(favocado_oracle_y_arr)
-    plt.plot(hour_array, favocado_avg, alpha = 0.9, color = "b", linestyle = "--", label =  "Favocado")
-    plt.fill_between(hour_array, favocado_min, favocado_max, alpha = 0.3, color = "b", linestyle = "-")
-    plt.plot(hour_array, favocado_oracle_avg, alpha = 0.9, color = "r", linestyle = "-", label =  "Favocado+TypeOracle")
-    plt.fill_between(hour_array, favocado_oracle_min, favocado_oracle_max, alpha = 0.4, color = "r", linestyle = "-")
-    plt.legend(loc="best")
+    plt.plot(hour_array, favocado_avg, alpha = 0.9, color = "#808080", linestyle = "--", label =  "Favocado")
+    # plt.fill_between(hour_array, favocado_min, favocado_max, alpha = 0.3, color = "b", linestyle = "-")
+    plt.plot(hour_array, favocado_oracle_avg, alpha = 1, color = "#000000", linestyle = "--", label =  "Favocado+TypeOracle")
+    # plt.fill_between(hour_array, favocado_oracle_min, favocado_oracle_max, alpha = 0.4, color = "r", linestyle = "-")
+    # plt.legend(loc="best")
     x_major_locator = MultipleLocator(8)
     ax = plt.gca()
     ax.xaxis.set_major_locator(x_major_locator)
     plt.xlim(0, 49)
+    plt.ylim(y_limit_low, y_limit_high)
     plt.xlabel("Hours (h)")
-    plt.ylabel("Coverage (# of instructions)")
+    # plt.ylabel("Coverage (# of instructions)")
+    plt.ylabel("Coverage (# of insns)")
     plt.savefig("adobe_favocado.pdf", bbox_inches = 'tight')
     random_incre = (favocado_oracle_avg[98] - favocado_avg[98]) / favocado_avg[98]
     print("increment: {}".format(random_incre))
