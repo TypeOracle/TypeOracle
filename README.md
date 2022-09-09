@@ -138,16 +138,20 @@ All files that generated in coverage recording process can be downloaded from ht
 
 Due to the space limitation, we only upload one set of expeirmental data for each experiment.
 
-### Group1: Type Guidance (Figure 8(a), Figure 9(a))
-#### adobe reader (Figure 8(a))
+### Group1: Type Guidance (Figure 7(a), Figure 7(b))
+#### adobe reader (Figure 7(a))
 
-We use the random type of documented binding calls, all (documented+undocumented) binding calls, type information of Adobe Manual and type information of TypeOracle to fuzz Adobe and record coverage information using DynamoRIO.
+We use the random type of documented binding calls, all (documented+undocumented) binding calls, shallow feature(error message and path length), type information of Adobe Manual and type information of TypeOracle to fuzz Adobe and record coverage information using DynamoRIO.
 
 data/:
 
 document: documented binding calls + random testing
 
 random: all binding calls + random testing
+
+error_message: all binding calls + error message
+
+path_len: all binding calls + path length
 
 adobe_manual: documented binding calls + Adobe Manual
 
@@ -159,12 +163,12 @@ draw_all.py: the script file to parse coverage information
 
 result/:
 
-adobe_type.pdf: Figure 8(a)
+adobe_type.pdf: Figure 7(a)
 
 
-#### foxit reader (Figure 9(a))
+#### foxit reader (Figure 7(b))
 
-We use the type information of Adobe Document, random type of all (documented+undocumented) binding calls, Adobe's type information of TypeOracle and Foxit's type information of TypeOracle to fuzz Foxit and record coverage information using DynamoRIO
+We use the type information of shallow feature(error message and path length), Adobe Document, random type of all (documented+undocumented) binding calls, Adobe's type information of TypeOracle and Foxit's type information of TypeOracle to fuzz Foxit and record coverage information using DynamoRIO
 
 data/:
 
@@ -172,7 +176,9 @@ adobe_manual: fuzzing all binding calls using Adobe Manual
 
 random: randomly fuzzing all (documented+undocumented) binding calls
 
-typeoracle_adobe: fuzzing all binding calls using TypeOracle of Adobe
+error_message: all binding calls + error message
+
+path_len: all binding calls + path length
 
 typeoracle_foxit: fuzzing all binding calls using TypeOracle of Foxit
 
@@ -182,11 +188,11 @@ draw_all.py: the script file to parse coverage information
 
 result/:
 
-foxit_type.pdf: Figure 9(a)
+foxit_type.pdf: Figure 7(b)
 
 
-### Group2: Coverage Guidance (Figure 8(b), Figure 9(b))
-#### adobe reader (Figure 8(b))
+### Group2: Coverage Guidance (Figure 8(a), Figure 8(b))
+#### adobe reader (Figure 8(a))
 
 We use all (documented+undocumented) binding calls, all (documented+undocumented) binding calls with coverage guidance, type information of TypeOracle and type information of TypeOracle with coverage guidance to fuzz Adobe and record coverage information using DynamoRIO.
 
@@ -206,9 +212,9 @@ draw_all.py: the script file to parse coverage information
 
 result/:
 
-adobe_cov.pdf: Figure 8(b)
+adobe_cov.pdf: Figure 8(a)
 
-#### foxit reader (Figure 9(b))
+#### foxit reader (Figure 8(b))
 
 We use all (documented+undocumented) binding calls, all (documented+undocumented) binding calls with coverage guidance, type information of TypeOracle and type information of TypeOracle with coverage guidance to fuzz Foxit and record coverage information using DynamoRIO.
 
@@ -228,10 +234,51 @@ draw_all.py: the script file to parse coverage information
 
 result/:
 
-foxit_cov.pdf: Figure 9(b)
+foxit_cov.pdf: Figure 8(b)
 
-### Group3: Integration with State-of-Art Binding Call Fuzzers(Favocado) (Figure 8(c), Figure 9(c))
-#### adobe reader (Figure 8(c))
+### Group3: Comparison with State-of-Art Binding Call Fuzzers(Gramatron) (Figure 9(a), Figure 9(b))
+#### adobe reader (Figure 9(a))
+
+we use Gramatron, Gramatron with binding calls and TypeOracle to fuzz Adobe and  record coverage information using DynamoRIO
+
+data/:
+
+gramatron: fuzzing using naive Gramatron
+
+gramatron_plus: fuzzing all binding calls using Gramatron 
+
+typeoracle: fuzzing all binding calls using TypeOracle
+
+utility/:
+
+draw_all.py: the script file to parse coverage information
+
+result/:
+
+adobe_gramatron.pdf: Figure 9(a)
+
+#### foxit reader (Figure 9(b))
+
+we use Gramatron, Gramatron with binding calls and TypeOracle to fuzz Foxit and  record coverage information using DynamoRIO
+
+data/:
+
+gramatron: fuzzing using naive Gramatron
+
+gramatron_plus: fuzzing all binding calls using Gramatron 
+
+typeoracle: fuzzing all binding calls using TypeOracle
+
+utility/:
+
+draw_all.py: the script file to parse coverage information
+
+result/:
+
+foxit_gramatron.pdf: Figure 9(b)
+
+### Group3: Integration with State-of-Art Binding Call Fuzzers(Favocado) (Figure 9(c), Figure 9(d))
+#### adobe reader (Figure 9(c))
 
 we use Favocado and Favocado with type information of TypeOracle to fuzz Adobe and  record coverage information using DynamoRIO
 
@@ -247,9 +294,9 @@ draw_all.py: the script file to parse coverage information
 
 result/:
 
-adobe_favocado.pdf: Figure8(c)
+adobe_favocado.pdf: Figure 9(c)
 
-#### foxit reader (Figure 9(c))
+#### foxit reader (Figure 9(d))
 
 we use Favocado and Favocado with type information of TypeOracle to fuzz Foxit and  record coverage information using DynamoRIO
 
@@ -265,10 +312,10 @@ draw_all.py: the script file to parse coverage information
 
 result/:
 
-foxit_favocado.pdf: Figure9(c)
+foxit_favocado.pdf: Figure 9(d)
 
-### Group3: Integration with State-of-Art Binding Call Fuzzers(Cooper) (Figure 8(d), Figure 9(d))
-#### adobe reader (Figure 8(d))
+### Group3: Integration with State-of-Art Binding Call Fuzzers(Cooper) (Figure 9(e), Figure 9(f))
+#### adobe reader (Figure 9(e))
 
 we use Cooper and Cooper with type information of TypeOracle to fuzz Adobe and  record coverage information using DynamoRIO
 
@@ -284,10 +331,10 @@ draw_all.py: the script file to parse coverage information
 
 result/:
 
-adobe_cooper.pdf: Figure8(d)
+adobe_cooper.pdf: Figure 9(e)
 
 
-#### foxit reader (Figure 9(d))
+#### foxit reader (Figure 9(f))
 
 we use Cooper and Cooper with type information of TypeOracle to fuzz Foxit and  record coverage information using DynamoRIO
 
@@ -303,7 +350,7 @@ draw_all.py: the script file to parse coverage information
 
 result/:
 
-foxit_cooper.pdf: Figure9(d)
+foxit_cooper.pdf: Figure 9(f)
 
 ### The way to reproduce
 
