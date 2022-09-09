@@ -358,6 +358,9 @@ foxit_cooper.pdf: Figure 9(f)
 2. the result will show
 
 ## Vulnerabilities (Table 2)
+
+The PDFs in fuzzing campaign can be downloaded from FUZZING_CAMPAIGN_LINK.
+
 ### adobe reader
 
 All the PoCs that we found on Adobe Reader.
