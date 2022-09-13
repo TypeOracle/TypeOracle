@@ -133,8 +133,7 @@ foxit_sample_result.txt: accuracy log file (the detail of accuracy comparasion)
 
 Test cases can be downloaded from https://drive.google.com/file/d/1-zrRJrSwe4MVSnTEpeBduga--ZnP1ZHT/view?usp=sharing.
 
-
-All files that generated in coverage recording process can be downloaded from https://drive.google.com/file/d/1SUDmnky_Py1rdqMQcPu7rBOBWDD3_7Ll/view?usp=sharing. 
+All files that generated in coverage recording process can be downloaded from https://drive.google.com/file/d/1SUDmnky_Py1rdqMQcPu7rBOBWDD3_7Ll/view?usp=sharing.
 
 Due to the space limitation, we only upload one set of expeirmental data for each experiment.
 
@@ -359,7 +358,7 @@ foxit_cooper.pdf: Figure 9(f)
 
 ## Vulnerabilities (Table 2)
 
-The PDFs in fuzzing campaign can be downloaded from FUZZING_CAMPAIGN_LINK.
+The PDFs in fuzzing campaign can be downloaded from https://drive.google.com/file/d/1PaDbXew-P-D4wpQ6az3mcykbA89D2a4s/view?usp=sharing.
 
 ### adobe reader
 
