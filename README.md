@@ -400,7 +400,7 @@ Stage 2: parse the coverage information and split them to belonging files. It wi
 
 Stage 3: count instrction numbers. It will take 10-20 minutes.
 
-## Auto Reproduction
+### Auto Reproduction
 
 We have written two script files to automatically reproduce coverage recording.
 
@@ -414,7 +414,7 @@ For Foxit Reader:
 1. cd C:\Users\wxy\TypeOracle\Coverage
 2. python foxit_run.py
 
-## Manual Reproduction
+### Manual Reproduction
 
 You can also manually reproduce it, in case of any exception.
 
