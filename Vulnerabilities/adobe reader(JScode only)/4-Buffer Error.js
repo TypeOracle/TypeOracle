@@ -1,1 +1,0 @@
-addField("a","listbox",0,[0,0,0,0]).setItems(["a","\\u3000"])

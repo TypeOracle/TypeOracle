@@ -1,1 +1,0 @@
-addAnnot({richContents:[{fontFamily:XMLData}]})addAnnot({page:0,richContents:[{fontFamily:XMLData,text:" "}],type:"FreeText"})

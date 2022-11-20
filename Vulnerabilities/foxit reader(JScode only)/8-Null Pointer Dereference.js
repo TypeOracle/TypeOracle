@@ -1,1 +1,0 @@
-try{this.Collab.addStateModel({cName:"",cUIName:"",oStates:this.Span,cDefault:"",bHidden:false,bHistory:false})}catch(e){}

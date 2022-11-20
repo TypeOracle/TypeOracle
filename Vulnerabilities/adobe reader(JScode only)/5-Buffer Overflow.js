@@ -1,1 +1,0 @@
-Collab.documentToStream(this)Collab.removeReviewFolder(metadata,'')

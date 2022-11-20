@@ -1,1 +1,0 @@
-spell.availablespell.addWord('\\uabae\\uab88')spell.addWord("\\x01")

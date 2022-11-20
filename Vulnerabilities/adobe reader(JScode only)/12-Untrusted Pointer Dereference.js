@@ -1,1 +1,0 @@
-this.gotoNamedDest(this.DocCenterSignupSteps[1]);

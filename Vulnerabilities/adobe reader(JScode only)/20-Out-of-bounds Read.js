@@ -1,1 +1,0 @@
-XMLData.parse(Array(100*4+2).join("\\u0001")+"\\udddd")

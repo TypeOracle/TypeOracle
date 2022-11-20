@@ -1,1 +1,0 @@
-Span.fontFamily = [Array(0x100).join("a")]

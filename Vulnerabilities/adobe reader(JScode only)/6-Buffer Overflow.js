@@ -1,1 +1,0 @@
-try{this.app.alert({cMsg:"",nIcon:[],oDoc:[],oCheckbox:{cMsg:Array(0x79be).join("\\u17c5"),bInitialValue:{}}})}catch(e){}

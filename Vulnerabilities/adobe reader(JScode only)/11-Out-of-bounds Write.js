@@ -1,1 +1,0 @@
-this.createTemplate(Array(30000).join("a"))this.spawnPageFromTemplate(Array(30000).join("a"))

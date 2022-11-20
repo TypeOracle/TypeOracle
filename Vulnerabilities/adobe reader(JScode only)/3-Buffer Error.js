@@ -1,1 +1,0 @@
-v1 = addField("a","listbox",0,[0,0,0,0])v1.setFocus()v1.insertItemAt('\\u3000')

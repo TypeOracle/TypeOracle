@@ -1,1 +1,0 @@
-spell.availablespell.checkWord("\\udddd")

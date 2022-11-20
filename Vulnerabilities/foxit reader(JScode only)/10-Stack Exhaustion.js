@@ -1,1 +1,0 @@
-app.sendEmail(Array(6000).join("["))

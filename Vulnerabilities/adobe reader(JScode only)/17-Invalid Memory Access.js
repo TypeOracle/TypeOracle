@@ -1,1 +1,0 @@
-spell.availablespell.removeWord("A")spell.removeWord("\\u089c")spell.removeWord("\\x0d")
